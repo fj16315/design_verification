@@ -1,0 +1,2 @@
+SOFTINCLUDE /usr/local/cadence/2014-15/INCISIV141/tools/inca/files/cds.lib
+define worklib ../worklib

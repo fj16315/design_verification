@@ -1,0 +1,4998 @@
+#  1st Operand: 00004000 
+#  2nd Operand: 00000001 
+# 
+# Test     784 failed on line 1
+#  Expected data: 00004000 
+#  Actual data: 00008000 
+#  Operator:  6 
+#  1st Operand: 00008000 
+#  2nd Operand: 00000001 
+# 
+# Test     656 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: 00008000 
+#  2nd Operand: 00000001 
+# 
+# Test     785 failed on line 1
+#  Expected data: 00008000 
+#  Actual data: 00010000 
+#  Operator:  6 
+#  1st Operand: 00010000 
+#  2nd Operand: 00000001 
+# 
+# Test     657 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: 00010000 
+#  2nd Operand: 00000001 
+# 
+# Test     786 failed on line 1
+#  Expected data: 00010000 
+#  Actual data: 00020000 
+#  Operator:  6 
+#  1st Operand: 00020000 
+#  2nd Operand: 00000001 
+# 
+# Test     658 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: 00020000 
+#  2nd Operand: 00000001 
+# 
+# Test     787 failed on line 1
+#  Expected data: 00020000 
+#  Actual data: 00040000 
+#  Operator:  6 
+#  1st Operand: 00040000 
+#  2nd Operand: 00000001 
+# 
+# Test     659 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: 00040000 
+#  2nd Operand: 00000001 
+# 
+# Test     788 failed on line 1
+#  Expected data: 00040000 
+#  Actual data: 00080000 
+#  Operator:  6 
+#  1st Operand: 00080000 
+#  2nd Operand: 00000001 
+# 
+# Test     660 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: 00080000 
+#  2nd Operand: 00000001 
+# 
+# Test     789 failed on line 1
+#  Expected data: 00080000 
+#  Actual data: 00100000 
+#  Operator:  6 
+#  1st Operand: 00100000 
+#  2nd Operand: 00000001 
+# 
+# Test     661 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: 00100000 
+#  2nd Operand: 00000001 
+# 
+# Test     790 failed on line 1
+#  Expected data: 00100000 
+#  Actual data: 00200000 
+#  Operator:  6 
+#  1st Operand: 00200000 
+#  2nd Operand: 00000001 
+# 
+# Test     662 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: 00200000 
+#  2nd Operand: 00000001 
+# 
+# Test     791 failed on line 1
+#  Expected data: 00200000 
+#  Actual data: 00400000 
+#  Operator:  6 
+#  1st Operand: 00400000 
+#  2nd Operand: 00000001 
+# 
+# Test     663 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: 00400000 
+#  2nd Operand: 00000001 
+# 
+# Test     792 failed on line 1
+#  Expected data: 00400000 
+#  Actual data: 00800000 
+#  Operator:  6 
+#  1st Operand: 00800000 
+#  2nd Operand: 00000001 
+# 
+# Test     664 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: 00800000 
+#  2nd Operand: 00000001 
+# 
+# Test     793 failed on line 1
+#  Expected data: 00800000 
+#  Actual data: 01000000 
+#  Operator:  6 
+#  1st Operand: 01000000 
+#  2nd Operand: 00000001 
+# 
+# Test     665 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: 01000000 
+#  2nd Operand: 00000001 
+# 
+# Test     794 failed on line 1
+#  Expected data: 01000000 
+#  Actual data: 02000000 
+#  Operator:  6 
+#  1st Operand: 02000000 
+#  2nd Operand: 00000001 
+# 
+# Test     666 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: 02000000 
+#  2nd Operand: 00000001 
+# 
+# Test     795 failed on line 1
+#  Expected data: 02000000 
+#  Actual data: 04000000 
+#  Operator:  6 
+#  1st Operand: 04000000 
+#  2nd Operand: 00000001 
+# 
+# Test     667 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: 04000000 
+#  2nd Operand: 00000001 
+# 
+# Test     796 failed on line 1
+#  Expected data: 04000000 
+#  Actual data: 08000000 
+#  Operator:  6 
+#  1st Operand: 08000000 
+#  2nd Operand: 00000001 
+# 
+# Test     668 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: 08000000 
+#  2nd Operand: 00000001 
+# 
+# Test     797 failed on line 1
+#  Expected data: 08000000 
+#  Actual data: 10000000 
+#  Operator:  6 
+#  1st Operand: 10000000 
+#  2nd Operand: 00000001 
+# 
+# Test     669 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: 10000000 
+#  2nd Operand: 00000001 
+# 
+# Test     798 failed on line 1
+#  Expected data: 10000000 
+#  Actual data: 20000000 
+#  Operator:  6 
+#  1st Operand: 20000000 
+#  2nd Operand: 00000001 
+# 
+# Test     670 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: 20000000 
+#  2nd Operand: 00000001 
+# 
+# Test     799 failed on line 1
+#  Expected data: 20000000 
+#  Actual data: 40000000 
+#  Operator:  6 
+#  1st Operand: 40000000 
+#  2nd Operand: 00000001 
+# 
+# Test     671 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: 40000000 
+#  2nd Operand: 00000001 
+# 
+# Test     800 failed on line 1
+#  Expected data: 40000000 
+#  Actual data: 80000000 
+#  Operator:  6 
+#  1st Operand: 80000000 
+#  2nd Operand: 00000001 
+# 
+# Test     672 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: 80000000 
+#  2nd Operand: 00000001 
+# 
+# Test     929 failed on line 4
+#  Expected data: 7fffffff 
+#  Actual data: ffffffff 
+#  Operator:  6 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000001 
+# 
+# Test     833 failed on line 2
+#  Expected data: fffffffe 
+#  Actual data: 00000000 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000001 
+# 
+# Test     961 failed on line 3
+#  Expected data: 7fffffff 
+#  Actual data: ffffffff 
+#  Operator:  6 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000001 
+# 
+# Test     834 failed on line 2
+#  Expected data: fffffffd 
+#  Actual data: 00000000 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000002 
+# 
+# Test     835 failed on line 2
+#  Expected data: fffffffb 
+#  Actual data: 00000000 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000004 
+# 
+# Test     836 failed on line 2
+#  Expected data: fffffff7 
+#  Actual data: 00000000 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000008 
+# 
+# Test     837 failed on line 2
+#  Expected data: ffffffef 
+#  Actual data: 00000000 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000010 
+# 
+# Test     838 failed on line 2
+#  Expected data: ffffffdf 
+#  Actual data: 00000000 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000020 
+# 
+# Test     839 failed on line 2
+#  Expected data: ffffffbf 
+#  Actual data: 00000000 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000040 
+# 
+# Test     840 failed on line 2
+#  Expected data: ffffff7f 
+#  Actual data: 00000000 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000080 
+# 
+# Test     841 failed on line 2
+#  Expected data: fffffeff 
+#  Actual data: 00000000 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000100 
+# 
+# Test     842 failed on line 2
+#  Expected data: fffffdff 
+#  Actual data: 00000000 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000200 
+# 
+# Test     843 failed on line 2
+#  Expected data: fffffbff 
+#  Actual data: 00000000 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000400 
+# 
+# Test     844 failed on line 2
+#  Expected data: fffff7ff 
+#  Actual data: 00000000 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000800 
+# 
+# Test     845 failed on line 2
+#  Expected data: ffffefff 
+#  Actual data: 00000000 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00001000 
+# 
+# Test     846 failed on line 2
+#  Expected data: ffffdfff 
+#  Actual data: 00000000 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00002000 
+# 
+# Test     847 failed on line 2
+#  Expected data: ffffbfff 
+#  Actual data: 00000000 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00004000 
+# 
+# Test     848 failed on line 2
+#  Expected data: ffff7fff 
+#  Actual data: 00000000 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00008000 
+# 
+# Test     849 failed on line 2
+#  Expected data: fffeffff 
+#  Actual data: 00000000 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00010000 
+# 
+# Test     850 failed on line 2
+#  Expected data: fffdffff 
+#  Actual data: 00000000 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00020000 
+# 
+# Test     851 failed on line 2
+#  Expected data: fffbffff 
+#  Actual data: 00000000 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00040000 
+# 
+# Test     852 failed on line 2
+#  Expected data: fff7ffff 
+#  Actual data: 00000000 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00080000 
+# 
+# Test     853 failed on line 2
+#  Expected data: ffefffff 
+#  Actual data: 00000000 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00100000 
+# 
+# Test     854 failed on line 2
+#  Expected data: ffdfffff 
+#  Actual data: 00000000 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00200000 
+# 
+# Test     855 failed on line 2
+#  Expected data: ffbfffff 
+#  Actual data: 00000000 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00400000 
+# 
+# Test     856 failed on line 2
+#  Expected data: ff7fffff 
+#  Actual data: 00000000 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00800000 
+# 
+# Test     857 failed on line 2
+#  Expected data: feffffff 
+#  Actual data: 00000000 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 01000000 
+# 
+# Test     858 failed on line 2
+#  Expected data: fdffffff 
+#  Actual data: 00000000 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 02000000 
+# 
+# Test     859 failed on line 2
+#  Expected data: fbffffff 
+#  Actual data: 00000000 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 04000000 
+# 
+# Test     860 failed on line 2
+#  Expected data: f7ffffff 
+#  Actual data: 00000000 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 08000000 
+# 
+# Test     861 failed on line 2
+#  Expected data: efffffff 
+#  Actual data: 00000000 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 10000000 
+# 
+# Test     862 failed on line 2
+#  Expected data: dfffffff 
+#  Actual data: 00000000 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 20000000 
+# 
+# Test     863 failed on line 2
+#  Expected data: bfffffff 
+#  Actual data: 00000000 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 40000000 
+# 
+# Test     864 failed on line 2
+#  Expected data: 7fffffff 
+#  Actual data: 00000000 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 80000000 
+# 
+# Test     993 failed on line 2
+#  Expected data: 7fffffff 
+#  Actual data: 00000000 
+#  Operator:  6 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000001 
+# 
+# Test     994 failed on line 2
+#  Expected data: 3fffffff 
+#  Actual data: 00000000 
+#  Operator:  6 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000002 
+# 
+# Test     995 failed on line 2
+#  Expected data: 1fffffff 
+#  Actual data: 00000000 
+#  Operator:  6 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000003 
+# 
+# Test     996 failed on line 2
+#  Expected data: 0fffffff 
+#  Actual data: 00000000 
+#  Operator:  6 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000004 
+# 
+# Test     997 failed on line 2
+#  Expected data: 07ffffff 
+#  Actual data: 00000000 
+#  Operator:  6 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000005 
+# 
+# Test     998 failed on line 2
+#  Expected data: 03ffffff 
+#  Actual data: 00000000 
+#  Operator:  6 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000006 
+# 
+# Test     999 failed on line 2
+#  Expected data: 01ffffff 
+#  Actual data: 00000000 
+#  Operator:  6 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000007 
+# 
+# Test    1000 failed on line 2
+#  Expected data: 00ffffff 
+#  Actual data: 00000000 
+#  Operator:  6 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000008 
+# 
+# Test    1001 failed on line 2
+#  Expected data: 007fffff 
+#  Actual data: 00000000 
+#  Operator:  6 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000009 
+# 
+# Test    1002 failed on line 2
+#  Expected data: 003fffff 
+#  Actual data: 00000000 
+#  Operator:  6 
+#  1st Operand: ffffffff 
+#  2nd Operand: 0000000a 
+# 
+# Test    1003 failed on line 2
+#  Expected data: 001fffff 
+#  Actual data: 00000000 
+#  Operator:  6 
+#  1st Operand: ffffffff 
+#  2nd Operand: 0000000b 
+# 
+# Test    1004 failed on line 2
+#  Expected data: 000fffff 
+#  Actual data: 00000000 
+#  Operator:  6 
+#  1st Operand: ffffffff 
+#  2nd Operand: 0000000c 
+# 
+# Test    1005 failed on line 2
+#  Expected data: 0007ffff 
+#  Actual data: 00000000 
+#  Operator:  6 
+#  1st Operand: ffffffff 
+#  2nd Operand: 0000000d 
+# 
+# Test    1006 failed on line 2
+#  Expected data: 0003ffff 
+#  Actual data: 00000000 
+#  Operator:  6 
+#  1st Operand: ffffffff 
+#  2nd Operand: 0000000e 
+# 
+# Test    1007 failed on line 2
+#  Expected data: 0001ffff 
+#  Actual data: 00000000 
+#  Operator:  6 
+#  1st Operand: ffffffff 
+#  2nd Operand: 0000000f 
+# 
+# Test    1008 failed on line 2
+#  Expected data: 0000ffff 
+#  Actual data: 00000000 
+#  Operator:  6 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000010 
+# 
+# Test    1009 failed on line 2
+#  Expected data: 00007fff 
+#  Actual data: 00000000 
+#  Operator:  6 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000011 
+# 
+# Test    1010 failed on line 2
+#  Expected data: 00003fff 
+#  Actual data: 00000000 
+#  Operator:  6 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000012 
+# 
+# Test    1011 failed on line 2
+#  Expected data: 00001fff 
+#  Actual data: 00000000 
+#  Operator:  6 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000013 
+# 
+# Test    1012 failed on line 2
+#  Expected data: 00000fff 
+#  Actual data: 00000000 
+#  Operator:  6 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000014 
+# 
+# Test    1013 failed on line 2
+#  Expected data: 000007ff 
+#  Actual data: 00000000 
+#  Operator:  6 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000015 
+# 
+# Test    1014 failed on line 2
+#  Expected data: 000003ff 
+#  Actual data: 00000000 
+#  Operator:  6 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000016 
+# 
+# Test    1015 failed on line 2
+#  Expected data: 000001ff 
+#  Actual data: 00000000 
+#  Operator:  6 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000017 
+# 
+# Test    1016 failed on line 2
+#  Expected data: 000000ff 
+#  Actual data: 00000000 
+#  Operator:  6 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000018 
+# 
+# Test    1017 failed on line 2
+#  Expected data: 0000007f 
+#  Actual data: 00000000 
+#  Operator:  6 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000019 
+# 
+# Test    1018 failed on line 2
+#  Expected data: 0000003f 
+#  Actual data: 00000000 
+#  Operator:  6 
+#  1st Operand: ffffffff 
+#  2nd Operand: 0000001a 
+# 
+# Test    1019 failed on line 2
+#  Expected data: 0000001f 
+#  Actual data: 00000000 
+#  Operator:  6 
+#  1st Operand: ffffffff 
+#  2nd Operand: 0000001b 
+# 
+# Test    1020 failed on line 2
+#  Expected data: 0000000f 
+#  Actual data: 00000000 
+#  Operator:  6 
+#  1st Operand: ffffffff 
+#  2nd Operand: 0000001c 
+# 
+# Test    1021 failed on line 2
+#  Expected data: 00000007 
+#  Actual data: 00000000 
+#  Operator:  6 
+#  1st Operand: ffffffff 
+#  2nd Operand: 0000001d 
+# 
+# Test    1022 failed on line 2
+#  Expected data: 00000003 
+#  Actual data: 00000000 
+#  Operator:  6 
+#  1st Operand: ffffffff 
+#  2nd Operand: 0000001e 
+# 
+# Test    1023 failed on line 2
+#  Expected data: 00000001 
+#  Actual data: 00000000 
+#  Operator:  6 
+#  1st Operand: ffffffff 
+#  2nd Operand: 0000001f 
+# 
+# Test    1025 failed on line 1
+#  Expected data: 7fffffff 
+#  Actual data: ffffffff 
+#  Operator:  6 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000001 
+# 
+# Test     897 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000001 
+# 
+# Test     898 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000002 
+# 
+# Test     899 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000004 
+# 
+# Test     900 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000008 
+# 
+# Test     901 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000010 
+# 
+# Test     902 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000020 
+# 
+# Test     903 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000040 
+# 
+# Test     904 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000080 
+# 
+# Test     905 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000100 
+# 
+# Test     906 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000200 
+# 
+# Test     907 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000400 
+# 
+# Test     908 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000800 
+# 
+# Test     909 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00001000 
+# 
+# Test     910 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00002000 
+# 
+# Test     911 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00004000 
+# 
+# Test     912 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00008000 
+# 
+# Test     913 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00010000 
+# 
+# Test     914 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00020000 
+# 
+# Test     915 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00040000 
+# 
+# Test     916 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00080000 
+# 
+# Test     917 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00100000 
+# 
+# Test     918 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00200000 
+# 
+# Test     919 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00400000 
+# 
+# Test     920 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00800000 
+# 
+# Test     921 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 01000000 
+# 
+# Test     922 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 02000000 
+# 
+# Test     923 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 04000000 
+# 
+# Test     924 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 08000000 
+# 
+# Test     925 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 10000000 
+# 
+# Test     926 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 20000000 
+# 
+# Test     927 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 40000000 
+# 
+# Test     928 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 80000000 
+# 
+# Test    1057 failed on line 1
+#  Expected response:  2 
+#  Actual response: 1 
+#  Operator:  1 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000002 
+# 
+# Test    1057 failed on line 1
+#  Expected data: 00000000 
+#  Actual data: 00000001 
+#  Operator:  1 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000002 
+# 
+# Test    1058 failed on line 2
+#  Expected response:  2 
+#  Actual response: 1 
+#  Operator:  1 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000002 
+# 
+# Test    1059 failed on line 3
+#  Expected response:  2 
+#  Actual response: 1 
+#  Operator:  1 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000002 
+# 
+# Test    1059 failed on line 3
+#  Expected data: 00000000 
+#  Actual data: 00000001 
+#  Operator:  1 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000002 
+# 
+# Test    1063 failed on line 2
+#  Expected data: fffffffe 
+#  Actual data: 00000000 
+#  Operator:  5 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000001 
+# 
+# Test    1060 failed on line 4 due to timeout 
+#  Operator:  1 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000002 
+# 
+# Test    1065 failed on line 1
+#  Expected response:  2 
+#  Actual response: 1 
+#  Operator:  2 
+#  1st Operand: 00000001 
+#  2nd Operand: 00000002 
+# 
+# Test    1065 failed on line 1
+#  Expected data: 00000000 
+#  Actual data: ffffffff 
+#  Operator:  2 
+#  1st Operand: 00000001 
+#  2nd Operand: 00000002 
+# 
+# Test    1069 failed on line 4
+#  Expected data: 7fffffff 
+#  Actual data: ffffffff 
+#  Operator:  6 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000001 
+# 
+# Test    1070 failed on line 3
+#  Expected data: 7fffffff 
+#  Actual data: ffffffff 
+#  Operator:  6 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000001 
+# 
+# Test    1066 failed on line 2
+#  Expected response:  2 
+#  Actual response: 1 
+#  Operator:  2 
+#  1st Operand: 00000001 
+#  2nd Operand: 00000002 
+# 
+# Test    1067 failed on line 3
+#  Expected response:  2 
+#  Actual response: 1 
+#  Operator:  2 
+#  1st Operand: 00000001 
+#  2nd Operand: 00000002 
+# 
+# Test    1067 failed on line 3
+#  Expected data: 00000000 
+#  Actual data: ffffffff 
+#  Operator:  2 
+#  1st Operand: 00000001 
+#  2nd Operand: 00000002 
+# 
+# Test    1071 failed on line 2
+#  Expected data: 7fffffff 
+#  Actual data: 00000000 
+#  Operator:  6 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000001 
+# 
+# Test    1072 failed on line 1
+#  Expected data: 7fffffff 
+#  Actual data: ffffffff 
+#  Operator:  6 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000001 
+# 
+# Test    1068 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: 00000001 
+#  2nd Operand: 00000002 
+# 
+# Test    1074 failed on line 2 due to timeout or incorrect result
+# 
+# Test    1079 failed on line 2 due to timeout or incorrect result
+# 
+# Test    1076 failed on line 4 due to timeout or incorrect result
+# 
+# Test    1082 failed on line 2 due to timeout or incorrect result
+# 
+# Test    1087 failed on line 2 due to timeout or incorrect result
+# 
+# Test    1084 failed on line 4 due to timeout or incorrect result
+# 
+# Test    1091 failed on line 2 due to timeout or incorrect result
+# 
+# Test 1093: 
+# 
+# Test failed on line 1 as data in after reset is:          2 
+# 
+# Test failed on line 2 as data in after reset is:          2 
+# 
+# Test failed on line 3 as data in after reset is:          2 
+# 
+# Test failed on line 4 as data in after reset is:          2 
+# 
+# Test failed on line 1 as data in after reset is:          2 
+# 
+# Test failed on line 2 as data in after reset is:          2 
+# 
+# Test failed on line 3 as data in after reset is:          2 
+# 
+# Test failed on line 4 as data in after reset is:          2 
+# 
+# Test failed on line 1 as data in after reset is:          2 
+# 
+# Test failed on line 2 as data in after reset is:          2 
+# 
+# Test failed on line 3 as data in after reset is:          2 
+# 
+# Test failed on line 4 as data in after reset is:          2 
+# 
+# Test failed on line 1 as data in after reset is:          2 
+# 
+# Test failed on line 2 as data in after reset is:          2 
+# 
+# Test failed on line 3 as data in after reset is:          2 
+# 
+# Test failed on line 4 as data in after reset is:          2 
+# 
+# Test 1094: 
+# 
+# Test failed on line 1 as data in after reset is:         23 
+# 
+# Test failed on line 2 as data in after reset is:          2 
+# 
+# Test failed on line 3 as data in after reset is:          2 
+# 
+# Test failed on line 4 as data in after reset is:          2 
+# 
+# Test failed on line 1 as response out after reset is: 1 
+# 
+# Test failed on line 1 as data in after reset is:         23 
+# 
+# Test failed on line 2 as data in after reset is:          2 
+# 
+# Test failed on line 3 as data in after reset is:          2 
+# 
+# Test failed on line 4 as data in after reset is:          2 
+# 
+# Test failed on line 1 as data in after reset is:         23 
+# 
+# Test failed on line 2 as data in after reset is:          2 
+# 
+# Test failed on line 3 as data in after reset is:          2 
+# 
+# Test failed on line 4 as data in after reset is:          2 
+# 
+# Test failed on line 1 as command in after reset is:  1 
+# 
+# Test failed on line 2 as command in after reset is:  1 
+# 
+# Test failed on line 3 as command in after reset is:  1 
+# 
+# Test failed on line 4 as command in after reset is:  1 
+# 
+# Test    1095 failed due to a timeout with the queue
+# 
+# Test    1096 failed on line 1
+#  Expected response:  2 
+#  Actual response: 1 
+#  Operator:  3 
+#  1st Operand: 00000002 
+#  2nd Operand: 00000001 
+# 
+# Test    1096 failed on line 1
+#  Expected data: 00000000 
+#  Actual data: 00000003 
+#  Operator:  3 
+#  1st Operand: 00000002 
+#  2nd Operand: 00000001 
+# 
+# Test    1097 failed on line 2
+#  Expected response:  2 
+#  Actual response: 1 
+#  Operator:  3 
+#  1st Operand: 00000003 
+#  2nd Operand: 00000001 
+# 
+# Test    1098 failed on line 3
+#  Expected response:  2 
+#  Actual response: 1 
+#  Operator:  3 
+#  1st Operand: 00000004 
+#  2nd Operand: 00000001 
+# 
+# Test    1098 failed on line 3
+#  Expected data: 00000000 
+#  Actual data: 00000005 
+#  Operator:  3 
+#  1st Operand: 00000004 
+#  2nd Operand: 00000001 
+# 
+# Test    1099 failed on line 4 due to timeout 
+#  Operator:  3 
+#  1st Operand: 00000005 
+#  2nd Operand: 00000001 
+# 
+# Test    1100 failed on line 1
+#  Expected response:  2 
+#  Actual response: 1 
+#  Operator:  4 
+#  1st Operand: 00000002 
+#  2nd Operand: 00000001 
+# 
+# Test    1101 failed on line 2
+#  Expected response:  2 
+#  Actual response: 1 
+#  Operator:  4 
+#  1st Operand: 00000003 
+#  2nd Operand: 00000001 
+# 
+# Test    1102 failed on line 3
+#  Expected response:  2 
+#  Actual response: 1 
+#  Operator:  4 
+#  1st Operand: 00000004 
+#  2nd Operand: 00000001 
+# 
+# Test    1103 failed on line 4
+#  Expected response:  2 
+#  Actual response: 1 
+#  Operator:  4 
+#  1st Operand: 00000005 
+#  2nd Operand: 00000001 
+# 
+# Test    1104 failed on line 1
+#  Expected response:  2 
+#  Actual response: 1 
+#  Operator:  7 
+#  1st Operand: 00000002 
+#  2nd Operand: 00000001 
+# 
+# Test    1105 failed on line 2
+#  Expected response:  2 
+#  Actual response: 1 
+#  Operator:  7 
+#  1st Operand: 00000003 
+#  2nd Operand: 00000001 
+# 
+# Test    1106 failed on line 3
+#  Expected response:  2 
+#  Actual response: 1 
+#  Operator:  7 
+#  1st Operand: 00000004 
+#  2nd Operand: 00000001 
+# 
+# Test    1107 failed on line 4
+#  Expected response:  2 
+#  Actual response: 1 
+#  Operator:  7 
+#  1st Operand: 00000005 
+#  2nd Operand: 00000001 
+# 
+# ** Note: $stop    : /home/fj16315/linux/Documents/3rd_Year/Design_Verification/Assignment_1/example_calc1_tb.v(419)
+#    Time: 1385600 ns  Iteration: 0  Instance: /example_calc1_tb
+# Break in Module example_calc1_tb at /home/fj16315/linux/Documents/3rd_Year/Design_Verification/Assignment_1/example_calc1_tb.v line 419
+quit -sim
+# End time: 15:26:10 on Nov 05,2018, Elapsed time: 0:00:20
+# Errors: 0, Warnings: 1
+# Compile of example_calc1_tb.v was successful.
+vsim -novopt work.example_calc1_tb
+# vsim -novopt work.example_calc1_tb 
+# Start time: 15:37:21 on Nov 05,2018
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Refreshing /home/fj16315/linux/Documents/3rd_Year/Design_Verification/Assignment_1/work.example_calc1_tb
+# Loading work.example_calc1_tb
+# Loading calc1_black_box.calc1
+# Loading calc1_black_box.calc1_top
+# Loading calc1_black_box.exdbin_mac
+# Loading calc1_black_box.holdreg
+# Loading calc1_black_box.alu_input_stage
+# Loading calc1_black_box.mux_out
+# Loading calc1_black_box.alu_output_stage
+# Loading calc1_black_box.priority
+# Loading calc1_black_box.shifter
+add wave  \
+sim:/example_calc1_tb/out_data1 \
+sim:/example_calc1_tb/out_data2 \
+sim:/example_calc1_tb/out_data3 \
+sim:/example_calc1_tb/out_data4 \
+sim:/example_calc1_tb/out_resp1 \
+sim:/example_calc1_tb/out_resp2 \
+sim:/example_calc1_tb/out_resp3 \
+sim:/example_calc1_tb/out_resp4 \
+sim:/example_calc1_tb/c_clk \
+sim:/example_calc1_tb/req1_cmd_in \
+sim:/example_calc1_tb/req2_cmd_in \
+sim:/example_calc1_tb/req3_cmd_in \
+sim:/example_calc1_tb/req4_cmd_in \
+sim:/example_calc1_tb/req1_data_in \
+sim:/example_calc1_tb/req2_data_in \
+sim:/example_calc1_tb/req3_data_in \
+sim:/example_calc1_tb/req4_data_in \
+sim:/example_calc1_tb/reset
+run -all
+# Test       2 failed on line 2
+#  Expected data: 00000014 
+#  Actual data: 00000000 
+#  Operator:  1 
+#  1st Operand: 0000000d 
+#  2nd Operand: 00000007 
+# 
+# Test       7 failed on line 2
+#  Expected data: 00000170 
+#  Actual data: 00000000 
+#  Operator:  5 
+#  1st Operand: 00000017 
+#  2nd Operand: 00000004 
+# 
+# Test       4 failed on line 4 due to timeout 
+#  Operator:  1 
+#  1st Operand: 0000000d 
+#  2nd Operand: 00000007 
+# 
+# Test      10 failed on line 2
+#  Expected data: 00000006 
+#  Actual data: 00000000 
+#  Operator:  2 
+#  1st Operand: 0000000d 
+#  2nd Operand: 00000007 
+# 
+# Test      15 failed on line 2
+#  Expected data: 00000005 
+#  Actual data: 00000000 
+#  Operator:  6 
+#  1st Operand: 00000017 
+#  2nd Operand: 00000002 
+# 
+# Test      12 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: 0000000d 
+#  2nd Operand: 00000007 
+# 
+# Test      20 failed on line 4 due to timeout 
+#  Operator:  1 
+#  1st Operand: 00000000 
+#  2nd Operand: 00000000 
+# 
+# Test      28 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: 00000000 
+#  2nd Operand: 00000000 
+# 
+# Test      65 failed on line 2
+#  Expected data: 00000002 
+#  Actual data: 00000000 
+#  Operator:  1 
+#  1st Operand: 00000001 
+#  2nd Operand: 00000001 
+# 
+# Test      66 failed on line 2
+#  Expected data: 00000003 
+#  Actual data: 00000000 
+#  Operator:  1 
+#  1st Operand: 00000002 
+#  2nd Operand: 00000001 
+# 
+# Test      67 failed on line 2
+#  Expected data: 00000005 
+#  Actual data: 00000000 
+#  Operator:  1 
+#  1st Operand: 00000004 
+#  2nd Operand: 00000001 
+# 
+# Test      68 failed on line 2
+#  Expected data: 00000009 
+#  Actual data: 00000000 
+#  Operator:  1 
+#  1st Operand: 00000008 
+#  2nd Operand: 00000001 
+# 
+# Test      69 failed on line 2
+#  Expected data: 00000011 
+#  Actual data: 00000000 
+#  Operator:  1 
+#  1st Operand: 00000010 
+#  2nd Operand: 00000001 
+# 
+# Test      70 failed on line 2
+#  Expected data: 00000021 
+#  Actual data: 00000000 
+#  Operator:  1 
+#  1st Operand: 00000020 
+#  2nd Operand: 00000001 
+# 
+# Test      71 failed on line 2
+#  Expected data: 00000041 
+#  Actual data: 00000000 
+#  Operator:  1 
+#  1st Operand: 00000040 
+#  2nd Operand: 00000001 
+# 
+# Test      72 failed on line 2
+#  Expected data: 00000081 
+#  Actual data: 00000000 
+#  Operator:  1 
+#  1st Operand: 00000080 
+#  2nd Operand: 00000001 
+# 
+# Test      73 failed on line 2
+#  Expected data: 00000101 
+#  Actual data: 00000000 
+#  Operator:  1 
+#  1st Operand: 00000100 
+#  2nd Operand: 00000001 
+# 
+# Test      74 failed on line 2
+#  Expected data: 00000201 
+#  Actual data: 00000000 
+#  Operator:  1 
+#  1st Operand: 00000200 
+#  2nd Operand: 00000001 
+# 
+# Test      75 failed on line 2
+#  Expected data: 00000401 
+#  Actual data: 00000000 
+#  Operator:  1 
+#  1st Operand: 00000400 
+#  2nd Operand: 00000001 
+# 
+# Test      76 failed on line 2
+#  Expected data: 00000801 
+#  Actual data: 00000000 
+#  Operator:  1 
+#  1st Operand: 00000800 
+#  2nd Operand: 00000001 
+# 
+# Test      77 failed on line 2
+#  Expected data: 00001001 
+#  Actual data: 00000000 
+#  Operator:  1 
+#  1st Operand: 00001000 
+#  2nd Operand: 00000001 
+# 
+# Test      78 failed on line 2
+#  Expected data: 00002001 
+#  Actual data: 00000000 
+#  Operator:  1 
+#  1st Operand: 00002000 
+#  2nd Operand: 00000001 
+# 
+# Test      79 failed on line 2
+#  Expected data: 00004001 
+#  Actual data: 00000000 
+#  Operator:  1 
+#  1st Operand: 00004000 
+#  2nd Operand: 00000001 
+# 
+# Test      80 failed on line 2
+#  Expected data: 00008001 
+#  Actual data: 00000000 
+#  Operator:  1 
+#  1st Operand: 00008000 
+#  2nd Operand: 00000001 
+# 
+# Test      81 failed on line 2
+#  Expected data: 00010001 
+#  Actual data: 00000000 
+#  Operator:  1 
+#  1st Operand: 00010000 
+#  2nd Operand: 00000001 
+# 
+# Test      82 failed on line 2
+#  Expected data: 00020001 
+#  Actual data: 00000000 
+#  Operator:  1 
+#  1st Operand: 00020000 
+#  2nd Operand: 00000001 
+# 
+# Test      83 failed on line 2
+#  Expected data: 00040001 
+#  Actual data: 00000000 
+#  Operator:  1 
+#  1st Operand: 00040000 
+#  2nd Operand: 00000001 
+# 
+# Test      84 failed on line 2
+#  Expected data: 00080001 
+#  Actual data: 00000000 
+#  Operator:  1 
+#  1st Operand: 00080000 
+#  2nd Operand: 00000001 
+# 
+# Test      85 failed on line 2
+#  Expected data: 00100001 
+#  Actual data: 00000000 
+#  Operator:  1 
+#  1st Operand: 00100000 
+#  2nd Operand: 00000001 
+# 
+# Test      86 failed on line 2
+#  Expected data: 00200001 
+#  Actual data: 00000000 
+#  Operator:  1 
+#  1st Operand: 00200000 
+#  2nd Operand: 00000001 
+# 
+# Test      87 failed on line 2
+#  Expected data: 00400001 
+#  Actual data: 00000000 
+#  Operator:  1 
+#  1st Operand: 00400000 
+#  2nd Operand: 00000001 
+# 
+# Test      88 failed on line 2
+#  Expected data: 00800001 
+#  Actual data: 00000000 
+#  Operator:  1 
+#  1st Operand: 00800000 
+#  2nd Operand: 00000001 
+# 
+# Test      89 failed on line 2
+#  Expected data: 01000001 
+#  Actual data: 00000000 
+#  Operator:  1 
+#  1st Operand: 01000000 
+#  2nd Operand: 00000001 
+# 
+# Test      90 failed on line 2
+#  Expected data: 02000001 
+#  Actual data: 00000000 
+#  Operator:  1 
+#  1st Operand: 02000000 
+#  2nd Operand: 00000001 
+# 
+# Test      91 failed on line 2
+#  Expected data: 04000001 
+#  Actual data: 00000000 
+#  Operator:  1 
+#  1st Operand: 04000000 
+#  2nd Operand: 00000001 
+# 
+# Test      92 failed on line 2
+#  Expected data: 08000001 
+#  Actual data: 00000000 
+#  Operator:  1 
+#  1st Operand: 08000000 
+#  2nd Operand: 00000001 
+# 
+# Test      93 failed on line 2
+#  Expected data: 10000001 
+#  Actual data: 00000000 
+#  Operator:  1 
+#  1st Operand: 10000000 
+#  2nd Operand: 00000001 
+# 
+# Test      94 failed on line 2
+#  Expected data: 20000001 
+#  Actual data: 00000000 
+#  Operator:  1 
+#  1st Operand: 20000000 
+#  2nd Operand: 00000001 
+# 
+# Test      95 failed on line 2
+#  Expected data: 40000001 
+#  Actual data: 00000000 
+#  Operator:  1 
+#  1st Operand: 40000000 
+#  2nd Operand: 00000001 
+# 
+# Test      96 failed on line 2
+#  Expected data: 80000001 
+#  Actual data: 00000000 
+#  Operator:  1 
+#  1st Operand: 80000000 
+#  2nd Operand: 00000001 
+# 
+# Test     225 failed on line 2
+#  Expected data: 00000002 
+#  Actual data: 00000000 
+#  Operator:  5 
+#  1st Operand: 00000001 
+#  2nd Operand: 00000001 
+# 
+# Test     226 failed on line 2
+#  Expected data: 00000004 
+#  Actual data: 00000000 
+#  Operator:  5 
+#  1st Operand: 00000002 
+#  2nd Operand: 00000001 
+# 
+# Test     227 failed on line 2
+#  Expected data: 00000008 
+#  Actual data: 00000000 
+#  Operator:  5 
+#  1st Operand: 00000004 
+#  2nd Operand: 00000001 
+# 
+# Test     228 failed on line 2
+#  Expected data: 00000010 
+#  Actual data: 00000000 
+#  Operator:  5 
+#  1st Operand: 00000008 
+#  2nd Operand: 00000001 
+# 
+# Test     229 failed on line 2
+#  Expected data: 00000020 
+#  Actual data: 00000000 
+#  Operator:  5 
+#  1st Operand: 00000010 
+#  2nd Operand: 00000001 
+# 
+# Test     230 failed on line 2
+#  Expected data: 00000040 
+#  Actual data: 00000000 
+#  Operator:  5 
+#  1st Operand: 00000020 
+#  2nd Operand: 00000001 
+# 
+# Test     231 failed on line 2
+#  Expected data: 00000080 
+#  Actual data: 00000000 
+#  Operator:  5 
+#  1st Operand: 00000040 
+#  2nd Operand: 00000001 
+# 
+# Test     232 failed on line 2
+#  Expected data: 00000100 
+#  Actual data: 00000000 
+#  Operator:  5 
+#  1st Operand: 00000080 
+#  2nd Operand: 00000001 
+# 
+# Test     233 failed on line 2
+#  Expected data: 00000200 
+#  Actual data: 00000000 
+#  Operator:  5 
+#  1st Operand: 00000100 
+#  2nd Operand: 00000001 
+# 
+# Test     234 failed on line 2
+#  Expected data: 00000400 
+#  Actual data: 00000000 
+#  Operator:  5 
+#  1st Operand: 00000200 
+#  2nd Operand: 00000001 
+# 
+# Test     235 failed on line 2
+#  Expected data: 00000800 
+#  Actual data: 00000000 
+#  Operator:  5 
+#  1st Operand: 00000400 
+#  2nd Operand: 00000001 
+# 
+# Test     236 failed on line 2
+#  Expected data: 00001000 
+#  Actual data: 00000000 
+#  Operator:  5 
+#  1st Operand: 00000800 
+#  2nd Operand: 00000001 
+# 
+# Test     237 failed on line 2
+#  Expected data: 00002000 
+#  Actual data: 00000000 
+#  Operator:  5 
+#  1st Operand: 00001000 
+#  2nd Operand: 00000001 
+# 
+# Test     238 failed on line 2
+#  Expected data: 00004000 
+#  Actual data: 00000000 
+#  Operator:  5 
+#  1st Operand: 00002000 
+#  2nd Operand: 00000001 
+# 
+# Test     239 failed on line 2
+#  Expected data: 00008000 
+#  Actual data: 00000000 
+#  Operator:  5 
+#  1st Operand: 00004000 
+#  2nd Operand: 00000001 
+# 
+# Test     240 failed on line 2
+#  Expected data: 00010000 
+#  Actual data: 00000000 
+#  Operator:  5 
+#  1st Operand: 00008000 
+#  2nd Operand: 00000001 
+# 
+# Test     241 failed on line 2
+#  Expected data: 00020000 
+#  Actual data: 00000000 
+#  Operator:  5 
+#  1st Operand: 00010000 
+#  2nd Operand: 00000001 
+# 
+# Test     242 failed on line 2
+#  Expected data: 00040000 
+#  Actual data: 00000000 
+#  Operator:  5 
+#  1st Operand: 00020000 
+#  2nd Operand: 00000001 
+# 
+# Test     243 failed on line 2
+#  Expected data: 00080000 
+#  Actual data: 00000000 
+#  Operator:  5 
+#  1st Operand: 00040000 
+#  2nd Operand: 00000001 
+# 
+# Test     244 failed on line 2
+#  Expected data: 00100000 
+#  Actual data: 00000000 
+#  Operator:  5 
+#  1st Operand: 00080000 
+#  2nd Operand: 00000001 
+# 
+# Test     245 failed on line 2
+#  Expected data: 00200000 
+#  Actual data: 00000000 
+#  Operator:  5 
+#  1st Operand: 00100000 
+#  2nd Operand: 00000001 
+# 
+# Test     246 failed on line 2
+#  Expected data: 00400000 
+#  Actual data: 00000000 
+#  Operator:  5 
+#  1st Operand: 00200000 
+#  2nd Operand: 00000001 
+# 
+# Test     247 failed on line 2
+#  Expected data: 00800000 
+#  Actual data: 00000000 
+#  Operator:  5 
+#  1st Operand: 00400000 
+#  2nd Operand: 00000001 
+# 
+# Test     248 failed on line 2
+#  Expected data: 01000000 
+#  Actual data: 00000000 
+#  Operator:  5 
+#  1st Operand: 00800000 
+#  2nd Operand: 00000001 
+# 
+# Test     249 failed on line 2
+#  Expected data: 02000000 
+#  Actual data: 00000000 
+#  Operator:  5 
+#  1st Operand: 01000000 
+#  2nd Operand: 00000001 
+# 
+# Test     250 failed on line 2
+#  Expected data: 04000000 
+#  Actual data: 00000000 
+#  Operator:  5 
+#  1st Operand: 02000000 
+#  2nd Operand: 00000001 
+# 
+# Test     251 failed on line 2
+#  Expected data: 08000000 
+#  Actual data: 00000000 
+#  Operator:  5 
+#  1st Operand: 04000000 
+#  2nd Operand: 00000001 
+# 
+# Test     252 failed on line 2
+#  Expected data: 10000000 
+#  Actual data: 00000000 
+#  Operator:  5 
+#  1st Operand: 08000000 
+#  2nd Operand: 00000001 
+# 
+# Test     253 failed on line 2
+#  Expected data: 20000000 
+#  Actual data: 00000000 
+#  Operator:  5 
+#  1st Operand: 10000000 
+#  2nd Operand: 00000001 
+# 
+# Test     254 failed on line 2
+#  Expected data: 40000000 
+#  Actual data: 00000000 
+#  Operator:  5 
+#  1st Operand: 20000000 
+#  2nd Operand: 00000001 
+# 
+# Test     255 failed on line 2
+#  Expected data: 80000000 
+#  Actual data: 00000000 
+#  Operator:  5 
+#  1st Operand: 40000000 
+#  2nd Operand: 00000001 
+# 
+# Test     129 failed on line 4 due to timeout 
+#  Operator:  1 
+#  1st Operand: 00000001 
+#  2nd Operand: 00000001 
+# 
+# Test     130 failed on line 4 due to timeout 
+#  Operator:  1 
+#  1st Operand: 00000002 
+#  2nd Operand: 00000001 
+# 
+# Test     131 failed on line 4 due to timeout 
+#  Operator:  1 
+#  1st Operand: 00000004 
+#  2nd Operand: 00000001 
+# 
+# Test     132 failed on line 4 due to timeout 
+#  Operator:  1 
+#  1st Operand: 00000008 
+#  2nd Operand: 00000001 
+# 
+# Test     133 failed on line 4 due to timeout 
+#  Operator:  1 
+#  1st Operand: 00000010 
+#  2nd Operand: 00000001 
+# 
+# Test     134 failed on line 4 due to timeout 
+#  Operator:  1 
+#  1st Operand: 00000020 
+#  2nd Operand: 00000001 
+# 
+# Test     135 failed on line 4 due to timeout 
+#  Operator:  1 
+#  1st Operand: 00000040 
+#  2nd Operand: 00000001 
+# 
+# Test     136 failed on line 4 due to timeout 
+#  Operator:  1 
+#  1st Operand: 00000080 
+#  2nd Operand: 00000001 
+# 
+# Test     137 failed on line 4 due to timeout 
+#  Operator:  1 
+#  1st Operand: 00000100 
+#  2nd Operand: 00000001 
+# 
+# Test     138 failed on line 4 due to timeout 
+#  Operator:  1 
+#  1st Operand: 00000200 
+#  2nd Operand: 00000001 
+# 
+# Test     139 failed on line 4 due to timeout 
+#  Operator:  1 
+#  1st Operand: 00000400 
+#  2nd Operand: 00000001 
+# 
+# Test     140 failed on line 4 due to timeout 
+#  Operator:  1 
+#  1st Operand: 00000800 
+#  2nd Operand: 00000001 
+# 
+# Test     141 failed on line 4 due to timeout 
+#  Operator:  1 
+#  1st Operand: 00001000 
+#  2nd Operand: 00000001 
+# 
+# Test     142 failed on line 4 due to timeout 
+#  Operator:  1 
+#  1st Operand: 00002000 
+#  2nd Operand: 00000001 
+# 
+# Test     143 failed on line 4 due to timeout 
+#  Operator:  1 
+#  1st Operand: 00004000 
+#  2nd Operand: 00000001 
+# 
+# Test     144 failed on line 4 due to timeout 
+#  Operator:  1 
+#  1st Operand: 00008000 
+#  2nd Operand: 00000001 
+# 
+# Test     145 failed on line 4 due to timeout 
+#  Operator:  1 
+#  1st Operand: 00010000 
+#  2nd Operand: 00000001 
+# 
+# Test     146 failed on line 4 due to timeout 
+#  Operator:  1 
+#  1st Operand: 00020000 
+#  2nd Operand: 00000001 
+# 
+# Test     147 failed on line 4 due to timeout 
+#  Operator:  1 
+#  1st Operand: 00040000 
+#  2nd Operand: 00000001 
+# 
+# Test     148 failed on line 4 due to timeout 
+#  Operator:  1 
+#  1st Operand: 00080000 
+#  2nd Operand: 00000001 
+# 
+# Test     149 failed on line 4 due to timeout 
+#  Operator:  1 
+#  1st Operand: 00100000 
+#  2nd Operand: 00000001 
+# 
+# Test     150 failed on line 4 due to timeout 
+#  Operator:  1 
+#  1st Operand: 00200000 
+#  2nd Operand: 00000001 
+# 
+# Test     151 failed on line 4 due to timeout 
+#  Operator:  1 
+#  1st Operand: 00400000 
+#  2nd Operand: 00000001 
+# 
+# Test     152 failed on line 4 due to timeout 
+#  Operator:  1 
+#  1st Operand: 00800000 
+#  2nd Operand: 00000001 
+# 
+# Test     153 failed on line 4 due to timeout 
+#  Operator:  1 
+#  1st Operand: 01000000 
+#  2nd Operand: 00000001 
+# 
+# Test     154 failed on line 4 due to timeout 
+#  Operator:  1 
+#  1st Operand: 02000000 
+#  2nd Operand: 00000001 
+# 
+# Test     155 failed on line 4 due to timeout 
+#  Operator:  1 
+#  1st Operand: 04000000 
+#  2nd Operand: 00000001 
+# 
+# Test     156 failed on line 4 due to timeout 
+#  Operator:  1 
+#  1st Operand: 08000000 
+#  2nd Operand: 00000001 
+# 
+# Test     157 failed on line 4 due to timeout 
+#  Operator:  1 
+#  1st Operand: 10000000 
+#  2nd Operand: 00000001 
+# 
+# Test     158 failed on line 4 due to timeout 
+#  Operator:  1 
+#  1st Operand: 20000000 
+#  2nd Operand: 00000001 
+# 
+# Test     159 failed on line 4 due to timeout 
+#  Operator:  1 
+#  1st Operand: 40000000 
+#  2nd Operand: 00000001 
+# 
+# Test     160 failed on line 4 due to timeout 
+#  Operator:  1 
+#  1st Operand: 80000000 
+#  2nd Operand: 00000001 
+# 
+# Test     293 failed on line 1
+#  Expected data: 00000011 
+#  Actual data: 00000001 
+#  Operator:  1 
+#  1st Operand: 00000001 
+#  2nd Operand: 00000010 
+# 
+# Test     294 failed on line 1
+#  Expected data: 00000021 
+#  Actual data: 00000031 
+#  Operator:  1 
+#  1st Operand: 00000001 
+#  2nd Operand: 00000020 
+# 
+# Test     301 failed on line 1
+#  Expected data: 00001001 
+#  Actual data: 00000001 
+#  Operator:  1 
+#  1st Operand: 00000001 
+#  2nd Operand: 00001000 
+# 
+# Test     302 failed on line 1
+#  Expected data: 00002001 
+#  Actual data: 00003001 
+#  Operator:  1 
+#  1st Operand: 00000001 
+#  2nd Operand: 00002000 
+# 
+# Test     432 failed on line 4
+#  Expected data: 00010000 
+#  Actual data: 00010001 
+#  Operator:  5 
+#  1st Operand: 00000001 
+#  2nd Operand: 00000010 
+# 
+# Test     433 failed on line 4
+#  Expected data: 00020000 
+#  Actual data: 00020002 
+#  Operator:  5 
+#  1st Operand: 00000001 
+#  2nd Operand: 00000011 
+# 
+# Test     434 failed on line 4
+#  Expected data: 00040000 
+#  Actual data: 00040004 
+#  Operator:  5 
+#  1st Operand: 00000001 
+#  2nd Operand: 00000012 
+# 
+# Test     435 failed on line 4
+#  Expected data: 00080000 
+#  Actual data: 00080008 
+#  Operator:  5 
+#  1st Operand: 00000001 
+#  2nd Operand: 00000013 
+# 
+# Test     436 failed on line 4
+#  Expected data: 00100000 
+#  Actual data: 00100010 
+#  Operator:  5 
+#  1st Operand: 00000001 
+#  2nd Operand: 00000014 
+# 
+# Test     437 failed on line 4
+#  Expected data: 00200000 
+#  Actual data: 00200020 
+#  Operator:  5 
+#  1st Operand: 00000001 
+#  2nd Operand: 00000015 
+# 
+# Test     438 failed on line 4
+#  Expected data: 00400000 
+#  Actual data: 00400040 
+#  Operator:  5 
+#  1st Operand: 00000001 
+#  2nd Operand: 00000016 
+# 
+# Test     439 failed on line 4
+#  Expected data: 00800000 
+#  Actual data: 00800080 
+#  Operator:  5 
+#  1st Operand: 00000001 
+#  2nd Operand: 00000017 
+# 
+# Test     440 failed on line 4
+#  Expected data: 01000000 
+#  Actual data: 01000100 
+#  Operator:  5 
+#  1st Operand: 00000001 
+#  2nd Operand: 00000018 
+# 
+# Test     441 failed on line 4
+#  Expected data: 02000000 
+#  Actual data: 02000200 
+#  Operator:  5 
+#  1st Operand: 00000001 
+#  2nd Operand: 00000019 
+# 
+# Test     442 failed on line 4
+#  Expected data: 04000000 
+#  Actual data: 04000400 
+#  Operator:  5 
+#  1st Operand: 00000001 
+#  2nd Operand: 0000001a 
+# 
+# Test     443 failed on line 4
+#  Expected data: 08000000 
+#  Actual data: 08000800 
+#  Operator:  5 
+#  1st Operand: 00000001 
+#  2nd Operand: 0000001b 
+# 
+# Test     444 failed on line 4
+#  Expected data: 10000000 
+#  Actual data: 10001000 
+#  Operator:  5 
+#  1st Operand: 00000001 
+#  2nd Operand: 0000001c 
+# 
+# Test     445 failed on line 4
+#  Expected data: 20000000 
+#  Actual data: 20002000 
+#  Operator:  5 
+#  1st Operand: 00000001 
+#  2nd Operand: 0000001d 
+# 
+# Test     446 failed on line 4
+#  Expected data: 40000000 
+#  Actual data: 40004000 
+#  Operator:  5 
+#  1st Operand: 00000001 
+#  2nd Operand: 0000001e 
+# 
+# Test     447 failed on line 4
+#  Expected data: 80000000 
+#  Actual data: 80008000 
+#  Operator:  5 
+#  1st Operand: 00000001 
+#  2nd Operand: 0000001f 
+# 
+# Test     321 failed on line 2
+#  Expected data: 00000002 
+#  Actual data: 00000000 
+#  Operator:  1 
+#  1st Operand: 00000001 
+#  2nd Operand: 00000001 
+# 
+# Test     322 failed on line 2
+#  Expected data: 00000003 
+#  Actual data: 00000000 
+#  Operator:  1 
+#  1st Operand: 00000001 
+#  2nd Operand: 00000002 
+# 
+# Test     323 failed on line 2
+#  Expected data: 00000005 
+#  Actual data: 00000000 
+#  Operator:  1 
+#  1st Operand: 00000001 
+#  2nd Operand: 00000004 
+# 
+# Test     324 failed on line 2
+#  Expected data: 00000009 
+#  Actual data: 00000000 
+#  Operator:  1 
+#  1st Operand: 00000001 
+#  2nd Operand: 00000008 
+# 
+# Test     325 failed on line 2
+#  Expected data: 00000011 
+#  Actual data: 00000000 
+#  Operator:  1 
+#  1st Operand: 00000001 
+#  2nd Operand: 00000010 
+# 
+# Test     326 failed on line 2
+#  Expected data: 00000021 
+#  Actual data: 00000000 
+#  Operator:  1 
+#  1st Operand: 00000001 
+#  2nd Operand: 00000020 
+# 
+# Test     327 failed on line 2
+#  Expected data: 00000041 
+#  Actual data: 00000000 
+#  Operator:  1 
+#  1st Operand: 00000001 
+#  2nd Operand: 00000040 
+# 
+# Test     328 failed on line 2
+#  Expected data: 00000081 
+#  Actual data: 00000000 
+#  Operator:  1 
+#  1st Operand: 00000001 
+#  2nd Operand: 00000080 
+# 
+# Test     329 failed on line 2
+#  Expected data: 00000101 
+#  Actual data: 00000000 
+#  Operator:  1 
+#  1st Operand: 00000001 
+#  2nd Operand: 00000100 
+# 
+# Test     330 failed on line 2
+#  Expected data: 00000201 
+#  Actual data: 00000000 
+#  Operator:  1 
+#  1st Operand: 00000001 
+#  2nd Operand: 00000200 
+# 
+# Test     331 failed on line 2
+#  Expected data: 00000401 
+#  Actual data: 00000000 
+#  Operator:  1 
+#  1st Operand: 00000001 
+#  2nd Operand: 00000400 
+# 
+# Test     332 failed on line 2
+#  Expected data: 00000801 
+#  Actual data: 00000000 
+#  Operator:  1 
+#  1st Operand: 00000001 
+#  2nd Operand: 00000800 
+# 
+# Test     333 failed on line 2
+#  Expected data: 00001001 
+#  Actual data: 00000000 
+#  Operator:  1 
+#  1st Operand: 00000001 
+#  2nd Operand: 00001000 
+# 
+# Test     334 failed on line 2
+#  Expected data: 00002001 
+#  Actual data: 00000000 
+#  Operator:  1 
+#  1st Operand: 00000001 
+#  2nd Operand: 00002000 
+# 
+# Test     335 failed on line 2
+#  Expected data: 00004001 
+#  Actual data: 00000000 
+#  Operator:  1 
+#  1st Operand: 00000001 
+#  2nd Operand: 00004000 
+# 
+# Test     464 failed on line 3
+#  Expected data: 00010000 
+#  Actual data: 00010001 
+#  Operator:  5 
+#  1st Operand: 00000001 
+#  2nd Operand: 00000010 
+# 
+# Test     336 failed on line 2
+#  Expected data: 00008001 
+#  Actual data: 00000000 
+#  Operator:  1 
+#  1st Operand: 00000001 
+#  2nd Operand: 00008000 
+# 
+# Test     337 failed on line 2
+#  Expected data: 00010001 
+#  Actual data: 00000000 
+#  Operator:  1 
+#  1st Operand: 00000001 
+#  2nd Operand: 00010000 
+# 
+# Test     465 failed on line 3
+#  Expected data: 00020000 
+#  Actual data: 00020002 
+#  Operator:  5 
+#  1st Operand: 00000001 
+#  2nd Operand: 00000011 
+# 
+# Test     466 failed on line 3
+#  Expected data: 00040000 
+#  Actual data: 00040004 
+#  Operator:  5 
+#  1st Operand: 00000001 
+#  2nd Operand: 00000012 
+# 
+# Test     338 failed on line 2
+#  Expected data: 00020001 
+#  Actual data: 00000000 
+#  Operator:  1 
+#  1st Operand: 00000001 
+#  2nd Operand: 00020000 
+# 
+# Test     339 failed on line 2
+#  Expected data: 00040001 
+#  Actual data: 00000000 
+#  Operator:  1 
+#  1st Operand: 00000001 
+#  2nd Operand: 00040000 
+# 
+# Test     467 failed on line 3
+#  Expected data: 00080000 
+#  Actual data: 00080008 
+#  Operator:  5 
+#  1st Operand: 00000001 
+#  2nd Operand: 00000013 
+# 
+# Test     468 failed on line 3
+#  Expected data: 00100000 
+#  Actual data: 00100010 
+#  Operator:  5 
+#  1st Operand: 00000001 
+#  2nd Operand: 00000014 
+# 
+# Test     340 failed on line 2
+#  Expected data: 00080001 
+#  Actual data: 00000000 
+#  Operator:  1 
+#  1st Operand: 00000001 
+#  2nd Operand: 00080000 
+# 
+# Test     341 failed on line 2
+#  Expected data: 00100001 
+#  Actual data: 00000000 
+#  Operator:  1 
+#  1st Operand: 00000001 
+#  2nd Operand: 00100000 
+# 
+# Test     469 failed on line 3
+#  Expected data: 00200000 
+#  Actual data: 00200020 
+#  Operator:  5 
+#  1st Operand: 00000001 
+#  2nd Operand: 00000015 
+# 
+# Test     470 failed on line 3
+#  Expected data: 00400000 
+#  Actual data: 00400040 
+#  Operator:  5 
+#  1st Operand: 00000001 
+#  2nd Operand: 00000016 
+# 
+# Test     342 failed on line 2
+#  Expected data: 00200001 
+#  Actual data: 00000000 
+#  Operator:  1 
+#  1st Operand: 00000001 
+#  2nd Operand: 00200000 
+# 
+# Test     343 failed on line 2
+#  Expected data: 00400001 
+#  Actual data: 00000000 
+#  Operator:  1 
+#  1st Operand: 00000001 
+#  2nd Operand: 00400000 
+# 
+# Test     471 failed on line 3
+#  Expected data: 00800000 
+#  Actual data: 00800080 
+#  Operator:  5 
+#  1st Operand: 00000001 
+#  2nd Operand: 00000017 
+# 
+# Test     472 failed on line 3
+#  Expected data: 01000000 
+#  Actual data: 01000100 
+#  Operator:  5 
+#  1st Operand: 00000001 
+#  2nd Operand: 00000018 
+# 
+# Test     344 failed on line 2
+#  Expected data: 00800001 
+#  Actual data: 00000000 
+#  Operator:  1 
+#  1st Operand: 00000001 
+#  2nd Operand: 00800000 
+# 
+# Test     345 failed on line 2
+#  Expected data: 01000001 
+#  Actual data: 00000000 
+#  Operator:  1 
+#  1st Operand: 00000001 
+#  2nd Operand: 01000000 
+# 
+# Test     473 failed on line 3
+#  Expected data: 02000000 
+#  Actual data: 02000200 
+#  Operator:  5 
+#  1st Operand: 00000001 
+#  2nd Operand: 00000019 
+# 
+# Test     474 failed on line 3
+#  Expected data: 04000000 
+#  Actual data: 04000400 
+#  Operator:  5 
+#  1st Operand: 00000001 
+#  2nd Operand: 0000001a 
+# 
+# Test     346 failed on line 2
+#  Expected data: 02000001 
+#  Actual data: 00000000 
+#  Operator:  1 
+#  1st Operand: 00000001 
+#  2nd Operand: 02000000 
+# 
+# Test     347 failed on line 2
+#  Expected data: 04000001 
+#  Actual data: 00000000 
+#  Operator:  1 
+#  1st Operand: 00000001 
+#  2nd Operand: 04000000 
+# 
+# Test     475 failed on line 3
+#  Expected data: 08000000 
+#  Actual data: 08000800 
+#  Operator:  5 
+#  1st Operand: 00000001 
+#  2nd Operand: 0000001b 
+# 
+# Test     476 failed on line 3
+#  Expected data: 10000000 
+#  Actual data: 10001000 
+#  Operator:  5 
+#  1st Operand: 00000001 
+#  2nd Operand: 0000001c 
+# 
+# Test     348 failed on line 2
+#  Expected data: 08000001 
+#  Actual data: 00000000 
+#  Operator:  1 
+#  1st Operand: 00000001 
+#  2nd Operand: 08000000 
+# 
+# Test     349 failed on line 2
+#  Expected data: 10000001 
+#  Actual data: 00000000 
+#  Operator:  1 
+#  1st Operand: 00000001 
+#  2nd Operand: 10000000 
+# 
+# Test     477 failed on line 3
+#  Expected data: 20000000 
+#  Actual data: 20002000 
+#  Operator:  5 
+#  1st Operand: 00000001 
+#  2nd Operand: 0000001d 
+# 
+# Test     478 failed on line 3
+#  Expected data: 40000000 
+#  Actual data: 40004000 
+#  Operator:  5 
+#  1st Operand: 00000001 
+#  2nd Operand: 0000001e 
+# 
+# Test     350 failed on line 2
+#  Expected data: 20000001 
+#  Actual data: 00000000 
+#  Operator:  1 
+#  1st Operand: 00000001 
+#  2nd Operand: 20000000 
+# 
+# Test     351 failed on line 2
+#  Expected data: 40000001 
+#  Actual data: 00000000 
+#  Operator:  1 
+#  1st Operand: 00000001 
+#  2nd Operand: 40000000 
+# 
+# Test     479 failed on line 3
+#  Expected data: 80000000 
+#  Actual data: 80008000 
+#  Operator:  5 
+#  1st Operand: 00000001 
+#  2nd Operand: 0000001f 
+# 
+# Test     352 failed on line 2
+#  Expected data: 80000001 
+#  Actual data: 00000000 
+#  Operator:  1 
+#  1st Operand: 00000001 
+#  2nd Operand: 80000000 
+# 
+# Test     481 failed on line 2
+#  Expected data: 00000002 
+#  Actual data: 00000000 
+#  Operator:  5 
+#  1st Operand: 00000001 
+#  2nd Operand: 00000001 
+# 
+# Test     482 failed on line 2
+#  Expected data: 00000004 
+#  Actual data: 00000000 
+#  Operator:  5 
+#  1st Operand: 00000001 
+#  2nd Operand: 00000002 
+# 
+# Test     483 failed on line 2
+#  Expected data: 00000008 
+#  Actual data: 00000000 
+#  Operator:  5 
+#  1st Operand: 00000001 
+#  2nd Operand: 00000003 
+# 
+# Test     484 failed on line 2
+#  Expected data: 00000010 
+#  Actual data: 00000000 
+#  Operator:  5 
+#  1st Operand: 00000001 
+#  2nd Operand: 00000004 
+# 
+# Test     357 failed on line 3
+#  Expected data: 00000011 
+#  Actual data: 00000001 
+#  Operator:  1 
+#  1st Operand: 00000001 
+#  2nd Operand: 00000010 
+# 
+# Test     485 failed on line 2
+#  Expected data: 00000020 
+#  Actual data: 00000000 
+#  Operator:  5 
+#  1st Operand: 00000001 
+#  2nd Operand: 00000005 
+# 
+# Test     486 failed on line 2
+#  Expected data: 00000040 
+#  Actual data: 00000000 
+#  Operator:  5 
+#  1st Operand: 00000001 
+#  2nd Operand: 00000006 
+# 
+# Test     358 failed on line 3
+#  Expected data: 00000021 
+#  Actual data: 00000031 
+#  Operator:  1 
+#  1st Operand: 00000001 
+#  2nd Operand: 00000020 
+# 
+# Test     487 failed on line 2
+#  Expected data: 00000080 
+#  Actual data: 00000000 
+#  Operator:  5 
+#  1st Operand: 00000001 
+#  2nd Operand: 00000007 
+# 
+# Test     488 failed on line 2
+#  Expected data: 00000100 
+#  Actual data: 00000000 
+#  Operator:  5 
+#  1st Operand: 00000001 
+#  2nd Operand: 00000008 
+# 
+# Test     489 failed on line 2
+#  Expected data: 00000200 
+#  Actual data: 00000000 
+#  Operator:  5 
+#  1st Operand: 00000001 
+#  2nd Operand: 00000009 
+# 
+# Test     490 failed on line 2
+#  Expected data: 00000400 
+#  Actual data: 00000000 
+#  Operator:  5 
+#  1st Operand: 00000001 
+#  2nd Operand: 0000000a 
+# 
+# Test     491 failed on line 2
+#  Expected data: 00000800 
+#  Actual data: 00000000 
+#  Operator:  5 
+#  1st Operand: 00000001 
+#  2nd Operand: 0000000b 
+# 
+# Test     492 failed on line 2
+#  Expected data: 00001000 
+#  Actual data: 00000000 
+#  Operator:  5 
+#  1st Operand: 00000001 
+#  2nd Operand: 0000000c 
+# 
+# Test     365 failed on line 3
+#  Expected data: 00001001 
+#  Actual data: 00000001 
+#  Operator:  1 
+#  1st Operand: 00000001 
+#  2nd Operand: 00001000 
+# 
+# Test     493 failed on line 2
+#  Expected data: 00002000 
+#  Actual data: 00000000 
+#  Operator:  5 
+#  1st Operand: 00000001 
+#  2nd Operand: 0000000d 
+# 
+# Test     494 failed on line 2
+#  Expected data: 00004000 
+#  Actual data: 00000000 
+#  Operator:  5 
+#  1st Operand: 00000001 
+#  2nd Operand: 0000000e 
+# 
+# Test     366 failed on line 3
+#  Expected data: 00002001 
+#  Actual data: 00003001 
+#  Operator:  1 
+#  1st Operand: 00000001 
+#  2nd Operand: 00002000 
+# 
+# Test     495 failed on line 2
+#  Expected data: 00008000 
+#  Actual data: 00000000 
+#  Operator:  5 
+#  1st Operand: 00000001 
+#  2nd Operand: 0000000f 
+# 
+# Test     496 failed on line 2
+#  Expected data: 00010000 
+#  Actual data: 00000000 
+#  Operator:  5 
+#  1st Operand: 00000001 
+#  2nd Operand: 00000010 
+# 
+# Test     497 failed on line 2
+#  Expected data: 00020000 
+#  Actual data: 00000000 
+#  Operator:  5 
+#  1st Operand: 00000001 
+#  2nd Operand: 00000011 
+# 
+# Test     498 failed on line 2
+#  Expected data: 00040000 
+#  Actual data: 00000000 
+#  Operator:  5 
+#  1st Operand: 00000001 
+#  2nd Operand: 00000012 
+# 
+# Test     499 failed on line 2
+#  Expected data: 00080000 
+#  Actual data: 00000000 
+#  Operator:  5 
+#  1st Operand: 00000001 
+#  2nd Operand: 00000013 
+# 
+# Test     500 failed on line 2
+#  Expected data: 00100000 
+#  Actual data: 00000000 
+#  Operator:  5 
+#  1st Operand: 00000001 
+#  2nd Operand: 00000014 
+# 
+# Test     501 failed on line 2
+#  Expected data: 00200000 
+#  Actual data: 00000000 
+#  Operator:  5 
+#  1st Operand: 00000001 
+#  2nd Operand: 00000015 
+# 
+# Test     502 failed on line 2
+#  Expected data: 00400000 
+#  Actual data: 00000000 
+#  Operator:  5 
+#  1st Operand: 00000001 
+#  2nd Operand: 00000016 
+# 
+# Test     503 failed on line 2
+#  Expected data: 00800000 
+#  Actual data: 00000000 
+#  Operator:  5 
+#  1st Operand: 00000001 
+#  2nd Operand: 00000017 
+# 
+# Test     504 failed on line 2
+#  Expected data: 01000000 
+#  Actual data: 00000000 
+#  Operator:  5 
+#  1st Operand: 00000001 
+#  2nd Operand: 00000018 
+# 
+# Test     505 failed on line 2
+#  Expected data: 02000000 
+#  Actual data: 00000000 
+#  Operator:  5 
+#  1st Operand: 00000001 
+#  2nd Operand: 00000019 
+# 
+# Test     506 failed on line 2
+#  Expected data: 04000000 
+#  Actual data: 00000000 
+#  Operator:  5 
+#  1st Operand: 00000001 
+#  2nd Operand: 0000001a 
+# 
+# Test     507 failed on line 2
+#  Expected data: 08000000 
+#  Actual data: 00000000 
+#  Operator:  5 
+#  1st Operand: 00000001 
+#  2nd Operand: 0000001b 
+# 
+# Test     508 failed on line 2
+#  Expected data: 10000000 
+#  Actual data: 00000000 
+#  Operator:  5 
+#  1st Operand: 00000001 
+#  2nd Operand: 0000001c 
+# 
+# Test     509 failed on line 2
+#  Expected data: 20000000 
+#  Actual data: 00000000 
+#  Operator:  5 
+#  1st Operand: 00000001 
+#  2nd Operand: 0000001d 
+# 
+# Test     510 failed on line 2
+#  Expected data: 40000000 
+#  Actual data: 00000000 
+#  Operator:  5 
+#  1st Operand: 00000001 
+#  2nd Operand: 0000001e 
+# 
+# Test     511 failed on line 2
+#  Expected data: 80000000 
+#  Actual data: 00000000 
+#  Operator:  5 
+#  1st Operand: 00000001 
+#  2nd Operand: 0000001f 
+# 
+# Test     385 failed on line 4 due to timeout 
+#  Operator:  1 
+#  1st Operand: 00000001 
+#  2nd Operand: 00000001 
+# 
+# Test     386 failed on line 4 due to timeout 
+#  Operator:  1 
+#  1st Operand: 00000001 
+#  2nd Operand: 00000002 
+# 
+# Test     387 failed on line 4 due to timeout 
+#  Operator:  1 
+#  1st Operand: 00000001 
+#  2nd Operand: 00000004 
+# 
+# Test     388 failed on line 4 due to timeout 
+#  Operator:  1 
+#  1st Operand: 00000001 
+#  2nd Operand: 00000008 
+# 
+# Test     389 failed on line 4 due to timeout 
+#  Operator:  1 
+#  1st Operand: 00000001 
+#  2nd Operand: 00000010 
+# 
+# Test     390 failed on line 4 due to timeout 
+#  Operator:  1 
+#  1st Operand: 00000001 
+#  2nd Operand: 00000020 
+# 
+# Test     391 failed on line 4 due to timeout 
+#  Operator:  1 
+#  1st Operand: 00000001 
+#  2nd Operand: 00000040 
+# 
+# Test     392 failed on line 4 due to timeout 
+#  Operator:  1 
+#  1st Operand: 00000001 
+#  2nd Operand: 00000080 
+# 
+# Test     393 failed on line 4 due to timeout 
+#  Operator:  1 
+#  1st Operand: 00000001 
+#  2nd Operand: 00000100 
+# 
+# Test     394 failed on line 4 due to timeout 
+#  Operator:  1 
+#  1st Operand: 00000001 
+#  2nd Operand: 00000200 
+# 
+# Test     395 failed on line 4 due to timeout 
+#  Operator:  1 
+#  1st Operand: 00000001 
+#  2nd Operand: 00000400 
+# 
+# Test     396 failed on line 4 due to timeout 
+#  Operator:  1 
+#  1st Operand: 00000001 
+#  2nd Operand: 00000800 
+# 
+# Test     397 failed on line 4 due to timeout 
+#  Operator:  1 
+#  1st Operand: 00000001 
+#  2nd Operand: 00001000 
+# 
+# Test     398 failed on line 4 due to timeout 
+#  Operator:  1 
+#  1st Operand: 00000001 
+#  2nd Operand: 00002000 
+# 
+# Test     399 failed on line 4 due to timeout 
+#  Operator:  1 
+#  1st Operand: 00000001 
+#  2nd Operand: 00004000 
+# 
+# Test     528 failed on line 1
+#  Expected data: 00010000 
+#  Actual data: 00010001 
+#  Operator:  5 
+#  1st Operand: 00000001 
+#  2nd Operand: 00000010 
+# 
+# Test     400 failed on line 4 due to timeout 
+#  Operator:  1 
+#  1st Operand: 00000001 
+#  2nd Operand: 00008000 
+# 
+# Test     529 failed on line 1
+#  Expected data: 00020000 
+#  Actual data: 00020002 
+#  Operator:  5 
+#  1st Operand: 00000001 
+#  2nd Operand: 00000011 
+# 
+# Test     401 failed on line 4 due to timeout 
+#  Operator:  1 
+#  1st Operand: 00000001 
+#  2nd Operand: 00010000 
+# 
+# Test     530 failed on line 1
+#  Expected data: 00040000 
+#  Actual data: 00040004 
+#  Operator:  5 
+#  1st Operand: 00000001 
+#  2nd Operand: 00000012 
+# 
+# Test     402 failed on line 4 due to timeout 
+#  Operator:  1 
+#  1st Operand: 00000001 
+#  2nd Operand: 00020000 
+# 
+# Test     531 failed on line 1
+#  Expected data: 00080000 
+#  Actual data: 00080008 
+#  Operator:  5 
+#  1st Operand: 00000001 
+#  2nd Operand: 00000013 
+# 
+# Test     403 failed on line 4 due to timeout 
+#  Operator:  1 
+#  1st Operand: 00000001 
+#  2nd Operand: 00040000 
+# 
+# Test     532 failed on line 1
+#  Expected data: 00100000 
+#  Actual data: 00100010 
+#  Operator:  5 
+#  1st Operand: 00000001 
+#  2nd Operand: 00000014 
+# 
+# Test     404 failed on line 4 due to timeout 
+#  Operator:  1 
+#  1st Operand: 00000001 
+#  2nd Operand: 00080000 
+# 
+# Test     533 failed on line 1
+#  Expected data: 00200000 
+#  Actual data: 00200020 
+#  Operator:  5 
+#  1st Operand: 00000001 
+#  2nd Operand: 00000015 
+# 
+# Test     405 failed on line 4 due to timeout 
+#  Operator:  1 
+#  1st Operand: 00000001 
+#  2nd Operand: 00100000 
+# 
+# Test     534 failed on line 1
+#  Expected data: 00400000 
+#  Actual data: 00400040 
+#  Operator:  5 
+#  1st Operand: 00000001 
+#  2nd Operand: 00000016 
+# 
+# Test     406 failed on line 4 due to timeout 
+#  Operator:  1 
+#  1st Operand: 00000001 
+#  2nd Operand: 00200000 
+# 
+# Test     535 failed on line 1
+#  Expected data: 00800000 
+#  Actual data: 00800080 
+#  Operator:  5 
+#  1st Operand: 00000001 
+#  2nd Operand: 00000017 
+# 
+# Test     407 failed on line 4 due to timeout 
+#  Operator:  1 
+#  1st Operand: 00000001 
+#  2nd Operand: 00400000 
+# 
+# Test     536 failed on line 1
+#  Expected data: 01000000 
+#  Actual data: 01000100 
+#  Operator:  5 
+#  1st Operand: 00000001 
+#  2nd Operand: 00000018 
+# 
+# Test     408 failed on line 4 due to timeout 
+#  Operator:  1 
+#  1st Operand: 00000001 
+#  2nd Operand: 00800000 
+# 
+# Test     537 failed on line 1
+#  Expected data: 02000000 
+#  Actual data: 02000200 
+#  Operator:  5 
+#  1st Operand: 00000001 
+#  2nd Operand: 00000019 
+# 
+# Test     409 failed on line 4 due to timeout 
+#  Operator:  1 
+#  1st Operand: 00000001 
+#  2nd Operand: 01000000 
+# 
+# Test     538 failed on line 1
+#  Expected data: 04000000 
+#  Actual data: 04000400 
+#  Operator:  5 
+#  1st Operand: 00000001 
+#  2nd Operand: 0000001a 
+# 
+# Test     410 failed on line 4 due to timeout 
+#  Operator:  1 
+#  1st Operand: 00000001 
+#  2nd Operand: 02000000 
+# 
+# Test     539 failed on line 1
+#  Expected data: 08000000 
+#  Actual data: 08000800 
+#  Operator:  5 
+#  1st Operand: 00000001 
+#  2nd Operand: 0000001b 
+# 
+# Test     411 failed on line 4 due to timeout 
+#  Operator:  1 
+#  1st Operand: 00000001 
+#  2nd Operand: 04000000 
+# 
+# Test     540 failed on line 1
+#  Expected data: 10000000 
+#  Actual data: 10001000 
+#  Operator:  5 
+#  1st Operand: 00000001 
+#  2nd Operand: 0000001c 
+# 
+# Test     412 failed on line 4 due to timeout 
+#  Operator:  1 
+#  1st Operand: 00000001 
+#  2nd Operand: 08000000 
+# 
+# Test     541 failed on line 1
+#  Expected data: 20000000 
+#  Actual data: 20002000 
+#  Operator:  5 
+#  1st Operand: 00000001 
+#  2nd Operand: 0000001d 
+# 
+# Test     413 failed on line 4 due to timeout 
+#  Operator:  1 
+#  1st Operand: 00000001 
+#  2nd Operand: 10000000 
+# 
+# Test     542 failed on line 1
+#  Expected data: 40000000 
+#  Actual data: 40004000 
+#  Operator:  5 
+#  1st Operand: 00000001 
+#  2nd Operand: 0000001e 
+# 
+# Test     414 failed on line 4 due to timeout 
+#  Operator:  1 
+#  1st Operand: 00000001 
+#  2nd Operand: 20000000 
+# 
+# Test     543 failed on line 1
+#  Expected data: 80000000 
+#  Actual data: 80008000 
+#  Operator:  5 
+#  1st Operand: 00000001 
+#  2nd Operand: 0000001f 
+# 
+# Test     415 failed on line 4 due to timeout 
+#  Operator:  1 
+#  1st Operand: 00000001 
+#  2nd Operand: 40000000 
+# 
+# Test     416 failed on line 4 due to timeout 
+#  Operator:  1 
+#  1st Operand: 00000001 
+#  2nd Operand: 80000000 
+# 
+# Test     673 failed on line 4
+#  Expected data: 00000000 
+#  Actual data: 00000001 
+#  Operator:  6 
+#  1st Operand: 00000001 
+#  2nd Operand: 00000001 
+# 
+# Test     674 failed on line 4
+#  Expected data: 00000001 
+#  Actual data: 00000002 
+#  Operator:  6 
+#  1st Operand: 00000002 
+#  2nd Operand: 00000001 
+# 
+# Test     675 failed on line 4
+#  Expected data: 00000002 
+#  Actual data: 00000004 
+#  Operator:  6 
+#  1st Operand: 00000004 
+#  2nd Operand: 00000001 
+# 
+# Test     676 failed on line 4
+#  Expected data: 00000004 
+#  Actual data: 00000008 
+#  Operator:  6 
+#  1st Operand: 00000008 
+#  2nd Operand: 00000001 
+# 
+# Test     677 failed on line 4
+#  Expected data: 00000008 
+#  Actual data: 00000010 
+#  Operator:  6 
+#  1st Operand: 00000010 
+#  2nd Operand: 00000001 
+# 
+# Test     678 failed on line 4
+#  Expected data: 00000010 
+#  Actual data: 00000020 
+#  Operator:  6 
+#  1st Operand: 00000020 
+#  2nd Operand: 00000001 
+# 
+# Test     679 failed on line 4
+#  Expected data: 00000020 
+#  Actual data: 00000040 
+#  Operator:  6 
+#  1st Operand: 00000040 
+#  2nd Operand: 00000001 
+# 
+# Test     680 failed on line 4
+#  Expected data: 00000040 
+#  Actual data: 00000080 
+#  Operator:  6 
+#  1st Operand: 00000080 
+#  2nd Operand: 00000001 
+# 
+# Test     681 failed on line 4
+#  Expected data: 00000080 
+#  Actual data: 00000100 
+#  Operator:  6 
+#  1st Operand: 00000100 
+#  2nd Operand: 00000001 
+# 
+# Test     682 failed on line 4
+#  Expected data: 00000100 
+#  Actual data: 00000200 
+#  Operator:  6 
+#  1st Operand: 00000200 
+#  2nd Operand: 00000001 
+# 
+# Test     683 failed on line 4
+#  Expected data: 00000200 
+#  Actual data: 00000400 
+#  Operator:  6 
+#  1st Operand: 00000400 
+#  2nd Operand: 00000001 
+# 
+# Test     684 failed on line 4
+#  Expected data: 00000400 
+#  Actual data: 00000800 
+#  Operator:  6 
+#  1st Operand: 00000800 
+#  2nd Operand: 00000001 
+# 
+# Test     685 failed on line 4
+#  Expected data: 00000800 
+#  Actual data: 00001000 
+#  Operator:  6 
+#  1st Operand: 00001000 
+#  2nd Operand: 00000001 
+# 
+# Test     686 failed on line 4
+#  Expected data: 00001000 
+#  Actual data: 00002000 
+#  Operator:  6 
+#  1st Operand: 00002000 
+#  2nd Operand: 00000001 
+# 
+# Test     687 failed on line 4
+#  Expected data: 00002000 
+#  Actual data: 00004000 
+#  Operator:  6 
+#  1st Operand: 00004000 
+#  2nd Operand: 00000001 
+# 
+# Test     688 failed on line 4
+#  Expected data: 00004000 
+#  Actual data: 00008000 
+#  Operator:  6 
+#  1st Operand: 00008000 
+#  2nd Operand: 00000001 
+# 
+# Test     689 failed on line 4
+#  Expected data: 00008000 
+#  Actual data: 00010000 
+#  Operator:  6 
+#  1st Operand: 00010000 
+#  2nd Operand: 00000001 
+# 
+# Test     690 failed on line 4
+#  Expected data: 00010000 
+#  Actual data: 00020000 
+#  Operator:  6 
+#  1st Operand: 00020000 
+#  2nd Operand: 00000001 
+# 
+# Test     691 failed on line 4
+#  Expected data: 00020000 
+#  Actual data: 00040000 
+#  Operator:  6 
+#  1st Operand: 00040000 
+#  2nd Operand: 00000001 
+# 
+# Test     692 failed on line 4
+#  Expected data: 00040000 
+#  Actual data: 00080000 
+#  Operator:  6 
+#  1st Operand: 00080000 
+#  2nd Operand: 00000001 
+# 
+# Test     693 failed on line 4
+#  Expected data: 00080000 
+#  Actual data: 00100000 
+#  Operator:  6 
+#  1st Operand: 00100000 
+#  2nd Operand: 00000001 
+# 
+# Test     694 failed on line 4
+#  Expected data: 00100000 
+#  Actual data: 00200000 
+#  Operator:  6 
+#  1st Operand: 00200000 
+#  2nd Operand: 00000001 
+# 
+# Test     695 failed on line 4
+#  Expected data: 00200000 
+#  Actual data: 00400000 
+#  Operator:  6 
+#  1st Operand: 00400000 
+#  2nd Operand: 00000001 
+# 
+# Test     696 failed on line 4
+#  Expected data: 00400000 
+#  Actual data: 00800000 
+#  Operator:  6 
+#  1st Operand: 00800000 
+#  2nd Operand: 00000001 
+# 
+# Test     697 failed on line 4
+#  Expected data: 00800000 
+#  Actual data: 01000000 
+#  Operator:  6 
+#  1st Operand: 01000000 
+#  2nd Operand: 00000001 
+# 
+# Test     698 failed on line 4
+#  Expected data: 01000000 
+#  Actual data: 02000000 
+#  Operator:  6 
+#  1st Operand: 02000000 
+#  2nd Operand: 00000001 
+# 
+# Test     699 failed on line 4
+#  Expected data: 02000000 
+#  Actual data: 04000000 
+#  Operator:  6 
+#  1st Operand: 04000000 
+#  2nd Operand: 00000001 
+# 
+# Test     700 failed on line 4
+#  Expected data: 04000000 
+#  Actual data: 08000000 
+#  Operator:  6 
+#  1st Operand: 08000000 
+#  2nd Operand: 00000001 
+# 
+# Test     701 failed on line 4
+#  Expected data: 08000000 
+#  Actual data: 10000000 
+#  Operator:  6 
+#  1st Operand: 10000000 
+#  2nd Operand: 00000001 
+# 
+# Test     702 failed on line 4
+#  Expected data: 10000000 
+#  Actual data: 20000000 
+#  Operator:  6 
+#  1st Operand: 20000000 
+#  2nd Operand: 00000001 
+# 
+# Test     703 failed on line 4
+#  Expected data: 20000000 
+#  Actual data: 40000000 
+#  Operator:  6 
+#  1st Operand: 40000000 
+#  2nd Operand: 00000001 
+# 
+# Test     704 failed on line 4
+#  Expected data: 40000000 
+#  Actual data: 80000000 
+#  Operator:  6 
+#  1st Operand: 80000000 
+#  2nd Operand: 00000001 
+# 
+# Test     705 failed on line 3
+#  Expected data: 00000000 
+#  Actual data: 00000001 
+#  Operator:  6 
+#  1st Operand: 00000001 
+#  2nd Operand: 00000001 
+# 
+# Test     706 failed on line 3
+#  Expected data: 00000001 
+#  Actual data: 00000002 
+#  Operator:  6 
+#  1st Operand: 00000002 
+#  2nd Operand: 00000001 
+# 
+# Test     578 failed on line 2
+#  Expected data: 00000001 
+#  Actual data: 00000000 
+#  Operator:  2 
+#  1st Operand: 00000002 
+#  2nd Operand: 00000001 
+# 
+# Test     579 failed on line 2
+#  Expected data: 00000003 
+#  Actual data: 00000000 
+#  Operator:  2 
+#  1st Operand: 00000004 
+#  2nd Operand: 00000001 
+# 
+# Test     707 failed on line 3
+#  Expected data: 00000002 
+#  Actual data: 00000004 
+#  Operator:  6 
+#  1st Operand: 00000004 
+#  2nd Operand: 00000001 
+# 
+# Test     708 failed on line 3
+#  Expected data: 00000004 
+#  Actual data: 00000008 
+#  Operator:  6 
+#  1st Operand: 00000008 
+#  2nd Operand: 00000001 
+# 
+# Test     580 failed on line 2
+#  Expected data: 00000007 
+#  Actual data: 00000000 
+#  Operator:  2 
+#  1st Operand: 00000008 
+#  2nd Operand: 00000001 
+# 
+# Test     581 failed on line 2
+#  Expected data: 0000000f 
+#  Actual data: 00000000 
+#  Operator:  2 
+#  1st Operand: 00000010 
+#  2nd Operand: 00000001 
+# 
+# Test     709 failed on line 3
+#  Expected data: 00000008 
+#  Actual data: 00000010 
+#  Operator:  6 
+#  1st Operand: 00000010 
+#  2nd Operand: 00000001 
+# 
+# Test     710 failed on line 3
+#  Expected data: 00000010 
+#  Actual data: 00000020 
+#  Operator:  6 
+#  1st Operand: 00000020 
+#  2nd Operand: 00000001 
+# 
+# Test     582 failed on line 2
+#  Expected data: 0000001f 
+#  Actual data: 00000000 
+#  Operator:  2 
+#  1st Operand: 00000020 
+#  2nd Operand: 00000001 
+# 
+# Test     583 failed on line 2
+#  Expected data: 0000003f 
+#  Actual data: 00000000 
+#  Operator:  2 
+#  1st Operand: 00000040 
+#  2nd Operand: 00000001 
+# 
+# Test     711 failed on line 3
+#  Expected data: 00000020 
+#  Actual data: 00000040 
+#  Operator:  6 
+#  1st Operand: 00000040 
+#  2nd Operand: 00000001 
+# 
+# Test     712 failed on line 3
+#  Expected data: 00000040 
+#  Actual data: 00000080 
+#  Operator:  6 
+#  1st Operand: 00000080 
+#  2nd Operand: 00000001 
+# 
+# Test     584 failed on line 2
+#  Expected data: 0000007f 
+#  Actual data: 00000000 
+#  Operator:  2 
+#  1st Operand: 00000080 
+#  2nd Operand: 00000001 
+# 
+# Test     585 failed on line 2
+#  Expected data: 000000ff 
+#  Actual data: 00000000 
+#  Operator:  2 
+#  1st Operand: 00000100 
+#  2nd Operand: 00000001 
+# 
+# Test     713 failed on line 3
+#  Expected data: 00000080 
+#  Actual data: 00000100 
+#  Operator:  6 
+#  1st Operand: 00000100 
+#  2nd Operand: 00000001 
+# 
+# Test     714 failed on line 3
+#  Expected data: 00000100 
+#  Actual data: 00000200 
+#  Operator:  6 
+#  1st Operand: 00000200 
+#  2nd Operand: 00000001 
+# 
+# Test     586 failed on line 2
+#  Expected data: 000001ff 
+#  Actual data: 00000000 
+#  Operator:  2 
+#  1st Operand: 00000200 
+#  2nd Operand: 00000001 
+# 
+# Test     587 failed on line 2
+#  Expected data: 000003ff 
+#  Actual data: 00000000 
+#  Operator:  2 
+#  1st Operand: 00000400 
+#  2nd Operand: 00000001 
+# 
+# Test     715 failed on line 3
+#  Expected data: 00000200 
+#  Actual data: 00000400 
+#  Operator:  6 
+#  1st Operand: 00000400 
+#  2nd Operand: 00000001 
+# 
+# Test     716 failed on line 3
+#  Expected data: 00000400 
+#  Actual data: 00000800 
+#  Operator:  6 
+#  1st Operand: 00000800 
+#  2nd Operand: 00000001 
+# 
+# Test     588 failed on line 2
+#  Expected data: 000007ff 
+#  Actual data: 00000000 
+#  Operator:  2 
+#  1st Operand: 00000800 
+#  2nd Operand: 00000001 
+# 
+# Test     589 failed on line 2
+#  Expected data: 00000fff 
+#  Actual data: 00000000 
+#  Operator:  2 
+#  1st Operand: 00001000 
+#  2nd Operand: 00000001 
+# 
+# Test     717 failed on line 3
+#  Expected data: 00000800 
+#  Actual data: 00001000 
+#  Operator:  6 
+#  1st Operand: 00001000 
+#  2nd Operand: 00000001 
+# 
+# Test     718 failed on line 3
+#  Expected data: 00001000 
+#  Actual data: 00002000 
+#  Operator:  6 
+#  1st Operand: 00002000 
+#  2nd Operand: 00000001 
+# 
+# Test     590 failed on line 2
+#  Expected data: 00001fff 
+#  Actual data: 00000000 
+#  Operator:  2 
+#  1st Operand: 00002000 
+#  2nd Operand: 00000001 
+# 
+# Test     591 failed on line 2
+#  Expected data: 00003fff 
+#  Actual data: 00000000 
+#  Operator:  2 
+#  1st Operand: 00004000 
+#  2nd Operand: 00000001 
+# 
+# Test     719 failed on line 3
+#  Expected data: 00002000 
+#  Actual data: 00004000 
+#  Operator:  6 
+#  1st Operand: 00004000 
+#  2nd Operand: 00000001 
+# 
+# Test     720 failed on line 3
+#  Expected data: 00004000 
+#  Actual data: 00008000 
+#  Operator:  6 
+#  1st Operand: 00008000 
+#  2nd Operand: 00000001 
+# 
+# Test     592 failed on line 2
+#  Expected data: 00007fff 
+#  Actual data: 00000000 
+#  Operator:  2 
+#  1st Operand: 00008000 
+#  2nd Operand: 00000001 
+# 
+# Test     593 failed on line 2
+#  Expected data: 0000ffff 
+#  Actual data: 00000000 
+#  Operator:  2 
+#  1st Operand: 00010000 
+#  2nd Operand: 00000001 
+# 
+# Test     721 failed on line 3
+#  Expected data: 00008000 
+#  Actual data: 00010000 
+#  Operator:  6 
+#  1st Operand: 00010000 
+#  2nd Operand: 00000001 
+# 
+# Test     722 failed on line 3
+#  Expected data: 00010000 
+#  Actual data: 00020000 
+#  Operator:  6 
+#  1st Operand: 00020000 
+#  2nd Operand: 00000001 
+# 
+# Test     594 failed on line 2
+#  Expected data: 0001ffff 
+#  Actual data: 00000000 
+#  Operator:  2 
+#  1st Operand: 00020000 
+#  2nd Operand: 00000001 
+# 
+# Test     595 failed on line 2
+#  Expected data: 0003ffff 
+#  Actual data: 00000000 
+#  Operator:  2 
+#  1st Operand: 00040000 
+#  2nd Operand: 00000001 
+# 
+# Test     723 failed on line 3
+#  Expected data: 00020000 
+#  Actual data: 00040000 
+#  Operator:  6 
+#  1st Operand: 00040000 
+#  2nd Operand: 00000001 
+# 
+# Test     724 failed on line 3
+#  Expected data: 00040000 
+#  Actual data: 00080000 
+#  Operator:  6 
+#  1st Operand: 00080000 
+#  2nd Operand: 00000001 
+# 
+# Test     596 failed on line 2
+#  Expected data: 0007ffff 
+#  Actual data: 00000000 
+#  Operator:  2 
+#  1st Operand: 00080000 
+#  2nd Operand: 00000001 
+# 
+# Test     597 failed on line 2
+#  Expected data: 000fffff 
+#  Actual data: 00000000 
+#  Operator:  2 
+#  1st Operand: 00100000 
+#  2nd Operand: 00000001 
+# 
+# Test     725 failed on line 3
+#  Expected data: 00080000 
+#  Actual data: 00100000 
+#  Operator:  6 
+#  1st Operand: 00100000 
+#  2nd Operand: 00000001 
+# 
+# Test     726 failed on line 3
+#  Expected data: 00100000 
+#  Actual data: 00200000 
+#  Operator:  6 
+#  1st Operand: 00200000 
+#  2nd Operand: 00000001 
+# 
+# Test     598 failed on line 2
+#  Expected data: 001fffff 
+#  Actual data: 00000000 
+#  Operator:  2 
+#  1st Operand: 00200000 
+#  2nd Operand: 00000001 
+# 
+# Test     599 failed on line 2
+#  Expected data: 003fffff 
+#  Actual data: 00000000 
+#  Operator:  2 
+#  1st Operand: 00400000 
+#  2nd Operand: 00000001 
+# 
+# Test     727 failed on line 3
+#  Expected data: 00200000 
+#  Actual data: 00400000 
+#  Operator:  6 
+#  1st Operand: 00400000 
+#  2nd Operand: 00000001 
+# 
+# Test     728 failed on line 3
+#  Expected data: 00400000 
+#  Actual data: 00800000 
+#  Operator:  6 
+#  1st Operand: 00800000 
+#  2nd Operand: 00000001 
+# 
+# Test     600 failed on line 2
+#  Expected data: 007fffff 
+#  Actual data: 00000000 
+#  Operator:  2 
+#  1st Operand: 00800000 
+#  2nd Operand: 00000001 
+# 
+# Test     601 failed on line 2
+#  Expected data: 00ffffff 
+#  Actual data: 00000000 
+#  Operator:  2 
+#  1st Operand: 01000000 
+#  2nd Operand: 00000001 
+# 
+# Test     729 failed on line 3
+#  Expected data: 00800000 
+#  Actual data: 01000000 
+#  Operator:  6 
+#  1st Operand: 01000000 
+#  2nd Operand: 00000001 
+# 
+# Test     730 failed on line 3
+#  Expected data: 01000000 
+#  Actual data: 02000000 
+#  Operator:  6 
+#  1st Operand: 02000000 
+#  2nd Operand: 00000001 
+# 
+# Test     602 failed on line 2
+#  Expected data: 01ffffff 
+#  Actual data: 00000000 
+#  Operator:  2 
+#  1st Operand: 02000000 
+#  2nd Operand: 00000001 
+# 
+# Test     603 failed on line 2
+#  Expected data: 03ffffff 
+#  Actual data: 00000000 
+#  Operator:  2 
+#  1st Operand: 04000000 
+#  2nd Operand: 00000001 
+# 
+# Test     731 failed on line 3
+#  Expected data: 02000000 
+#  Actual data: 04000000 
+#  Operator:  6 
+#  1st Operand: 04000000 
+#  2nd Operand: 00000001 
+# 
+# Test     732 failed on line 3
+#  Expected data: 04000000 
+#  Actual data: 08000000 
+#  Operator:  6 
+#  1st Operand: 08000000 
+#  2nd Operand: 00000001 
+# 
+# Test     604 failed on line 2
+#  Expected data: 07ffffff 
+#  Actual data: 00000000 
+#  Operator:  2 
+#  1st Operand: 08000000 
+#  2nd Operand: 00000001 
+# 
+# Test     605 failed on line 2
+#  Expected data: 0fffffff 
+#  Actual data: 00000000 
+#  Operator:  2 
+#  1st Operand: 10000000 
+#  2nd Operand: 00000001 
+# 
+# Test     733 failed on line 3
+#  Expected data: 08000000 
+#  Actual data: 10000000 
+#  Operator:  6 
+#  1st Operand: 10000000 
+#  2nd Operand: 00000001 
+# 
+# Test     734 failed on line 3
+#  Expected data: 10000000 
+#  Actual data: 20000000 
+#  Operator:  6 
+#  1st Operand: 20000000 
+#  2nd Operand: 00000001 
+# 
+# Test     606 failed on line 2
+#  Expected data: 1fffffff 
+#  Actual data: 00000000 
+#  Operator:  2 
+#  1st Operand: 20000000 
+#  2nd Operand: 00000001 
+# 
+# Test     607 failed on line 2
+#  Expected data: 3fffffff 
+#  Actual data: 00000000 
+#  Operator:  2 
+#  1st Operand: 40000000 
+#  2nd Operand: 00000001 
+# 
+# Test     735 failed on line 3
+#  Expected data: 20000000 
+#  Actual data: 40000000 
+#  Operator:  6 
+#  1st Operand: 40000000 
+#  2nd Operand: 00000001 
+# 
+# Test     736 failed on line 3
+#  Expected data: 40000000 
+#  Actual data: 80000000 
+#  Operator:  6 
+#  1st Operand: 80000000 
+#  2nd Operand: 00000001 
+# 
+# Test     608 failed on line 2
+#  Expected data: 7fffffff 
+#  Actual data: 00000000 
+#  Operator:  2 
+#  1st Operand: 80000000 
+#  2nd Operand: 00000001 
+# 
+# Test     738 failed on line 2
+#  Expected data: 00000001 
+#  Actual data: 00000000 
+#  Operator:  6 
+#  1st Operand: 00000002 
+#  2nd Operand: 00000001 
+# 
+# Test     739 failed on line 2
+#  Expected data: 00000002 
+#  Actual data: 00000000 
+#  Operator:  6 
+#  1st Operand: 00000004 
+#  2nd Operand: 00000001 
+# 
+# Test     740 failed on line 2
+#  Expected data: 00000004 
+#  Actual data: 00000000 
+#  Operator:  6 
+#  1st Operand: 00000008 
+#  2nd Operand: 00000001 
+# 
+# Test     741 failed on line 2
+#  Expected data: 00000008 
+#  Actual data: 00000000 
+#  Operator:  6 
+#  1st Operand: 00000010 
+#  2nd Operand: 00000001 
+# 
+# Test     742 failed on line 2
+#  Expected data: 00000010 
+#  Actual data: 00000000 
+#  Operator:  6 
+#  1st Operand: 00000020 
+#  2nd Operand: 00000001 
+# 
+# Test     743 failed on line 2
+#  Expected data: 00000020 
+#  Actual data: 00000000 
+#  Operator:  6 
+#  1st Operand: 00000040 
+#  2nd Operand: 00000001 
+# 
+# Test     744 failed on line 2
+#  Expected data: 00000040 
+#  Actual data: 00000000 
+#  Operator:  6 
+#  1st Operand: 00000080 
+#  2nd Operand: 00000001 
+# 
+# Test     745 failed on line 2
+#  Expected data: 00000080 
+#  Actual data: 00000000 
+#  Operator:  6 
+#  1st Operand: 00000100 
+#  2nd Operand: 00000001 
+# 
+# Test     746 failed on line 2
+#  Expected data: 00000100 
+#  Actual data: 00000000 
+#  Operator:  6 
+#  1st Operand: 00000200 
+#  2nd Operand: 00000001 
+# 
+# Test     747 failed on line 2
+#  Expected data: 00000200 
+#  Actual data: 00000000 
+#  Operator:  6 
+#  1st Operand: 00000400 
+#  2nd Operand: 00000001 
+# 
+# Test     748 failed on line 2
+#  Expected data: 00000400 
+#  Actual data: 00000000 
+#  Operator:  6 
+#  1st Operand: 00000800 
+#  2nd Operand: 00000001 
+# 
+# Test     749 failed on line 2
+#  Expected data: 00000800 
+#  Actual data: 00000000 
+#  Operator:  6 
+#  1st Operand: 00001000 
+#  2nd Operand: 00000001 
+# 
+# Test     750 failed on line 2
+#  Expected data: 00001000 
+#  Actual data: 00000000 
+#  Operator:  6 
+#  1st Operand: 00002000 
+#  2nd Operand: 00000001 
+# 
+# Test     751 failed on line 2
+#  Expected data: 00002000 
+#  Actual data: 00000000 
+#  Operator:  6 
+#  1st Operand: 00004000 
+#  2nd Operand: 00000001 
+# 
+# Test     752 failed on line 2
+#  Expected data: 00004000 
+#  Actual data: 00000000 
+#  Operator:  6 
+#  1st Operand: 00008000 
+#  2nd Operand: 00000001 
+# 
+# Test     753 failed on line 2
+#  Expected data: 00008000 
+#  Actual data: 00000000 
+#  Operator:  6 
+#  1st Operand: 00010000 
+#  2nd Operand: 00000001 
+# 
+# Test     754 failed on line 2
+#  Expected data: 00010000 
+#  Actual data: 00000000 
+#  Operator:  6 
+#  1st Operand: 00020000 
+#  2nd Operand: 00000001 
+# 
+# Test     755 failed on line 2
+#  Expected data: 00020000 
+#  Actual data: 00000000 
+#  Operator:  6 
+#  1st Operand: 00040000 
+#  2nd Operand: 00000001 
+# 
+# Test     756 failed on line 2
+#  Expected data: 00040000 
+#  Actual data: 00000000 
+#  Operator:  6 
+#  1st Operand: 00080000 
+#  2nd Operand: 00000001 
+# 
+# Test     757 failed on line 2
+#  Expected data: 00080000 
+#  Actual data: 00000000 
+#  Operator:  6 
+#  1st Operand: 00100000 
+#  2nd Operand: 00000001 
+# 
+# Test     758 failed on line 2
+#  Expected data: 00100000 
+#  Actual data: 00000000 
+#  Operator:  6 
+#  1st Operand: 00200000 
+#  2nd Operand: 00000001 
+# 
+# Test     759 failed on line 2
+#  Expected data: 00200000 
+#  Actual data: 00000000 
+#  Operator:  6 
+#  1st Operand: 00400000 
+#  2nd Operand: 00000001 
+# 
+# Test     760 failed on line 2
+#  Expected data: 00400000 
+#  Actual data: 00000000 
+#  Operator:  6 
+#  1st Operand: 00800000 
+#  2nd Operand: 00000001 
+# 
+# Test     761 failed on line 2
+#  Expected data: 00800000 
+#  Actual data: 00000000 
+#  Operator:  6 
+#  1st Operand: 01000000 
+#  2nd Operand: 00000001 
+# 
+# Test     762 failed on line 2
+#  Expected data: 01000000 
+#  Actual data: 00000000 
+#  Operator:  6 
+#  1st Operand: 02000000 
+#  2nd Operand: 00000001 
+# 
+# Test     763 failed on line 2
+#  Expected data: 02000000 
+#  Actual data: 00000000 
+#  Operator:  6 
+#  1st Operand: 04000000 
+#  2nd Operand: 00000001 
+# 
+# Test     764 failed on line 2
+#  Expected data: 04000000 
+#  Actual data: 00000000 
+#  Operator:  6 
+#  1st Operand: 08000000 
+#  2nd Operand: 00000001 
+# 
+# Test     765 failed on line 2
+#  Expected data: 08000000 
+#  Actual data: 00000000 
+#  Operator:  6 
+#  1st Operand: 10000000 
+#  2nd Operand: 00000001 
+# 
+# Test     766 failed on line 2
+#  Expected data: 10000000 
+#  Actual data: 00000000 
+#  Operator:  6 
+#  1st Operand: 20000000 
+#  2nd Operand: 00000001 
+# 
+# Test     767 failed on line 2
+#  Expected data: 20000000 
+#  Actual data: 00000000 
+#  Operator:  6 
+#  1st Operand: 40000000 
+#  2nd Operand: 00000001 
+# 
+# Test     768 failed on line 2
+#  Expected data: 40000000 
+#  Actual data: 00000000 
+#  Operator:  6 
+#  1st Operand: 80000000 
+#  2nd Operand: 00000001 
+# 
+# Test     769 failed on line 1
+#  Expected data: 00000000 
+#  Actual data: 00000001 
+#  Operator:  6 
+#  1st Operand: 00000001 
+#  2nd Operand: 00000001 
+# 
+# Test     641 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: 00000001 
+#  2nd Operand: 00000001 
+# 
+# Test     770 failed on line 1
+#  Expected data: 00000001 
+#  Actual data: 00000002 
+#  Operator:  6 
+#  1st Operand: 00000002 
+#  2nd Operand: 00000001 
+# 
+# Test     642 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: 00000002 
+#  2nd Operand: 00000001 
+# 
+# Test     771 failed on line 1
+#  Expected data: 00000002 
+#  Actual data: 00000004 
+#  Operator:  6 
+#  1st Operand: 00000004 
+#  2nd Operand: 00000001 
+# 
+# Test     643 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: 00000004 
+#  2nd Operand: 00000001 
+# 
+# Test     772 failed on line 1
+#  Expected data: 00000004 
+#  Actual data: 00000008 
+#  Operator:  6 
+#  1st Operand: 00000008 
+#  2nd Operand: 00000001 
+# 
+# Test     644 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: 00000008 
+#  2nd Operand: 00000001 
+# 
+# Test     773 failed on line 1
+#  Expected data: 00000008 
+#  Actual data: 00000010 
+#  Operator:  6 
+#  1st Operand: 00000010 
+#  2nd Operand: 00000001 
+# 
+# Test     645 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: 00000010 
+#  2nd Operand: 00000001 
+# 
+# Test     774 failed on line 1
+#  Expected data: 00000010 
+#  Actual data: 00000020 
+#  Operator:  6 
+#  1st Operand: 00000020 
+#  2nd Operand: 00000001 
+# 
+# Test     646 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: 00000020 
+#  2nd Operand: 00000001 
+# 
+# Test     775 failed on line 1
+#  Expected data: 00000020 
+#  Actual data: 00000040 
+#  Operator:  6 
+#  1st Operand: 00000040 
+#  2nd Operand: 00000001 
+# 
+# Test     647 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: 00000040 
+#  2nd Operand: 00000001 
+# 
+# Test     776 failed on line 1
+#  Expected data: 00000040 
+#  Actual data: 00000080 
+#  Operator:  6 
+#  1st Operand: 00000080 
+#  2nd Operand: 00000001 
+# 
+# Test     648 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: 00000080 
+#  2nd Operand: 00000001 
+# 
+# Test     777 failed on line 1
+#  Expected data: 00000080 
+#  Actual data: 00000100 
+#  Operator:  6 
+#  1st Operand: 00000100 
+#  2nd Operand: 00000001 
+# 
+# Test     649 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: 00000100 
+#  2nd Operand: 00000001 
+# 
+# Test     778 failed on line 1
+#  Expected data: 00000100 
+#  Actual data: 00000200 
+#  Operator:  6 
+#  1st Operand: 00000200 
+#  2nd Operand: 00000001 
+# 
+# Test     650 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: 00000200 
+#  2nd Operand: 00000001 
+# 
+# Test     779 failed on line 1
+#  Expected data: 00000200 
+#  Actual data: 00000400 
+#  Operator:  6 
+#  1st Operand: 00000400 
+#  2nd Operand: 00000001 
+# 
+# Test     651 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: 00000400 
+#  2nd Operand: 00000001 
+# 
+# Test     780 failed on line 1
+#  Expected data: 00000400 
+#  Actual data: 00000800 
+#  Operator:  6 
+#  1st Operand: 00000800 
+#  2nd Operand: 00000001 
+# 
+# Test     652 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: 00000800 
+#  2nd Operand: 00000001 
+# 
+# Test     781 failed on line 1
+#  Expected data: 00000800 
+#  Actual data: 00001000 
+#  Operator:  6 
+#  1st Operand: 00001000 
+#  2nd Operand: 00000001 
+# 
+# Test     653 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: 00001000 
+#  2nd Operand: 00000001 
+# 
+# Test     782 failed on line 1
+#  Expected data: 00001000 
+#  Actual data: 00002000 
+#  Operator:  6 
+#  1st Operand: 00002000 
+#  2nd Operand: 00000001 
+# 
+# Test     654 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: 00002000 
+#  2nd Operand: 00000001 
+# 
+# Test     783 failed on line 1
+#  Expected data: 00002000 
+#  Actual data: 00004000 
+#  Operator:  6 
+#  1st Operand: 00004000 
+#  2nd Operand: 00000001 
+# 
+# Test     655 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: 00004000 
+#  2nd Operand: 00000001 
+# 
+# Test     784 failed on line 1
+#  Expected data: 00004000 
+#  Actual data: 00008000 
+#  Operator:  6 
+#  1st Operand: 00008000 
+#  2nd Operand: 00000001 
+# 
+# Test     656 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: 00008000 
+#  2nd Operand: 00000001 
+# 
+# Test     785 failed on line 1
+#  Expected data: 00008000 
+#  Actual data: 00010000 
+#  Operator:  6 
+#  1st Operand: 00010000 
+#  2nd Operand: 00000001 
+# 
+# Test     657 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: 00010000 
+#  2nd Operand: 00000001 
+# 
+# Test     786 failed on line 1
+#  Expected data: 00010000 
+#  Actual data: 00020000 
+#  Operator:  6 
+#  1st Operand: 00020000 
+#  2nd Operand: 00000001 
+# 
+# Test     658 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: 00020000 
+#  2nd Operand: 00000001 
+# 
+# Test     787 failed on line 1
+#  Expected data: 00020000 
+#  Actual data: 00040000 
+#  Operator:  6 
+#  1st Operand: 00040000 
+#  2nd Operand: 00000001 
+# 
+# Test     659 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: 00040000 
+#  2nd Operand: 00000001 
+# 
+# Test     788 failed on line 1
+#  Expected data: 00040000 
+#  Actual data: 00080000 
+#  Operator:  6 
+#  1st Operand: 00080000 
+#  2nd Operand: 00000001 
+# 
+# Test     660 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: 00080000 
+#  2nd Operand: 00000001 
+# 
+# Test     789 failed on line 1
+#  Expected data: 00080000 
+#  Actual data: 00100000 
+#  Operator:  6 
+#  1st Operand: 00100000 
+#  2nd Operand: 00000001 
+# 
+# Test     661 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: 00100000 
+#  2nd Operand: 00000001 
+# 
+# Test     790 failed on line 1
+#  Expected data: 00100000 
+#  Actual data: 00200000 
+#  Operator:  6 
+#  1st Operand: 00200000 
+#  2nd Operand: 00000001 
+# 
+# Test     662 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: 00200000 
+#  2nd Operand: 00000001 
+# 
+# Test     791 failed on line 1
+#  Expected data: 00200000 
+#  Actual data: 00400000 
+#  Operator:  6 
+#  1st Operand: 00400000 
+#  2nd Operand: 00000001 
+# 
+# Test     663 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: 00400000 
+#  2nd Operand: 00000001 
+# 
+# Test     792 failed on line 1
+#  Expected data: 00400000 
+#  Actual data: 00800000 
+#  Operator:  6 
+#  1st Operand: 00800000 
+#  2nd Operand: 00000001 
+# 
+# Test     664 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: 00800000 
+#  2nd Operand: 00000001 
+# 
+# Test     793 failed on line 1
+#  Expected data: 00800000 
+#  Actual data: 01000000 
+#  Operator:  6 
+#  1st Operand: 01000000 
+#  2nd Operand: 00000001 
+# 
+# Test     665 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: 01000000 
+#  2nd Operand: 00000001 
+# 
+# Test     794 failed on line 1
+#  Expected data: 01000000 
+#  Actual data: 02000000 
+#  Operator:  6 
+#  1st Operand: 02000000 
+#  2nd Operand: 00000001 
+# 
+# Test     666 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: 02000000 
+#  2nd Operand: 00000001 
+# 
+# Test     795 failed on line 1
+#  Expected data: 02000000 
+#  Actual data: 04000000 
+#  Operator:  6 
+#  1st Operand: 04000000 
+#  2nd Operand: 00000001 
+# 
+# Test     667 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: 04000000 
+#  2nd Operand: 00000001 
+# 
+# Test     796 failed on line 1
+#  Expected data: 04000000 
+#  Actual data: 08000000 
+#  Operator:  6 
+#  1st Operand: 08000000 
+#  2nd Operand: 00000001 
+# 
+# Test     668 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: 08000000 
+#  2nd Operand: 00000001 
+# 
+# Test     797 failed on line 1
+#  Expected data: 08000000 
+#  Actual data: 10000000 
+#  Operator:  6 
+#  1st Operand: 10000000 
+#  2nd Operand: 00000001 
+# 
+# Test     669 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: 10000000 
+#  2nd Operand: 00000001 
+# 
+# Test     798 failed on line 1
+#  Expected data: 10000000 
+#  Actual data: 20000000 
+#  Operator:  6 
+#  1st Operand: 20000000 
+#  2nd Operand: 00000001 
+# 
+# Test     670 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: 20000000 
+#  2nd Operand: 00000001 
+# 
+# Test     799 failed on line 1
+#  Expected data: 20000000 
+#  Actual data: 40000000 
+#  Operator:  6 
+#  1st Operand: 40000000 
+#  2nd Operand: 00000001 
+# 
+# Test     671 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: 40000000 
+#  2nd Operand: 00000001 
+# 
+# Test     800 failed on line 1
+#  Expected data: 40000000 
+#  Actual data: 80000000 
+#  Operator:  6 
+#  1st Operand: 80000000 
+#  2nd Operand: 00000001 
+# 
+# Test     672 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: 80000000 
+#  2nd Operand: 00000001 
+# 
+# Test     929 failed on line 4
+#  Expected data: 7fffffff 
+#  Actual data: ffffffff 
+#  Operator:  6 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000001 
+# 
+# Test     833 failed on line 2
+#  Expected data: fffffffe 
+#  Actual data: 00000000 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000001 
+# 
+# Test     961 failed on line 3
+#  Expected data: 7fffffff 
+#  Actual data: ffffffff 
+#  Operator:  6 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000001 
+# 
+# Test     834 failed on line 2
+#  Expected data: fffffffd 
+#  Actual data: 00000000 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000002 
+# 
+# Test     835 failed on line 2
+#  Expected data: fffffffb 
+#  Actual data: 00000000 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000004 
+# 
+# Test     836 failed on line 2
+#  Expected data: fffffff7 
+#  Actual data: 00000000 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000008 
+# 
+# Test     837 failed on line 2
+#  Expected data: ffffffef 
+#  Actual data: 00000000 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000010 
+# 
+# Test     838 failed on line 2
+#  Expected data: ffffffdf 
+#  Actual data: 00000000 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000020 
+# 
+# Test     839 failed on line 2
+#  Expected data: ffffffbf 
+#  Actual data: 00000000 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000040 
+# 
+# Test     840 failed on line 2
+#  Expected data: ffffff7f 
+#  Actual data: 00000000 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000080 
+# 
+# Test     841 failed on line 2
+#  Expected data: fffffeff 
+#  Actual data: 00000000 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000100 
+# 
+# Test     842 failed on line 2
+#  Expected data: fffffdff 
+#  Actual data: 00000000 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000200 
+# 
+# Test     843 failed on line 2
+#  Expected data: fffffbff 
+#  Actual data: 00000000 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000400 
+# 
+# Test     844 failed on line 2
+#  Expected data: fffff7ff 
+#  Actual data: 00000000 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000800 
+# 
+# Test     845 failed on line 2
+#  Expected data: ffffefff 
+#  Actual data: 00000000 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00001000 
+# 
+# Test     846 failed on line 2
+#  Expected data: ffffdfff 
+#  Actual data: 00000000 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00002000 
+# 
+# Test     847 failed on line 2
+#  Expected data: ffffbfff 
+#  Actual data: 00000000 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00004000 
+# 
+# Test     848 failed on line 2
+#  Expected data: ffff7fff 
+#  Actual data: 00000000 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00008000 
+# 
+# Test     849 failed on line 2
+#  Expected data: fffeffff 
+#  Actual data: 00000000 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00010000 
+# 
+# Test     850 failed on line 2
+#  Expected data: fffdffff 
+#  Actual data: 00000000 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00020000 
+# 
+# Test     851 failed on line 2
+#  Expected data: fffbffff 
+#  Actual data: 00000000 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00040000 
+# 
+# Test     852 failed on line 2
+#  Expected data: fff7ffff 
+#  Actual data: 00000000 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00080000 
+# 
+# Test     853 failed on line 2
+#  Expected data: ffefffff 
+#  Actual data: 00000000 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00100000 
+# 
+# Test     854 failed on line 2
+#  Expected data: ffdfffff 
+#  Actual data: 00000000 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00200000 
+# 
+# Test     855 failed on line 2
+#  Expected data: ffbfffff 
+#  Actual data: 00000000 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00400000 
+# 
+# Test     856 failed on line 2
+#  Expected data: ff7fffff 
+#  Actual data: 00000000 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00800000 
+# 
+# Test     857 failed on line 2
+#  Expected data: feffffff 
+#  Actual data: 00000000 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 01000000 
+# 
+# Test     858 failed on line 2
+#  Expected data: fdffffff 
+#  Actual data: 00000000 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 02000000 
+# 
+# Test     859 failed on line 2
+#  Expected data: fbffffff 
+#  Actual data: 00000000 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 04000000 
+# 
+# Test     860 failed on line 2
+#  Expected data: f7ffffff 
+#  Actual data: 00000000 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 08000000 
+# 
+# Test     861 failed on line 2
+#  Expected data: efffffff 
+#  Actual data: 00000000 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 10000000 
+# 
+# Test     862 failed on line 2
+#  Expected data: dfffffff 
+#  Actual data: 00000000 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 20000000 
+# 
+# Test     863 failed on line 2
+#  Expected data: bfffffff 
+#  Actual data: 00000000 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 40000000 
+# 
+# Test     864 failed on line 2
+#  Expected data: 7fffffff 
+#  Actual data: 00000000 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 80000000 
+# 
+# Test     993 failed on line 2
+#  Expected data: 7fffffff 
+#  Actual data: 00000000 
+#  Operator:  6 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000001 
+# 
+# Test     994 failed on line 2
+#  Expected data: 3fffffff 
+#  Actual data: 00000000 
+#  Operator:  6 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000002 
+# 
+# Test     995 failed on line 2
+#  Expected data: 1fffffff 
+#  Actual data: 00000000 
+#  Operator:  6 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000003 
+# 
+# Test     996 failed on line 2
+#  Expected data: 0fffffff 
+#  Actual data: 00000000 
+#  Operator:  6 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000004 
+# 
+# Test     997 failed on line 2
+#  Expected data: 07ffffff 
+#  Actual data: 00000000 
+#  Operator:  6 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000005 
+# 
+# Test     998 failed on line 2
+#  Expected data: 03ffffff 
+#  Actual data: 00000000 
+#  Operator:  6 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000006 
+# 
+# Test     999 failed on line 2
+#  Expected data: 01ffffff 
+#  Actual data: 00000000 
+#  Operator:  6 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000007 
+# 
+# Test    1000 failed on line 2
+#  Expected data: 00ffffff 
+#  Actual data: 00000000 
+#  Operator:  6 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000008 
+# 
+# Test    1001 failed on line 2
+#  Expected data: 007fffff 
+#  Actual data: 00000000 
+#  Operator:  6 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000009 
+# 
+# Test    1002 failed on line 2
+#  Expected data: 003fffff 
+#  Actual data: 00000000 
+#  Operator:  6 
+#  1st Operand: ffffffff 
+#  2nd Operand: 0000000a 
+# 
+# Test    1003 failed on line 2
+#  Expected data: 001fffff 
+#  Actual data: 00000000 
+#  Operator:  6 
+#  1st Operand: ffffffff 
+#  2nd Operand: 0000000b 
+# 
+# Test    1004 failed on line 2
+#  Expected data: 000fffff 
+#  Actual data: 00000000 
+#  Operator:  6 
+#  1st Operand: ffffffff 
+#  2nd Operand: 0000000c 
+# 
+# Test    1005 failed on line 2
+#  Expected data: 0007ffff 
+#  Actual data: 00000000 
+#  Operator:  6 
+#  1st Operand: ffffffff 
+#  2nd Operand: 0000000d 
+# 
+# Test    1006 failed on line 2
+#  Expected data: 0003ffff 
+#  Actual data: 00000000 
+#  Operator:  6 
+#  1st Operand: ffffffff 
+#  2nd Operand: 0000000e 
+# 
+# Test    1007 failed on line 2
+#  Expected data: 0001ffff 
+#  Actual data: 00000000 
+#  Operator:  6 
+#  1st Operand: ffffffff 
+#  2nd Operand: 0000000f 
+# 
+# Test    1008 failed on line 2
+#  Expected data: 0000ffff 
+#  Actual data: 00000000 
+#  Operator:  6 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000010 
+# 
+# Test    1009 failed on line 2
+#  Expected data: 00007fff 
+#  Actual data: 00000000 
+#  Operator:  6 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000011 
+# 
+# Test    1010 failed on line 2
+#  Expected data: 00003fff 
+#  Actual data: 00000000 
+#  Operator:  6 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000012 
+# 
+# Test    1011 failed on line 2
+#  Expected data: 00001fff 
+#  Actual data: 00000000 
+#  Operator:  6 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000013 
+# 
+# Test    1012 failed on line 2
+#  Expected data: 00000fff 
+#  Actual data: 00000000 
+#  Operator:  6 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000014 
+# 
+# Test    1013 failed on line 2
+#  Expected data: 000007ff 
+#  Actual data: 00000000 
+#  Operator:  6 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000015 
+# 
+# Test    1014 failed on line 2
+#  Expected data: 000003ff 
+#  Actual data: 00000000 
+#  Operator:  6 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000016 
+# 
+# Test    1015 failed on line 2
+#  Expected data: 000001ff 
+#  Actual data: 00000000 
+#  Operator:  6 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000017 
+# 
+# Test    1016 failed on line 2
+#  Expected data: 000000ff 
+#  Actual data: 00000000 
+#  Operator:  6 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000018 
+# 
+# Test    1017 failed on line 2
+#  Expected data: 0000007f 
+#  Actual data: 00000000 
+#  Operator:  6 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000019 
+# 
+# Test    1018 failed on line 2
+#  Expected data: 0000003f 
+#  Actual data: 00000000 
+#  Operator:  6 
+#  1st Operand: ffffffff 
+#  2nd Operand: 0000001a 
+# 
+# Test    1019 failed on line 2
+#  Expected data: 0000001f 
+#  Actual data: 00000000 
+#  Operator:  6 
+#  1st Operand: ffffffff 
+#  2nd Operand: 0000001b 
+# 
+# Test    1020 failed on line 2
+#  Expected data: 0000000f 
+#  Actual data: 00000000 
+#  Operator:  6 
+#  1st Operand: ffffffff 
+#  2nd Operand: 0000001c 
+# 
+# Test    1021 failed on line 2
+#  Expected data: 00000007 
+#  Actual data: 00000000 
+#  Operator:  6 
+#  1st Operand: ffffffff 
+#  2nd Operand: 0000001d 
+# 
+# Test    1022 failed on line 2
+#  Expected data: 00000003 
+#  Actual data: 00000000 
+#  Operator:  6 
+#  1st Operand: ffffffff 
+#  2nd Operand: 0000001e 
+# 
+# Test    1023 failed on line 2
+#  Expected data: 00000001 
+#  Actual data: 00000000 
+#  Operator:  6 
+#  1st Operand: ffffffff 
+#  2nd Operand: 0000001f 
+# 
+# Test    1025 failed on line 1
+#  Expected data: 7fffffff 
+#  Actual data: ffffffff 
+#  Operator:  6 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000001 
+# 
+# Test     897 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000001 
+# 
+# Test     898 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000002 
+# 
+# Test     899 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000004 
+# 
+# Test     900 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000008 
+# 
+# Test     901 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000010 
+# 
+# Test     902 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000020 
+# 
+# Test     903 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000040 
+# 
+# Test     904 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000080 
+# 
+# Test     905 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000100 
+# 
+# Test     906 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000200 
+# 
+# Test     907 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000400 
+# 
+# Test     908 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000800 
+# 
+# Test     909 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00001000 
+# 
+# Test     910 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00002000 
+# 
+# Test     911 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00004000 
+# 
+# Test     912 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00008000 
+# 
+# Test     913 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00010000 
+# 
+# Test     914 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00020000 
+# 
+# Test     915 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00040000 
+# 
+# Test     916 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00080000 
+# 
+# Test     917 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00100000 
+# 
+# Test     918 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00200000 
+# 
+# Test     919 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00400000 
+# 
+# Test     920 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00800000 
+# 
+# Test     921 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 01000000 
+# 
+# Test     922 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 02000000 
+# 
+# Test     923 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 04000000 
+# 
+# Test     924 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 08000000 
+# 
+# Test     925 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 10000000 
+# 
+# Test     926 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 20000000 
+# 
+# Test     927 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 40000000 
+# 
+# Test     928 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: ffffffff 
+#  2nd Operand: 80000000 
+# 
+# Test    1057 failed on line 1
+#  Expected response:  2 
+#  Actual response: 1 
+#  Operator:  1 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000002 
+# 
+# Test    1057 failed on line 1
+#  Expected data: 00000000 
+#  Actual data: 00000001 
+#  Operator:  1 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000002 
+# 
+# Test    1058 failed on line 2
+#  Expected response:  2 
+#  Actual response: 1 
+#  Operator:  1 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000002 
+# 
+# Test    1059 failed on line 3
+#  Expected response:  2 
+#  Actual response: 1 
+#  Operator:  1 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000002 
+# 
+# Test    1059 failed on line 3
+#  Expected data: 00000000 
+#  Actual data: 00000001 
+#  Operator:  1 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000002 
+# 
+# Test    1063 failed on line 2
+#  Expected data: fffffffe 
+#  Actual data: 00000000 
+#  Operator:  5 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000001 
+# 
+# Test    1060 failed on line 4 due to timeout 
+#  Operator:  1 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000002 
+# 
+# Test    1065 failed on line 1
+#  Expected response:  2 
+#  Actual response: 1 
+#  Operator:  2 
+#  1st Operand: 00000001 
+#  2nd Operand: 00000002 
+# 
+# Test    1065 failed on line 1
+#  Expected data: 00000000 
+#  Actual data: ffffffff 
+#  Operator:  2 
+#  1st Operand: 00000001 
+#  2nd Operand: 00000002 
+# 
+# Test    1069 failed on line 4
+#  Expected data: 7fffffff 
+#  Actual data: ffffffff 
+#  Operator:  6 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000001 
+# 
+# Test    1070 failed on line 3
+#  Expected data: 7fffffff 
+#  Actual data: ffffffff 
+#  Operator:  6 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000001 
+# 
+# Test    1066 failed on line 2
+#  Expected response:  2 
+#  Actual response: 1 
+#  Operator:  2 
+#  1st Operand: 00000001 
+#  2nd Operand: 00000002 
+# 
+# Test    1067 failed on line 3
+#  Expected response:  2 
+#  Actual response: 1 
+#  Operator:  2 
+#  1st Operand: 00000001 
+#  2nd Operand: 00000002 
+# 
+# Test    1067 failed on line 3
+#  Expected data: 00000000 
+#  Actual data: ffffffff 
+#  Operator:  2 
+#  1st Operand: 00000001 
+#  2nd Operand: 00000002 
+# 
+# Test    1071 failed on line 2
+#  Expected data: 7fffffff 
+#  Actual data: 00000000 
+#  Operator:  6 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000001 
+# 
+# Test    1072 failed on line 1
+#  Expected data: 7fffffff 
+#  Actual data: ffffffff 
+#  Operator:  6 
+#  1st Operand: ffffffff 
+#  2nd Operand: 00000001 
+# 
+# Test    1068 failed on line 4 due to timeout 
+#  Operator:  2 
+#  1st Operand: 00000001 
+#  2nd Operand: 00000002 
+# 
+# Test    1074 failed on line 2 due to timeout or incorrect result
+# 
+# Test    1079 failed on line 2 due to timeout or incorrect result
+# 
+# Test    1076 failed on line 4 due to timeout or incorrect result
+# 
+# Test    1082 failed on line 2 due to timeout or incorrect result
+# 
+# Test    1087 failed on line 2 due to timeout or incorrect result
+# 
+# Test    1084 failed on line 4 due to timeout or incorrect result
+# 
+# Test    1091 failed on line 2 due to timeout or incorrect result
+# 
+# Test 1093: 
+# 
+# Test failed on line 1 as data in after reset is:          2 
+# 
+# Test failed on line 2 as data in after reset is:          2 
+# 
+# Test failed on line 3 as data in after reset is:          2 
+# 
+# Test failed on line 4 as data in after reset is:          2 
+# 
+# Test failed on line 1 as data in after reset is:          2 
+# 
+# Test failed on line 2 as data in after reset is:          2 
+# 
+# Test failed on line 3 as data in after reset is:          2 
+# 
+# Test failed on line 4 as data in after reset is:          2 
+# 
+# Test failed on line 1 as data in after reset is:          2 
+# 
+# Test failed on line 2 as data in after reset is:          2 
+# 
+# Test failed on line 3 as data in after reset is:          2 
+# 
+# Test failed on line 4 as data in after reset is:          2 
+# 
+# Test failed on line 1 as data in after reset is:          2 
+# 
+# Test failed on line 2 as data in after reset is:          2 
+# 
+# Test failed on line 3 as data in after reset is:          2 
+# 
+# Test failed on line 4 as data in after reset is:          2 
+# 
+# Test 1094: 
+# 
+# Test failed on line 1 as data in after reset is:         23 
+# 
+# Test failed on line 2 as data in after reset is:          2 
+# 
+# Test failed on line 3 as data in after reset is:          2 
+# 
+# Test failed on line 4 as data in after reset is:          2 
+# 
+# Test failed on line 1 as response out after reset is: 1 
+# 
+# Test failed on line 1 as data in after reset is:         23 
+# 
+# Test failed on line 2 as data in after reset is:          2 
+# 
+# Test failed on line 3 as data in after reset is:          2 
+# 
+# Test failed on line 4 as data in after reset is:          2 
+# 
+# Test failed on line 1 as data in after reset is:         23 
+# 
+# Test failed on line 2 as data in after reset is:          2 
+# 
+# Test failed on line 3 as data in after reset is:          2 
+# 
+# Test failed on line 4 as data in after reset is:          2 
+# 
+# Test failed on line 1 as command in after reset is:  1 
+# 
+# Test failed on line 2 as command in after reset is:  1 
+# 
+# Test failed on line 3 as command in after reset is:  1 
+# 
+# Test failed on line 4 as command in after reset is:  1 
+# 
+# Test    1095 failed due to a timeout with the queue
+# 
+# Test    1096 failed on line 1
+#  Expected response:  2 
+#  Actual response: 1 
+#  Operator:  3 
+#  1st Operand: 00000002 
+#  2nd Operand: 00000001 
+# 
+# Test    1096 failed on line 1
+#  Expected data: 00000000 
+#  Actual data: 00000003 
+#  Operator:  3 
+#  1st Operand: 00000002 
+#  2nd Operand: 00000001 
+# 
+# Test    1097 failed on line 2
+#  Expected response:  2 
+#  Actual response: 1 
+#  Operator:  3 
+#  1st Operand: 00000003 
+#  2nd Operand: 00000001 
+# 
+# Test    1098 failed on line 3
+#  Expected response:  2 
+#  Actual response: 1 
+#  Operator:  3 
+#  1st Operand: 00000004 
+#  2nd Operand: 00000001 
+# 
+# Test    1098 failed on line 3
+#  Expected data: 00000000 
+#  Actual data: 00000005 
+#  Operator:  3 
+#  1st Operand: 00000004 
+#  2nd Operand: 00000001 
+# 
+# Test    1099 failed on line 4 due to timeout 
+#  Operator:  3 
+#  1st Operand: 00000005 
+#  2nd Operand: 00000001 
+# 
+# Test    1100 failed on line 1
+#  Expected response:  2 
+#  Actual response: 1 
+#  Operator:  4 
+#  1st Operand: 00000002 
+#  2nd Operand: 00000001 
+# 
+# Test    1101 failed on line 2
+#  Expected response:  2 
+#  Actual response: 1 
+#  Operator:  4 
+#  1st Operand: 00000003 
+#  2nd Operand: 00000001 
+# 
+# Test    1102 failed on line 3
+#  Expected response:  2 
+#  Actual response: 1 
+#  Operator:  4 
+#  1st Operand: 00000004 
+#  2nd Operand: 00000001 
+# 
+# Test    1103 failed on line 4
+#  Expected response:  2 
+#  Actual response: 1 
+#  Operator:  4 
+#  1st Operand: 00000005 
+#  2nd Operand: 00000001 
+# 
+# Test    1104 failed on line 1
+#  Expected response:  2 
+#  Actual response: 1 
+#  Operator:  7 
+#  1st Operand: 00000002 
+#  2nd Operand: 00000001 
+# 
+# Test    1105 failed on line 2
+#  Expected response:  2 
+#  Actual response: 1 
+#  Operator:  7 
+#  1st Operand: 00000003 
+#  2nd Operand: 00000001 
+# 
+# Test    1106 failed on line 3
+#  Expected response:  2 
+#  Actual response: 1 
+#  Operator:  7 
+#  1st Operand: 00000004 
+#  2nd Operand: 00000001 
+# 
+# Test    1107 failed on line 4
+#  Expected response:  2 
+#  Actual response: 1 
+#  Operator:  7 
+#  1st Operand: 00000005 
+#  2nd Operand: 00000001 
+# 
+# ** Note: $stop    : /home/fj16315/linux/Documents/3rd_Year/Design_Verification/Assignment_1/example_calc1_tb.v(419)
+#    Time: 1385600 ns  Iteration: 0  Instance: /example_calc1_tb
+# Break in Module example_calc1_tb at /home/fj16315/linux/Documents/3rd_Year/Design_Verification/Assignment_1/example_calc1_tb.v line 419

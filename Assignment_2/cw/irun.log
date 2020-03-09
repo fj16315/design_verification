@@ -1,0 +1,4315 @@
+irun(64): 14.10-s004: (c) Copyright 1995-2014 Cadence Design Systems, Inc.
+TOOL:	irun(64)	14.10-s004: Started on Dec 21, 2018 at 16:14:09 GMT
+irun
+	test_example.e
+	calc1_sn.v
+	-gui
+	-access rw
+	-coverage all
+	-covtest test_example_report
+	-snprerun "config cover -write_model=ucm"
+	-nosncomp
+Welcome to Specman Elite(64) (14.10.004-s Build 91)  -  Linked on Sun Aug 17
+20:21:58 2014
+
+Protected by U.S. Patents 6,141,630 ;6,182,258; 6,219,809; 6,347,388;
+6,487,704; 6,499,132; 6,502,232; 6,519,727; 6,530,054; 6,675,138; 6,684,359;
+6,687,662; 6,907,599; 6,918,076; 6,920,583; Other Patents Pending.
+
+Checking license ... OK
+Loading instruction.e   (imported by calc1_sn_env.e) ...
+read...parse...update...patch...h code...code...clean...
+Loading driver.e   (imported by calc1_sn_env.e) ...
+read...parse...update...patch...h code...code...clean...
+Loading coverage.e   (imported by calc1_sn_env.e) ...
+read...parse...update...patch...h code...code...clean...
+Loading checker.e   (imported by calc1_sn_env.e) ...
+read...parse...update...patch...h code...code...clean...
+Loading calc1_sn_env.e   (imported by test_example.e) ...
+read...parse...update...patch...h code...code...clean...
+Loading test_example.e ...
+read...parse...update...patch...h code...code...clean...GC(simulator)...
+
+
+
+
+
+Initializing Incisive Enterprise Simulator(64) (14.10 Build 91)  -  Linked on Sun Aug 17 20:21:58 2014
+
+
+
+-------------------------------------
+Relinquished control to SimVision...
+ncsim> 
+ncsim> source /usr/local/cadence/2014-15/INCISIV141/tools/inca/files/ncsimrc
+ncsim> column symbol doesnt exist in tableDoing setup ...
+Generating the test with IntelliGen using seed 1433100818...
+
+   *** Warning: WARN_GEN_SAMPLING_FAILURE_IN_SOFT: The sampling of the input: [1..din1], in the soft constraint: keep soft din2==select {
+	10 : 0;
+	70 : [1..din1];
+	20 : [din1 + 1..4294967295];
+}    at line 49 in @test_example, has failed with the message:
+Cannot create interval [1..0] - must be in [low..high] format.
+		at line 51 in @test_example
+	    70 : [1 .. din1];
+
+The constraint will be ignored.
+
+		at line 49 in @test_example
+	keep soft din2 == select {
+
+
+To debug (in GUI mode), raise the warning severity, run with 'config gen -collect; br err' and issue 'gtree' when stopped. 
+For more information, search for 'debug_generation_notifications' in the Specman IntelliGen User Guide.
+
+To change the severity, type:
+set notify -severity=<new-severity-level> WARN_GEN_SAMPLING_FAILURE_IN_SOFT
+To see possible severity levels use 'set notify -help'
+
+
+   *** Warning: WARN_GEN_SAMPLING_FAILURE_IN_SOFT: The sampling of the input: [4294967297 - din1..4294967295], in the soft constraint: keep soft din2==select {
+	10 : 0;
+	70 : [1..4294967296 - din1];
+	20 : [4294967297 - din1..4294967295];
+}    at line 24 in @test_example, has failed with the message:
+Cannot create interval [4294967297..4294967295] - must be in [low..high] format.
+		at line 27 in @test_example
+	    20 : [4294967297-din1 .. 4294967295];
+
+The constraint will be ignored.
+
+		at line 24 in @test_example
+	keep soft din2 == select {
+
+
+To debug (in GUI mode), raise the warning severity, run with 'config gen -collect; br err' and issue 'gtree' when stopped. 
+For more information, search for 'debug_generation_notifications' in the Specman IntelliGen User Guide.
+
+To change the severity, type:
+set notify -severity=<new-severity-level> WARN_GEN_SAMPLING_FAILURE_IN_SOFT
+To see possible severity levels use 'set notify -help'
+
+
+   *** Warning: WARN_GEN_SAMPLING_FAILURE_IN_SOFT: The sampling of the input: [1..din1], in the soft constraint: keep soft din2==select {
+	10 : 0;
+	70 : [1..din1];
+	20 : [din1 + 1..4294967295];
+}    at line 49 in @test_example, has failed with the message:
+Cannot create interval [1..0] - must be in [low..high] format.
+		at line 51 in @test_example
+	    70 : [1 .. din1];
+
+The constraint will be ignored.
+
+		at line 49 in @test_example
+	keep soft din2 == select {
+
+
+To debug (in GUI mode), raise the warning severity, run with 'config gen -collect; br err' and issue 'gtree' when stopped. 
+For more information, search for 'debug_generation_notifications' in the Specman IntelliGen User Guide.
+
+To change the severity, type:
+set notify -severity=<new-severity-level> WARN_GEN_SAMPLING_FAILURE_IN_SOFT
+To see possible severity levels use 'set notify -help'
+
+
+   *** Warning: WARN_GEN_SAMPLING_FAILURE_IN_SOFT: The sampling of the input: [1..din1], in the soft constraint: keep soft din2==select {
+	10 : 0;
+	70 : [1..din1];
+	20 : [din1 + 1..4294967295];
+}    at line 49 in @test_example, has failed with the message:
+Cannot create interval [1..0] - must be in [low..high] format.
+		at line 51 in @test_example
+	    70 : [1 .. din1];
+
+The constraint will be ignored.
+
+		at line 49 in @test_example
+	keep soft din2 == select {
+
+
+To debug (in GUI mode), raise the warning severity, run with 'config gen -collect; br err' and issue 'gtree' when stopped. 
+For more information, search for 'debug_generation_notifications' in the Specman IntelliGen User Guide.
+
+To change the severity, type:
+set notify -severity=<new-severity-level> WARN_GEN_SAMPLING_FAILURE_IN_SOFT
+To see possible severity levels use 'set notify -help'
+
+
+   *** Warning: WARN_GEN_SAMPLING_FAILURE_IN_SOFT: The sampling of the input: [1..din1], in the soft constraint: keep soft din2==select {
+	10 : 0;
+	70 : [1..din1];
+	20 : [din1 + 1..4294967295];
+}    at line 49 in @test_example, has failed with the message:
+Cannot create interval [1..0] - must be in [low..high] format.
+		at line 51 in @test_example
+	    70 : [1 .. din1];
+
+The constraint will be ignored.
+
+		at line 49 in @test_example
+	keep soft din2 == select {
+
+
+To debug (in GUI mode), raise the warning severity, run with 'config gen -collect; br err' and issue 'gtree' when stopped. 
+For more information, search for 'debug_generation_notifications' in the Specman IntelliGen User Guide.
+
+To change the severity, type:
+set notify -severity=<new-severity-level> WARN_GEN_SAMPLING_FAILURE_IN_SOFT
+To see possible severity levels use 'set notify -help'
+
+
+   *** Warning: WARN_GEN_SAMPLING_FAILURE_IN_SOFT: The sampling of the input: [4294967297 - din1..4294967295], in the soft constraint: keep soft din2==select {
+	10 : 0;
+	70 : [1..4294967296 - din1];
+	20 : [4294967297 - din1..4294967295];
+}    at line 24 in @test_example, has failed with the message:
+Cannot create interval [4294967297..4294967295] - must be in [low..high] format.
+		at line 27 in @test_example
+	    20 : [4294967297-din1 .. 4294967295];
+
+The constraint will be ignored.
+
+		at line 24 in @test_example
+	keep soft din2 == select {
+
+
+To debug (in GUI mode), raise the warning severity, run with 'config gen -collect; br err' and issue 'gtree' when stopped. 
+For more information, search for 'debug_generation_notifications' in the Specman IntelliGen User Guide.
+
+To change the severity, type:
+set notify -severity=<new-severity-level> WARN_GEN_SAMPLING_FAILURE_IN_SOFT
+To see possible severity levels use 'set notify -help'
+
+Notification WARN_GEN_SAMPLING_FAILURE_IN_SOFT appears 6 times already - further occurrences will not be shown
+
+
+Starting the test ...
+Running the test ...
+probe -create -shm -all -depth all
+Created default SHM database ncsim.shm
+Created probe 1
+
+Running should now be initiated from the simulator side
+run
+ncsim: *E,C58EXE: Coverage database file already exists in the test output directory './cov_work/scope/test_example_report', and will not be overwritten. Specify a different name for the test output directory or use the '-covoverwrite' option to overwrite the existing test output directory, and rerun the simulation.
+Command 0 = SHL
+Op1     = 4239394511
+Op2     = 5
+Port    = 1
+
+Command 1 = SUB
+Op1     = 3419397109
+Op2     = 3079421510
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 3400
+Port 4 timed out.
+ 	     Instruction SUB -875570187 -1215545786,
+ 	     expected 10000011010111000001101000111011 	 -2091115973,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 2 = SHL
+Op1     = 0
+Op2     = 2404339026
+Port    = 1
+
+
+
+-------------------------------------------------------
+DUT error at time 4400
+Port 1 invalid output.
+ 	                       Instruction SHL 00000000000000000000000000000000 -1890628270,
+ 			       expected        00000000000000000000000000000000 	 0,
+ 			       received        00000000000000000000000000000100 	 4.
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 3 = SHL
+Op1     = 1
+Op2     = 32
+Port    = 3
+
+
+
+-------------------------------------------------------
+DUT error at time 5000
+Port 3 invalid output.
+ 	                       Instruction SHL 00000000000000000000000000000001 32,
+ 			       expected        00000000000000000000000000000001 	 1,
+ 			       received        00000000000000000000000000000000 	 0.
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 4 = SHL
+Op1     = 2603337251
+Op2     = 2480176747
+Port    = 1
+
+Command 5 = SHR
+Op1     = 471881556
+Op2     = 1737268797
+Port    = 3
+
+Command 6 = SUB
+Op1     = 0
+Op2     = 556469517
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 7600
+Port 4 timed out.
+ 	     Instruction SUB 0 556469517,
+ 	     expected 00100001001010110000110100001101 	 556469517,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 7 = SHR
+Op1     = 0
+Op2     = 1
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 8200
+Port 4 timed out.
+ 	     Instruction SHR 0 1,
+ 	     expected 00000000000000000000000000000001 	 1,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 8 = SHR
+Op1     = 0
+Op2     = 22
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 8800
+Port 4 timed out.
+ 	     Instruction SHR 0 22,
+ 	     expected 00000000000000000000000000010110 	 22,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 9 = SHR
+Op1     = 1
+Op2     = 1
+Port    = 2
+
+
+
+-------------------------------------------------------
+DUT error at time 9800
+Port 2 invalid output.
+ 	                       Instruction SHR 00000000000000000000000000000001 1,
+ 			       expected        00000000000000000000000000000000 	 0,
+ 			       received        00000000000000000000000000000001 	 1.
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 10 = SHR
+Op1     = 2014148863
+Op2     = 3867681368
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 10400
+Port 4 timed out.
+ 	     Instruction SHR 2014148863 -427285928,
+ 	     expected 01011110100101011001101101010111 	 1586862935,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 11 = SUB
+Op1     = 2561620860
+Op2     = 2449525051
+Port    = 2
+
+Command 12 = SHL
+Op1     = 355197565
+Op2     = 1051019571
+Port    = 1
+
+
+
+-------------------------------------------------------
+DUT error at time 12600
+Port 1 invalid output.
+ 	                       Instruction SHL 00010101001010111110001001111101 1051019571,
+ 			       expected        00010011111010000000000000000000 	 333971456,
+ 			       received        00010011111010000000000000001000 	 333971464.
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 13 = SHR
+Op1     = 1746848368
+Op2     = 30
+Port    = 1
+
+Command 14 = SUB
+Op1     = 3796800003
+Op2     = 4022217330
+Port    = 3
+
+
+
+-------------------------------------------------------
+DUT error at time 14600
+Port 3 invalid response.
+ 	                          Instruction SUB -498167293 -272749966,
+ 				  expected 2,
+ 				  received 1.
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 15 = ADD
+Op1     = 3932654477
+Op2     = 133054664
+Port    = 1
+
+Command 16 = ADD
+Op1     = 4260920492
+Op2     = 21734104
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 16200
+Port 4 timed out.
+ 	     Instruction ADD -34046804 21734104,
+ 	     expected 11111111010001000001111110000100 	 -12312700,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 17 = SUB
+Op1     = 2569623160
+Op2     = 1260603513
+Port    = 1
+
+Command 18 = SUB
+Op1     = 4084751863
+Op2     = 20857087
+Port    = 3
+
+
+
+-------------------------------------------------------
+DUT error at time 18200
+Port 3 invalid output.
+ 	                       Instruction SUB 11110011011110000101110111110111
+ 			                       00000001001111100100000011111111,
+ 			       expected        11110010001110100001110011111000 	 -231072520,
+ 			       received        11110100101101101001111011110110 	 -189358346.
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 19 = SHL
+Op1     = 1
+Op2     = 14
+Port    = 3
+
+Command 20 = SHR
+Op1     = 3137850608
+Op2     = 1865546007
+Port    = 2
+
+Command 21 = SHL
+Op1     = 0
+Op2     = 10
+Port    = 1
+
+Command 22 = SHL
+Op1     = 1
+Op2     = 21
+Port    = 2
+
+
+
+-------------------------------------------------------
+DUT error at time 22200
+Port 2 invalid output.
+ 	                       Instruction SHL 00000000000000000000000000000001 21,
+ 			       expected        00000000001000000000000000000000 	 2097152,
+ 			       received        00000000001000000000000000100000 	 2097184.
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 23 = ADD
+Op1     = 0
+Op2     = 780207781
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 22800
+Port 4 timed out.
+ 	     Instruction ADD 0 780207781,
+ 	     expected 00101110100000010000011010100101 	 780207781,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 24 = SHL
+Op1     = 2511660541
+Op2     = 7
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 23400
+Port 4 timed out.
+ 	     Instruction SHL -1783306755 7,
+ 	     expected 10010101101101001110011000000100 	 -1783306748,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 25 = ADD
+Op1     = 4208658860
+Op2     = 3339230
+Port    = 3
+
+
+
+-------------------------------------------------------
+DUT error at time 24200
+Port 3 invalid output.
+ 	                       Instruction ADD 11111010110110110000100110101100
+ 			                       00000000001100101111001111011110,
+ 			       expected        11111011000011011111110110001010 	 -82969206,
+ 			       received        00000000000000000100000000000000 	 16384.
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 26 = SHL
+Op1     = 0
+Op2     = 881208020
+Port    = 2
+
+
+
+-------------------------------------------------------
+DUT error at time 25200
+Port 2 invalid output.
+ 	                       Instruction SHL 00000000000000000000000000000000 881208020,
+ 			       expected        00000000000000000000000000000000 	 0,
+ 			       received        00000000000000000000000000010000 	 16.
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 27 = SHL
+Op1     = 774512440
+Op2     = 3092891425
+Port    = 2
+
+Command 28 = SHL
+Op1     = 541184526
+Op2     = 18
+Port    = 2
+
+
+
+-------------------------------------------------------
+DUT error at time 27200
+Port 2 invalid output.
+ 	                       Instruction SHL 00100000010000011101001000001110 18,
+ 			       expected        01001000001110000000000000000000 	 1211629568,
+ 			       received        01001000001110000000000000000100 	 1211629572.
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 29 = SUB
+Op1     = 1
+Op2     = 1151399546
+Port    = 2
+
+Command 30 = SHL
+Op1     = 3010685678
+Op2     = 5
+Port    = 3
+
+Command 31 = SUB
+Op1     = 3038750067
+Op2     = 2980118277
+Port    = 3
+
+Command 32 = SUB
+Op1     = 3943562237
+Op2     = 3093286783
+Port    = 1
+
+Command 33 = SHR
+Op1     = 3561135013
+Op2     = 16
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 31800
+Port 4 timed out.
+ 	     Instruction SHR -733832283 16,
+ 	     expected 11010100010000101001101110110101 	 -733832267,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 34 = SHL
+Op1     = 2427368085
+Op2     = 2249929105
+Port    = 1
+
+
+
+-------------------------------------------------------
+DUT error at time 33000
+Port 1 invalid output.
+ 	                       Instruction SHL 10010000101011101011001010010101 -2045038191,
+ 			       expected        01100101001010100000000000000000 	 1697251328,
+ 			       received        01100101001010100000000000000010 	 1697251330.
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 35 = SHL
+Op1     = 0
+Op2     = 32
+Port    = 2
+
+Command 36 = SHL
+Op1     = 372852843
+Op2     = 2225871640
+Port    = 3
+
+
+
+-------------------------------------------------------
+DUT error at time 35000
+Port 3 invalid output.
+ 	                       Instruction SHL 00010110001110010100100001101011 -2069095656,
+ 			       expected        01101011000000000000000000000000 	 1795162112,
+ 			       received        00000000000000000000000000010110 	 22.
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 37 = SHR
+Op1     = 1759984957
+Op2     = 1
+Port    = 1
+
+
+
+-------------------------------------------------------
+DUT error at time 36000
+Port 1 invalid output.
+ 	                       Instruction SHR 01101000111001110011110100111101 1,
+ 			       expected        00110100011100111001111010011110 	 879992478,
+ 			       received        01101000111001110011110100111101 	 1759984957.
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 38 = SHR
+Op1     = 401336648
+Op2     = 8
+Port    = 3
+
+Command 39 = SUB
+Op1     = 1
+Op2     = 0
+Port    = 3
+
+Command 40 = SHL
+Op1     = 1
+Op2     = 1
+Port    = 1
+
+Command 41 = SHR
+Op1     = 0
+Op2     = 795568286
+Port    = 1
+
+Command 42 = SHL
+Op1     = 1
+Op2     = 6
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 40600
+Port 4 timed out.
+ 	     Instruction SHL 1 6,
+ 	     expected 00000000000000000000000000000111 	 7,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 43 = SHR
+Op1     = 383634866
+Op2     = 3208649285
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 41200
+Port 4 timed out.
+ 	     Instruction SHR 383634866 -1086318011,
+ 	     expected 11010110000111011110011111110111 	 -702683145,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 44 = SHL
+Op1     = 1
+Op2     = 31
+Port    = 2
+
+
+
+-------------------------------------------------------
+DUT error at time 42200
+Port 2 invalid output.
+ 	                       Instruction SHL 00000000000000000000000000000001 31,
+ 			       expected        10000000000000000000000000000000 	 -2147483648,
+ 			       received        10000000000000001000000000000000 	 -2147450880.
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 45 = SUB
+Op1     = 0
+Op2     = 1832962269
+Port    = 1
+
+Command 46 = ADD
+Op1     = 3866920731
+Op2     = 242930014
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 43800
+Port 4 timed out.
+ 	     Instruction ADD -428046565 242930014,
+ 	     expected 11110100111101110101100001111001 	 -185116551,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 47 = SHL
+Op1     = 3848289081
+Op2     = 1
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 44400
+Port 4 timed out.
+ 	     Instruction SHL -446678215 1,
+ 	     expected 11100101011000000011101100111010 	 -446678214,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 48 = SHR
+Op1     = 1
+Op2     = 2811624776
+Port    = 3
+
+
+
+-------------------------------------------------------
+DUT error at time 45200
+Port 3 invalid output.
+ 	                       Instruction SHR 00000000000000000000000000000001 -1483342520,
+ 			       expected        00000000000000000000000000000000 	 0,
+ 			       received        00000000000000000000000100000000 	 256.
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 49 = SHL
+Op1     = 4260535546
+Op2     = 3867854338
+Port    = 3
+
+Command 50 = SHR
+Op1     = 2916681478
+Op2     = 19
+Port    = 2
+
+Command 51 = SUB
+Op1     = 0
+Op2     = 1060880550
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 47800
+Port 4 timed out.
+ 	     Instruction SUB 0 1060880550,
+ 	     expected 00111111001110111100000010100110 	 1060880550,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 52 = SHL
+Op1     = 0
+Op2     = 21
+Port    = 1
+
+
+
+-------------------------------------------------------
+DUT error at time 48800
+Port 1 invalid output.
+ 	                       Instruction SHL 00000000000000000000000000000000 21,
+ 			       expected        00000000000000000000000000000000 	 0,
+ 			       received        00000000000000000000000000100000 	 32.
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 53 = SHR
+Op1     = 0
+Op2     = 13
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 49400
+Port 4 timed out.
+ 	     Instruction SHR 0 13,
+ 	     expected 00000000000000000000000000001101 	 13,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 54 = SHR
+Op1     = 2917056268
+Op2     = 3746987786
+Port    = 1
+
+Command 55 = SHL
+Op1     = 3694553630
+Op2     = 29
+Port    = 3
+
+
+
+-------------------------------------------------------
+DUT error at time 51400
+Port 3 invalid output.
+ 	                       Instruction SHL 11011100001101100110101000011110 29,
+ 			       expected        11000000000000000000000000000000 	 -1073741824,
+ 			       received        00000000000000000000000000000110 	 6.
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 56 = SHR
+Op1     = 4196174096
+Op2     = 16
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 52000
+Port 4 timed out.
+ 	     Instruction SHR -98793200 16,
+ 	     expected 11111010000111001000100100100000 	 -98793184,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 57 = SUB
+Op1     = 901161894
+Op2     = 23538944
+Port    = 3
+
+
+
+-------------------------------------------------------
+DUT error at time 52800
+Port 3 invalid output.
+ 	                       Instruction SUB 00110101101101101010001110100110
+ 			                       00000001011001110010110100000000,
+ 			       expected        00110100010011110111011010100110 	 877622950,
+ 			       received        00000000000000000000000000000000 	 0.
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 58 = ADD
+Op1     = 2070077999
+Op2     = 153827313
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 53400
+Port 4 timed out.
+ 	     Instruction ADD 2070077999 153827313,
+ 	     expected 10000100100011100001101000100000 	 -2071061984,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 59 = SUB
+Op1     = 1
+Op2     = 1
+Port    = 1
+
+Command 60 = SHR
+Op1     = 1473483023
+Op2     = 2768040591
+Port    = 3
+
+
+
+-------------------------------------------------------
+DUT error at time 55400
+Port 3 invalid output.
+ 	                       Instruction SHR 01010111110100111001000100001111 -1526926705,
+ 			       expected        00000000000000001010111110100111 	 44967,
+ 			       received        11111100110100001000001110011110 	 -53443682.
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 61 = SHR
+Op1     = 1549492237
+Op2     = 4068295916
+Port    = 1
+
+Command 62 = SHL
+Op1     = 2534347437
+Op2     = 1
+Port    = 2
+
+Command 63 = SHL
+Op1     = 0
+Op2     = 6
+Port    = 3
+
+Command 64 = ADD
+Op1     = 1126367140
+Op2     = 4259942277
+Port    = 1
+
+Command 65 = ADD
+Op1     = 903281154
+Op2     = 0
+Port    = 3
+
+Command 66 = SHR
+Op1     = 1
+Op2     = 1112918880
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 61000
+Port 4 timed out.
+ 	     Instruction SHR 1 1112918880,
+ 	     expected 01000010010101011100101101100001 	 1112918881,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 67 = SUB
+Op1     = 1
+Op2     = 1
+Port    = 1
+
+Command 68 = SHR
+Op1     = 3076919474
+Op2     = 30
+Port    = 2
+
+Command 69 = ADD
+Op1     = 4254190591
+Op2     = 0
+Port    = 2
+
+Command 70 = SHR
+Op1     = 1624001605
+Op2     = 0
+Port    = 2
+
+
+
+-------------------------------------------------------
+DUT error at time 65000
+Port 2 invalid output.
+ 	                       Instruction SHR 01100000110011000100110001000101 0,
+ 			       expected        01100000110011000100110001000101 	 1624001605,
+ 			       received        00000000000000000000000000000000 	 0.
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 71 = SHR
+Op1     = 2619913188
+Op2     = 2711215574
+Port    = 1
+
+Command 72 = SHL
+Op1     = 3223913048
+Op2     = 2730456972
+Port    = 3
+
+
+
+-------------------------------------------------------
+DUT error at time 67000
+Port 3 invalid output.
+ 	                       Instruction SHL 11000000001010010000001001011000 -1564510324,
+ 			       expected        10010000001001011000000000000000 	 -1876590592,
+ 			       received        00000000000011000000001010010000 	 787088.
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 73 = SHL
+Op1     = 3511359708
+Op2     = 28
+Port    = 1
+
+
+
+-------------------------------------------------------
+DUT error at time 68000
+Port 1 invalid output.
+ 	                       Instruction SHL 11010001010010110001100011011100 28,
+ 			       expected        11000000000000000000000000000000 	 -1073741824,
+ 			       received        11000000000000000001000000000000 	 -1073737728.
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 74 = SUB
+Op1     = 0
+Op2     = 506707491
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 68600
+Port 4 timed out.
+ 	     Instruction SUB 0 506707491,
+ 	     expected 00011110001100111011111000100011 	 506707491,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 75 = SHL
+Op1     = 2931524064
+Op2     = 2516730362
+Port    = 3
+
+
+
+-------------------------------------------------------
+DUT error at time 69400
+Port 3 invalid output.
+ 	                       Instruction SHL 10101110101110111000000111100000 -1778236934,
+ 			       expected        10000000000000000000000000000000 	 -2147483648,
+ 			       received        00011000101110010011111111100110 	 414793702.
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 76 = ADD
+Op1     = 2264723204
+Op2     = 2066527706
+Port    = 3
+
+Command 77 = SUB
+Op1     = 1
+Op2     = 1
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 71000
+Port 4 timed out.
+ 	     Instruction SUB 1 1,
+ 	     expected 00000000000000000000000000000010 	 2,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 78 = ADD
+Op1     = 0
+Op2     = 2638577223
+Port    = 2
+
+Command 79 = ADD
+Op1     = 2179700666
+Op2     = 844151654
+Port    = 1
+
+Command 80 = SHR
+Op1     = 0
+Op2     = 370811304
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 74000
+Port 4 timed out.
+ 	     Instruction SHR 0 370811304,
+ 	     expected 00010110000110100010000110101000 	 370811304,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 81 = SHL
+Op1     = 1
+Op2     = 235072499
+Port    = 2
+
+
+
+-------------------------------------------------------
+DUT error at time 75200
+Port 2 invalid output.
+ 	                       Instruction SHL 00000000000000000000000000000001 235072499,
+ 			       expected        00000000000010000000000000000000 	 524288,
+ 			       received        00000000000010000000000000001000 	 524296.
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 82 = SHL
+Op1     = 3448798140
+Op2     = 25
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 75800
+Port 4 timed out.
+ 	     Instruction SHL -846169156 25,
+ 	     expected 11001101100100000111101111010101 	 -846169131,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 83 = ADD
+Op1     = 0
+Op2     = 3724208623
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 76400
+Port 4 timed out.
+ 	     Instruction ADD 0 -570758673,
+ 	     expected 11011101111110101110100111101111 	 -570758673,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 84 = SUB
+Op1     = 0
+Op2     = 572214735
+Port    = 2
+
+Command 85 = SUB
+Op1     = 3907357792
+Op2     = 2483619949
+Port    = 1
+
+Command 86 = SUB
+Op1     = 1145041962
+Op2     = 968554922
+Port    = 1
+
+Command 87 = SHR
+Op1     = 1499434432
+Op2     = 0
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 80600
+Port 4 timed out.
+ 	     Instruction SHR 1499434432 0,
+ 	     expected 01011001010111111000110111000000 	 1499434432,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 88 = SHR
+Op1     = 1369449874
+Op2     = 4
+Port    = 2
+
+Command 89 = ADD
+Op1     = 239389732
+Op2     = 1652659994
+Port    = 2
+
+Command 90 = SHL
+Op1     = 1220568070
+Op2     = 1
+Port    = 1
+
+Command 91 = ADD
+Op1     = 0
+Op2     = 1453610663
+Port    = 2
+
+Command 92 = SHR
+Op1     = 3681879096
+Op2     = 20
+Port    = 3
+
+
+
+-------------------------------------------------------
+DUT error at time 85400
+Port 3 invalid output.
+ 	                       Instruction SHR 11011011011101010000010000111000 20,
+ 			       expected        00000000000000000000110110110111 	 3511,
+ 			       received        00000000000000000000000011011011 	 219.
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 93 = ADD
+Op1     = 1
+Op2     = 886349442
+Port    = 3
+
+Command 94 = ADD
+Op1     = 2608784035
+Op2     = 112943901
+Port    = 2
+
+Command 95 = SHR
+Op1     = 2920742286
+Op2     = 17
+Port    = 3
+
+Command 96 = SHR
+Op1     = 0
+Op2     = 95668436
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 89000
+Port 4 timed out.
+ 	     Instruction SHR 0 95668436,
+ 	     expected 00000101101100111100100011010100 	 95668436,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 97 = SHL
+Op1     = 1565134477
+Op2     = 1894804116
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 89600
+Port 4 timed out.
+ 	     Instruction SHL 1565134477 1894804116,
+ 	     expected 11001110001110100111100100100001 	 -835028703,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 98 = SHL
+Op1     = 1
+Op2     = 0
+Port    = 1
+
+Command 99 = SUB
+Op1     = 1266212645
+Op2     = 4055249955
+Port    = 1
+
+Command 100 = SHL
+Op1     = 3909882776
+Op2     = 184469030
+Port    = 1
+
+Command 101 = ADD
+Op1     = 3572059691
+Op2     = 0
+Port    = 2
+
+Command 102 = SUB
+Op1     = 1
+Op2     = 626261294
+Port    = 1
+
+Command 103 = ADD
+Op1     = 2485981272
+Op2     = 1806812088
+Port    = 1
+
+Command 104 = ADD
+Op1     = 2985359675
+Op2     = 3424258863
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 96200
+Port 4 timed out.
+ 	     Instruction ADD -1309607621 -870708433,
+ 	     expected 01111110000010110000010001101010 	 2114651242,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 105 = ADD
+Op1     = 0
+Op2     = 3452292194
+Port    = 1
+
+Command 106 = SUB
+Op1     = 1354221474
+Op2     = 1016140874
+Port    = 2
+
+Command 107 = SUB
+Op1     = 3445307142
+Op2     = 2630925922
+Port    = 3
+
+
+
+-------------------------------------------------------
+DUT error at time 99400
+Port 3 invalid response.
+ 	                          Instruction SUB -849660154 -1664041374,
+ 				  expected 1,
+ 				  received 2.
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+
+
+-------------------------------------------------------
+DUT error at time 99400
+Port 3 invalid output.
+ 	                       Instruction SUB 11001101010110110011011100000110
+ 			                       10011100110100001011111001100010,
+ 			       expected        00110000100010100111100010100100 	 814381220,
+ 			       received        01101010001010111111010101101000 	 1781265768.
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 108 = SHR
+Op1     = 891017589
+Op2     = 3655259538
+Port    = 1
+
+Command 109 = ADD
+Op1     = 3554562695
+Op2     = 0
+Port    = 2
+
+Command 110 = SHR
+Op1     = 1
+Op2     = 1889751105
+Port    = 1
+
+
+
+-------------------------------------------------------
+DUT error at time 102400
+Port 1 invalid output.
+ 	                       Instruction SHR 00000000000000000000000000000001 1889751105,
+ 			       expected        00000000000000000000000000000000 	 0,
+ 			       received        00000000000000000000000000000001 	 1.
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 111 = SHR
+Op1     = 1673587754
+Op2     = 0
+Port    = 1
+
+
+
+-------------------------------------------------------
+DUT error at time 103400
+Port 1 invalid output.
+ 	                       Instruction SHR 01100011110000001110110000101010 0,
+ 			       expected        01100011110000001110110000101010 	 1673587754,
+ 			       received        00000000000000000000000000000000 	 0.
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 112 = SHR
+Op1     = 3312219848
+Op2     = 4010130445
+Port    = 1
+
+Command 113 = SHL
+Op1     = 1
+Op2     = 21
+Port    = 3
+
+
+
+-------------------------------------------------------
+DUT error at time 105400
+Port 3 invalid output.
+ 	                       Instruction SHL 00000000000000000000000000000001 21,
+ 			       expected        00000000001000000000000000000000 	 2097152,
+ 			       received        00000000001000000000000000100000 	 2097184.
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 114 = ADD
+Op1     = 3177730245
+Op2     = 390064270
+Port    = 2
+
+Command 115 = ADD
+Op1     = 868939149
+Op2     = 4092433316
+Port    = 1
+
+Command 116 = SUB
+Op1     = 1
+Op2     = 1
+Port    = 3
+
+Command 117 = ADD
+Op1     = 1
+Op2     = 2167011693
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 109000
+Port 4 timed out.
+ 	     Instruction ADD 1 -2127955603,
+ 	     expected 10000001001010011111100101101110 	 -2127955602,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 118 = SHR
+Op1     = 1
+Op2     = 3965476650
+Port    = 2
+
+Command 119 = ADD
+Op1     = 0
+Op2     = 1601320339
+Port    = 1
+
+Command 120 = SHL
+Op1     = 3395552892
+Op2     = 1
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 111600
+Port 4 timed out.
+ 	     Instruction SHL -899414404 1,
+ 	     expected 11001010011001000000011001111101 	 -899414403,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 121 = SHR
+Op1     = 1
+Op2     = 6
+Port    = 1
+
+Command 122 = SHL
+Op1     = 0
+Op2     = 521382187
+Port    = 2
+
+Command 123 = ADD
+Op1     = 0
+Op2     = 2348556778
+Port    = 3
+
+
+
+-------------------------------------------------------
+DUT error at time 114800
+Port 3 invalid output.
+ 	                       Instruction ADD 00000000000000000000000000000000
+ 			                       10001011111111000010000111101010,
+ 			       expected        10001011111111000010000111101010 	 -1946410518,
+ 			       received        00000000000000000000000000000000 	 0.
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 124 = SUB
+Op1     = 1
+Op2     = 2344494230
+Port    = 3
+
+Command 125 = ADD
+Op1     = 1
+Op2     = 2784544875
+Port    = 1
+
+Command 126 = ADD
+Op1     = 0
+Op2     = 2467786565
+Port    = 3
+
+Command 127 = ADD
+Op1     = 1
+Op2     = 3426860733
+Port    = 1
+
+Command 128 = SHL
+Op1     = 1
+Op2     = 4027388665
+Port    = 2
+
+
+
+-------------------------------------------------------
+DUT error at time 119800
+Port 2 invalid output.
+ 	                       Instruction SHL 00000000000000000000000000000001 -267578631,
+ 			       expected        00000010000000000000000000000000 	 33554432,
+ 			       received        00000010000000000000001000000000 	 33554944.
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 129 = ADD
+Op1     = 2256770102
+Op2     = 1717859085
+Port    = 3
+
+Command 130 = ADD
+Op1     = 1
+Op2     = 4242397025
+Port    = 2
+
+Command 131 = SHL
+Op1     = 0
+Op2     = 3831734785
+Port    = 1
+
+Command 132 = SHL
+Op1     = 0
+Op2     = 22
+Port    = 1
+
+
+
+-------------------------------------------------------
+DUT error at time 123800
+Port 1 invalid output.
+ 	                       Instruction SHL 00000000000000000000000000000000 22,
+ 			       expected        00000000000000000000000000000000 	 0,
+ 			       received        00000000000000000000000001000000 	 64.
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 133 = SHL
+Op1     = 0
+Op2     = 32
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 124400
+Port 4 timed out.
+ 	     Instruction SHL 0 32,
+ 	     expected 00000000000000000000000000100000 	 32,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 134 = SUB
+Op1     = 697156010
+Op2     = 1548109740
+Port    = 2
+
+Command 135 = SHR
+Op1     = 771668822
+Op2     = 0
+Port    = 2
+
+
+
+-------------------------------------------------------
+DUT error at time 126400
+Port 2 invalid output.
+ 	                       Instruction SHR 00101101111111101011101101010110 0,
+ 			       expected        00101101111111101011101101010110 	 771668822,
+ 			       received        00000000000000000000000000000000 	 0.
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 136 = ADD
+Op1     = 1541378999
+Op2     = 0
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 127000
+Port 4 timed out.
+ 	     Instruction ADD 1541378999 0,
+ 	     expected 01011011110111111001001110110111 	 1541378999,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 137 = SUB
+Op1     = 4056247390
+Op2     = 508418982
+Port    = 2
+
+Command 138 = SHL
+Op1     = 3939728169
+Op2     = 21
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 128800
+Port 4 timed out.
+ 	     Instruction SHL -355239127 21,
+ 	     expected 11101010110100110111101100111110 	 -355239106,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 139 = SHR
+Op1     = 1392906515
+Op2     = 1
+Port    = 2
+
+
+
+-------------------------------------------------------
+DUT error at time 130000
+Port 2 invalid output.
+ 	                       Instruction SHR 01010011000001100001000100010011 1,
+ 			       expected        00101001100000110000100010001001 	 696453257,
+ 			       received        01010011000001100001000100010011 	 1392906515.
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 140 = SHR
+Op1     = 1
+Op2     = 0
+Port    = 2
+
+
+
+-------------------------------------------------------
+DUT error at time 131200
+Port 2 invalid output.
+ 	                       Instruction SHR 00000000000000000000000000000001 0,
+ 			       expected        00000000000000000000000000000001 	 1,
+ 			       received        00000000000000000000000000000000 	 0.
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 141 = SHR
+Op1     = 1287975796
+Op2     = 1866259571
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 131800
+Port 4 timed out.
+ 	     Instruction SHR 1287975796 1866259571,
+ 	     expected 10111100000000011100111111100111 	 -1140731929,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 142 = SHL
+Op1     = 4270130786
+Op2     = 8
+Port    = 2
+
+Command 143 = SHR
+Op1     = 1
+Op2     = 11
+Port    = 1
+
+Command 144 = SHL
+Op1     = 660026597
+Op2     = 1
+Port    = 2
+
+Command 145 = SHR
+Op1     = 1
+Op2     = 1
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 135800
+Port 4 timed out.
+ 	     Instruction SHR 1 1,
+ 	     expected 00000000000000000000000000000010 	 2,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 146 = ADD
+Op1     = 1
+Op2     = 64594961
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 136400
+Port 4 timed out.
+ 	     Instruction ADD 1 64594961,
+ 	     expected 00000011110110011010010000010010 	 64594962,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 147 = SUB
+Op1     = 0
+Op2     = 839334838
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 137000
+Port 4 timed out.
+ 	     Instruction SUB 0 839334838,
+ 	     expected 00110010000001110011101110110110 	 839334838,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 148 = ADD
+Op1     = 2809664507
+Op2     = 1431432071
+Port    = 3
+
+
+
+-------------------------------------------------------
+DUT error at time 137600
+Port 3 invalid output.
+ 	                       Instruction ADD 10100111011110000001001111111011
+ 			                       01010101010100011110101110000111,
+ 			       expected        11111100110010011111111110000010 	 -53870718,
+ 			       received        00000000000000000000000000000000 	 0.
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 149 = ADD
+Op1     = 1
+Op2     = 4270396600
+Port    = 1
+
+Command 150 = SHR
+Op1     = 1
+Op2     = 1
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 139200
+Port 4 timed out.
+ 	     Instruction SHR 1 1,
+ 	     expected 00000000000000000000000000000010 	 2,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 151 = ADD
+Op1     = 3244046858
+Op2     = 920782481
+Port    = 2
+
+Command 152 = ADD
+Op1     = 663083301
+Op2     = 577008845
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 140800
+Port 4 timed out.
+ 	     Instruction ADD 663083301 577008845,
+ 	     expected 01001001111010100100110111110010 	 1240092146,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 153 = ADD
+Op1     = 0
+Op2     = 2122850445
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 141400
+Port 4 timed out.
+ 	     Instruction ADD 0 2122850445,
+ 	     expected 01111110100010000010000010001101 	 2122850445,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 154 = SHL
+Op1     = 0
+Op2     = 18
+Port    = 3
+
+Command 155 = SUB
+Op1     = 1
+Op2     = 1
+Port    = 1
+
+Command 156 = SHR
+Op1     = 1327480429
+Op2     = 1
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 143600
+Port 4 timed out.
+ 	     Instruction SHR 1327480429 1,
+ 	     expected 01001111000111111011111001101110 	 1327480430,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 157 = ADD
+Op1     = 1328161971
+Op2     = 1427035853
+Port    = 3
+
+
+
+-------------------------------------------------------
+DUT error at time 144400
+Port 3 invalid output.
+ 	                       Instruction ADD 01001111001010100010010010110011
+ 			                       01010101000011101101011011001101,
+ 			       expected        10100100001110001111101110000000 	 -1539769472,
+ 			       received        00000000000000100111100101010001 	 162129.
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 158 = SHL
+Op1     = 1
+Op2     = 5
+Port    = 2
+
+Command 159 = SHR
+Op1     = 2723804536
+Op2     = 662394851
+Port    = 1
+
+Command 160 = SHL
+Op1     = 532165486
+Op2     = 28
+Port    = 3
+
+
+
+-------------------------------------------------------
+DUT error at time 147400
+Port 3 invalid output.
+ 	                       Instruction SHL 00011111101110000011001101101110 28,
+ 			       expected        11100000000000000000000000000000 	 -536870912,
+ 			       received        11100000000000000001000000000000 	 -536866816.
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 161 = SHR
+Op1     = 0
+Op2     = 3328091640
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 148000
+Port 4 timed out.
+ 	     Instruction SHR 0 -966875656,
+ 	     expected 11000110010111101010010111111000 	 -966875656,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 162 = SHL
+Op1     = 3866431007
+Op2     = 32
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 148600
+Port 4 timed out.
+ 	     Instruction SHL -428536289 32,
+ 	     expected 11100110011101010000111000111111 	 -428536257,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 163 = SHL
+Op1     = 0
+Op2     = 19
+Port    = 1
+
+
+
+-------------------------------------------------------
+DUT error at time 149600
+Port 1 invalid output.
+ 	                       Instruction SHL 00000000000000000000000000000000 19,
+ 			       expected        00000000000000000000000000000000 	 0,
+ 			       received        00000000000000000000000000001000 	 8.
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 164 = ADD
+Op1     = 2717411762
+Op2     = 611181657
+Port    = 2
+
+Command 165 = SHR
+Op1     = 1
+Op2     = 0
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 151200
+Port 4 timed out.
+ 	     Instruction SHR 1 0,
+ 	     expected 00000000000000000000000000000001 	 1,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 166 = ADD
+Op1     = 0
+Op2     = 872191457
+Port    = 3
+
+
+
+-------------------------------------------------------
+DUT error at time 152000
+Port 3 invalid output.
+ 	                       Instruction ADD 00000000000000000000000000000000
+ 			                       00110011111111001001010111100001,
+ 			       expected        00110011111111001001010111100001 	 872191457,
+ 			       received        00000000000000000000000000000000 	 0.
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 167 = SUB
+Op1     = 2523877177
+Op2     = 4123061976
+Port    = 2
+
+Command 168 = SHR
+Op1     = 964851479
+Op2     = 2097112022
+Port    = 1
+
+Command 169 = SHR
+Op1     = 3995480973
+Op2     = 9
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 154600
+Port 4 timed out.
+ 	     Instruction SHR -299486323 9,
+ 	     expected 11101110001001100011001110010110 	 -299486314,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 170 = SHL
+Op1     = 3001887914
+Op2     = 6
+Port    = 2
+
+Command 171 = SHL
+Op1     = 980398788
+Op2     = 0
+Port    = 2
+
+Command 172 = SUB
+Op1     = 4188967044
+Op2     = 3133122039
+Port    = 2
+
+Command 173 = SHR
+Op1     = 1233881021
+Op2     = 3019803822
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 158600
+Port 4 timed out.
+ 	     Instruction SHR 1233881021 -1275163474,
+ 	     expected 11111101100010100001010001101011 	 -41282453,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 174 = SHR
+Op1     = 2630918414
+Op2     = 14
+Port    = 1
+
+Command 175 = SHR
+Op1     = 0
+Op2     = 2413565136
+Port    = 1
+
+Command 176 = SUB
+Op1     = 1
+Op2     = 1
+Port    = 1
+
+Command 177 = ADD
+Op1     = 1
+Op2     = 1882391099
+Port    = 1
+
+Command 178 = SHL
+Op1     = 1792292700
+Op2     = 25
+Port    = 1
+
+
+
+-------------------------------------------------------
+DUT error at time 164200
+Port 1 invalid output.
+ 	                       Instruction SHL 01101010110101000011011101011100 25,
+ 			       expected        10111000000000000000000000000000 	 -1207959552,
+ 			       received        10111000000000000000001000000000 	 -1207959040.
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 179 = SHL
+Op1     = 1
+Op2     = 12
+Port    = 1
+
+Command 180 = SHR
+Op1     = 0
+Op2     = 1783301119
+Port    = 2
+
+Command 181 = SHL
+Op1     = 0
+Op2     = 1
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 167200
+Port 4 timed out.
+ 	     Instruction SHL 0 1,
+ 	     expected 00000000000000000000000000000001 	 1,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 182 = ADD
+Op1     = 0
+Op2     = 3600951770
+Port    = 1
+
+Command 183 = SHL
+Op1     = 1
+Op2     = 14
+Port    = 2
+
+Command 184 = ADD
+Op1     = 0
+Op2     = 1475880668
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 170000
+Port 4 timed out.
+ 	     Instruction ADD 0 1475880668,
+ 	     expected 01010111111110000010011011011100 	 1475880668,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 185 = SUB
+Op1     = 2346765726
+Op2     = 2185903192
+Port    = 1
+
+Command 186 = SHL
+Op1     = 259086874
+Op2     = 18
+Port    = 3
+
+
+
+-------------------------------------------------------
+DUT error at time 172000
+Port 3 invalid output.
+ 	                       Instruction SHL 00001111011100010101101000011010 18,
+ 			       expected        01101000011010000000000000000000 	 1751646208,
+ 			       received        00001111011100010101101000101100 	 259086892.
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 187 = SHR
+Op1     = 174408358
+Op2     = 177677656
+Port    = 2
+
+Command 188 = SUB
+Op1     = 1360295828
+Op2     = 950411882
+Port    = 3
+
+Command 189 = ADD
+Op1     = 0
+Op2     = 15424836
+Port    = 1
+
+Command 190 = SHR
+Op1     = 0
+Op2     = 318841241
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 175600
+Port 4 timed out.
+ 	     Instruction SHR 0 318841241,
+ 	     expected 00010011000000010010000110011001 	 318841241,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 191 = SHR
+Op1     = 1
+Op2     = 4
+Port    = 3
+
+Command 192 = SUB
+Op1     = 3510092232
+Op2     = 2774900350
+Port    = 3
+
+Command 193 = SUB
+Op1     = 422522131
+Op2     = 0
+Port    = 2
+
+Command 194 = ADD
+Op1     = 0
+Op2     = 2827774861
+Port    = 2
+
+Command 195 = SHL
+Op1     = 234087492
+Op2     = 1040295025
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 180000
+Port 4 timed out.
+ 	     Instruction SHL 234087492 1040295025,
+ 	     expected 01001011111101011000100010110101 	 1274382517,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 196 = SHL
+Op1     = 2168660072
+Op2     = 12
+Port    = 1
+
+Command 197 = ADD
+Op1     = 0
+Op2     = 1570850472
+Port    = 1
+
+Command 198 = SUB
+Op1     = 1
+Op2     = 1
+Port    = 2
+
+Command 199 = SHL
+Op1     = 480134630
+Op2     = 485267266
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 183800
+Port 4 timed out.
+ 	     Instruction SHL 480134630 485267266,
+ 	     expected 00111001100010101101110100101000 	 965401896,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 200 = ADD
+Op1     = 0
+Op2     = 1611542809
+Port    = 2
+
+Command 201 = SHL
+Op1     = 1
+Op2     = 32
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 185400
+Port 4 timed out.
+ 	     Instruction SHL 1 32,
+ 	     expected 00000000000000000000000000100001 	 33,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 202 = SHR
+Op1     = 0
+Op2     = 1271579919
+Port    = 1
+
+Command 203 = SUB
+Op1     = 0
+Op2     = 2472212101
+Port    = 3
+
+
+
+-------------------------------------------------------
+DUT error at time 187200
+Port 3 invalid response.
+ 	                          Instruction SUB 0 -1822755195,
+ 				  expected 2,
+ 				  received 1.
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 204 = SUB
+Op1     = 0
+Op2     = 551027307
+Port    = 1
+
+Command 205 = SHR
+Op1     = 1
+Op2     = 1652461851
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 188800
+Port 4 timed out.
+ 	     Instruction SHR 1 1652461851,
+ 	     expected 01100010011111101001000100011100 	 1652461852,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 206 = SHR
+Op1     = 1
+Op2     = 2
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 189400
+Port 4 timed out.
+ 	     Instruction SHR 1 2,
+ 	     expected 00000000000000000000000000000011 	 3,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 207 = SHR
+Op1     = 0
+Op2     = 5
+Port    = 1
+
+Command 208 = SUB
+Op1     = 900947318
+Op2     = 1682753668
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 191000
+Port 4 timed out.
+ 	     Instruction SUB 900947318 1682753668,
+ 	     expected 10011010000000000010010111111010 	 -1711266310,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 209 = SHR
+Op1     = 2174671810
+Op2     = 2
+Port    = 2
+
+Command 210 = ADD
+Op1     = 2613833004
+Op2     = 1097785949
+Port    = 1
+
+Command 211 = SHL
+Op1     = 1916305597
+Op2     = 3183191555
+Port    = 3
+
+
+
+-------------------------------------------------------
+DUT error at time 193800
+check that ins.resp == 01
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+
+
+-------------------------------------------------------
+DUT error at time 193800
+Port 3 invalid output.
+ 	                       Instruction SHL 01110010001110001000000010111101 -1111775741,
+ 			       expected        10010001110001000000010111101000 	 -1849424408,
+ 			       received        10110100011111001101101010111010 	 -1266885958.
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 212 = SHL
+Op1     = 4180057261
+Op2     = 1
+Port    = 1
+
+Command 213 = SHR
+Op1     = 1128149808
+Op2     = 3611530369
+Port    = 2
+
+
+
+-------------------------------------------------------
+DUT error at time 195800
+Port 2 invalid output.
+ 	                       Instruction SHR 01000011001111100011001100110000 -683436927,
+ 			       expected        00100001100111110001100110011000 	 564074904,
+ 			       received        01000011001111100011001100110000 	 1128149808.
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 214 = SHL
+Op1     = 1
+Op2     = 32
+Port    = 1
+
+Command 215 = SHR
+Op1     = 1
+Op2     = 12
+Port    = 2
+
+Command 216 = SHR
+Op1     = 1
+Op2     = 0
+Port    = 3
+
+
+
+-------------------------------------------------------
+DUT error at time 198800
+Port 3 invalid output.
+ 	                       Instruction SHR 00000000000000000000000000000001 0,
+ 			       expected        00000000000000000000000000000001 	 1,
+ 			       received        00000000000000000000000000000000 	 0.
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 217 = SHR
+Op1     = 1
+Op2     = 4
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 199400
+Port 4 timed out.
+ 	     Instruction SHR 1 4,
+ 	     expected 00000000000000000000000000000101 	 5,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 218 = ADD
+Op1     = 3363414960
+Op2     = 799296339
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 200000
+Port 4 timed out.
+ 	     Instruction ADD -931552336 799296339,
+ 	     expected 11111000000111011110111100000011 	 -132255997,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 219 = SUB
+Op1     = 3849435837
+Op2     = 146978119
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 200600
+Port 4 timed out.
+ 	     Instruction SUB -445531459 146978119,
+ 	     expected 11101110001101000111000000000100 	 -298553340,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 220 = SUB
+Op1     = 1
+Op2     = 2968337415
+Port    = 3
+
+
+
+-------------------------------------------------------
+DUT error at time 201200
+Port 3 invalid response.
+ 	                          Instruction SUB 1 -1326629881,
+ 				  expected 2,
+ 				  received 1.
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 221 = SHR
+Op1     = 4032465606
+Op2     = 1006933842
+Port    = 2
+
+Command 222 = ADD
+Op1     = 113942133
+Op2     = 4199055168
+Port    = 2
+
+Command 223 = SHL
+Op1     = 0
+Op2     = 1673051085
+Port    = 3
+
+Command 224 = SHR
+Op1     = 1654911436
+Op2     = 2940328914
+Port    = 2
+
+Command 225 = SHR
+Op1     = 1
+Op2     = 22
+Port    = 2
+
+Command 226 = ADD
+Op1     = 1
+Op2     = 3960035971
+Port    = 3
+
+Command 227 = SHL
+Op1     = 2013191037
+Op2     = 658798217
+Port    = 2
+
+Command 228 = ADD
+Op1     = 1
+Op2     = 483726491
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 208800
+Port 4 timed out.
+ 	     Instruction ADD 1 483726491,
+ 	     expected 00011100110101010001010010011100 	 483726492,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 229 = SUB
+Op1     = 0
+Op2     = 80732580
+Port    = 2
+
+Command 230 = SHR
+Op1     = 2911429637
+Op2     = 2971314123
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 210600
+Port 4 timed out.
+ 	     Instruction SHR -1383537659 -1323653173,
+ 	     expected 01011110101000111000101111010000 	 1587776464,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 231 = SUB
+Op1     = 3562228739
+Op2     = 899216376
+Port    = 1
+
+Command 232 = SUB
+Op1     = 76132806
+Op2     = 63614792
+Port    = 3
+
+
+
+-------------------------------------------------------
+DUT error at time 212200
+Port 3 invalid output.
+ 	                       Instruction SUB 00000100100010011011000111000110
+ 			                       00000011110010101010111101001000,
+ 			       expected        00000000101111110000001001111110 	 12518014,
+ 			       received        00000000000100100010011011000111 	 1189575.
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 233 = SUB
+Op1     = 0
+Op2     = 96058050
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 212800
+Port 4 timed out.
+ 	     Instruction SUB 0 96058050,
+ 	     expected 00000101101110011011101011000010 	 96058050,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 234 = ADD
+Op1     = 1182573231
+Op2     = 2577184915
+Port    = 1
+
+Command 235 = SHR
+Op1     = 0
+Op2     = 19
+Port    = 1
+
+Command 236 = SHL
+Op1     = 1
+Op2     = 32
+Port    = 3
+
+
+
+-------------------------------------------------------
+DUT error at time 215600
+Port 3 invalid output.
+ 	                       Instruction SHL 00000000000000000000000000000001 32,
+ 			       expected        00000000000000000000000000000001 	 1,
+ 			       received        00000000000000000000000000000000 	 0.
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 237 = ADD
+Op1     = 3199150955
+Op2     = 2255433821
+Port    = 2
+
+Command 238 = SHR
+Op1     = 2362361255
+Op2     = 1
+Port    = 1
+
+
+
+-------------------------------------------------------
+DUT error at time 217600
+Port 1 invalid output.
+ 	                       Instruction SHR 10001100110011101100010110100111 1,
+ 			       expected        01000110011001110110001011010011 	 1181180627,
+ 			       received        10001100110011101100010110100111 	 -1932606041.
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 239 = SHR
+Op1     = 0
+Op2     = 1
+Port    = 2
+
+Command 240 = SHL
+Op1     = 1448088564
+Op2     = 0
+Port    = 2
+
+Command 241 = SUB
+Op1     = 1
+Op2     = 1
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 220200
+Port 4 timed out.
+ 	     Instruction SUB 1 1,
+ 	     expected 00000000000000000000000000000010 	 2,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 242 = SUB
+Op1     = 0
+Op2     = 4151269311
+Port    = 2
+
+Command 243 = SHR
+Op1     = 1
+Op2     = 24
+Port    = 2
+
+Command 244 = SHR
+Op1     = 0
+Op2     = 18
+Port    = 1
+
+Command 245 = SUB
+Op1     = 496373771
+Op2     = 875294959
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 224000
+Port 4 timed out.
+ 	     Instruction SUB 496373771 875294959,
+ 	     expected 01010001110000100000000011111010 	 1371668730,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 246 = SUB
+Op1     = 0
+Op2     = 4032372469
+Port    = 3
+
+
+
+-------------------------------------------------------
+DUT error at time 224600
+Port 3 invalid response.
+ 	                          Instruction SUB 0 -262594827,
+ 				  expected 2,
+ 				  received 1.
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 247 = ADD
+Op1     = 1
+Op2     = 1243341647
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 225200
+Port 4 timed out.
+ 	     Instruction ADD 1 1243341647,
+ 	     expected 01001010000110111110001101010000 	 1243341648,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 248 = SHL
+Op1     = 0
+Op2     = 1
+Port    = 1
+
+Command 249 = SHL
+Op1     = 0
+Op2     = 0
+Port    = 3
+
+Command 250 = SHL
+Op1     = 3024670033
+Op2     = 5
+Port    = 1
+
+Command 251 = SHR
+Op1     = 79441196
+Op2     = 17
+Port    = 3
+
+Command 252 = SHL
+Op1     = 1
+Op2     = 22
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 229400
+Port 4 timed out.
+ 	     Instruction SHL 1 22,
+ 	     expected 00000000000000000000000000010111 	 23,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 253 = SHR
+Op1     = 2918791004
+Op2     = 6
+Port    = 1
+
+Command 254 = SHL
+Op1     = 0
+Op2     = 0
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 231200
+Port 4 timed out.
+ 	     Instruction SHL 0 0,
+ 	     expected 00000000000000000000000000000000 	 0,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 255 = SUB
+Op1     = 3766481310
+Op2     = 2500246390
+Port    = 1
+
+Command 256 = SUB
+Op1     = 0
+Op2     = 1397566910
+Port    = 3
+
+
+
+-------------------------------------------------------
+DUT error at time 233000
+Port 3 invalid response.
+ 	                          Instruction SUB 0 1397566910,
+ 				  expected 2,
+ 				  received 1.
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 257 = SHL
+Op1     = 2622191302
+Op2     = 1957974121
+Port    = 2
+
+Command 258 = SHL
+Op1     = 1202462762
+Op2     = 16
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 234600
+Port 4 timed out.
+ 	     Instruction SHL 1202462762 16,
+ 	     expected 01000111101011000010000000111010 	 1202462778,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 259 = SUB
+Op1     = 2981494649
+Op2     = 987614512
+Port    = 2
+
+Command 260 = SUB
+Op1     = 1068608014
+Op2     = 512379236
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 236200
+Port 4 timed out.
+ 	     Instruction SUB 1068608014 512379236,
+ 	     expected 01011110001110111111001101110010 	 1580987250,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 261 = ADD
+Op1     = 0
+Op2     = 2160977982
+Port    = 2
+
+Command 262 = ADD
+Op1     = 1281724086
+Op2     = 2999984803
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 238000
+Port 4 timed out.
+ 	     Instruction ADD 1281724086 -1294982493,
+ 	     expected 11111111001101011011000101011001 	 -13258407,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 263 = SHR
+Op1     = 1
+Op2     = 16
+Port    = 2
+
+Command 264 = ADD
+Op1     = 1
+Op2     = 423047981
+Port    = 2
+
+Command 265 = ADD
+Op1     = 4159824655
+Op2     = 12607277
+Port    = 3
+
+Command 266 = SUB
+Op1     = 0
+Op2     = 743200094
+Port    = 2
+
+Command 267 = SUB
+Op1     = 4221605589
+Op2     = 237933951
+Port    = 1
+
+Command 268 = ADD
+Op1     = 0
+Op2     = 1657063033
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 243600
+Port 4 timed out.
+ 	     Instruction ADD 0 1657063033,
+ 	     expected 01100010110001001100011001111001 	 1657063033,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 269 = ADD
+Op1     = 3613168786
+Op2     = 399630195
+Port    = 1
+
+Command 270 = SHR
+Op1     = 0
+Op2     = 7
+Port    = 2
+
+Command 271 = SHL
+Op1     = 1
+Op2     = 6
+Port    = 3
+
+
+
+-------------------------------------------------------
+DUT error at time 246400
+Port 3 invalid output.
+ 	                       Instruction SHL 00000000000000000000000000000001 6,
+ 			       expected        00000000000000000000000001000000 	 64,
+ 			       received        00000000000000000000000000000010 	 2.
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 272 = ADD
+Op1     = 0
+Op2     = 672662878
+Port    = 2
+
+Command 273 = SHL
+Op1     = 935258023
+Op2     = 11
+Port    = 2
+
+Command 274 = ADD
+Op1     = 1
+Op2     = 1025552145
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 249000
+Port 4 timed out.
+ 	     Instruction ADD 1 1025552145,
+ 	     expected 00111101001000001010111100010010 	 1025552146,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 275 = SHL
+Op1     = 954361381
+Op2     = 23
+Port    = 1
+
+
+
+-------------------------------------------------------
+DUT error at time 250000
+Port 1 invalid output.
+ 	                       Instruction SHL 00111000111000100110011000100101 23,
+ 			       expected        00010010100000000000000000000000 	 310378496,
+ 			       received        00010010100000000000000010000000 	 310378624.
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 276 = SHL
+Op1     = 1
+Op2     = 0
+Port    = 3
+
+
+
+-------------------------------------------------------
+DUT error at time 250600
+Port 3 invalid output.
+ 	                       Instruction SHL 00000000000000000000000000000001 0,
+ 			       expected        00000000000000000000000000000001 	 1,
+ 			       received        00000000000000000000000000000010 	 2.
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 277 = SHL
+Op1     = 263431289
+Op2     = 0
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 251200
+Port 4 timed out.
+ 	     Instruction SHL 263431289 0,
+ 	     expected 00001111101100111010010001111001 	 263431289,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 278 = SUB
+Op1     = 1
+Op2     = 3318713702
+Port    = 2
+
+Command 279 = SUB
+Op1     = 0
+Op2     = 918500517
+Port    = 3
+
+
+
+-------------------------------------------------------
+DUT error at time 252800
+Port 3 invalid response.
+ 	                          Instruction SUB 0 918500517,
+ 				  expected 2,
+ 				  received 1.
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 280 = SHL
+Op1     = 838169856
+Op2     = 3541010162
+Port    = 2
+
+
+
+-------------------------------------------------------
+DUT error at time 253800
+Port 2 invalid output.
+ 	                       Instruction SHL 00110001111101010111010100000000 -753957134,
+ 			       expected        11010100000000000000000000000000 	 -738197504,
+ 			       received        11010100000000000000000000000100 	 -738197500.
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 281 = ADD
+Op1     = 3445138812
+Op2     = 0
+Port    = 1
+
+Command 282 = SUB
+Op1     = 3914843196
+Op2     = 4129787515
+Port    = 2
+
+Command 283 = SHL
+Op1     = 233514700
+Op2     = 32
+Port    = 1
+
+Command 284 = ADD
+Op1     = 0
+Op2     = 2071322026
+Port    = 1
+
+Command 285 = ADD
+Op1     = 1
+Op2     = 2933448605
+Port    = 1
+
+Command 286 = SHL
+Op1     = 0
+Op2     = 1
+Port    = 3
+
+Command 287 = SUB
+Op1     = 2540507176
+Op2     = 3400670999
+Port    = 1
+
+Command 288 = SHL
+Op1     = 1
+Op2     = 0
+Port    = 3
+
+Command 289 = SHR
+Op1     = 1288741564
+Op2     = 2297250965
+Port    = 2
+
+Command 290 = SUB
+Op1     = 0
+Op2     = 2468461767
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 263400
+Port 4 timed out.
+ 	     Instruction SUB 0 -1826505529,
+ 	     expected 10010011001000011011110011000111 	 -1826505529,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 291 = SHR
+Op1     = 55904953
+Op2     = 3594855119
+Port    = 3
+
+
+
+-------------------------------------------------------
+DUT error at time 264200
+check that ins.resp == 01
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+
+
+-------------------------------------------------------
+DUT error at time 264200
+Port 3 invalid output.
+ 	                       Instruction SHR 00000011010101010000101010111001 -700112177,
+ 			       expected        00000000000000000000011010101010 	 1706,
+ 			       received        00101101000011111110011111101010 	 756017130.
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 292 = SUB
+Op1     = 0
+Op2     = 290041349
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 264800
+Port 4 timed out.
+ 	     Instruction SUB 0 290041349,
+ 	     expected 00010001010010011010111000000101 	 290041349,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 293 = SHL
+Op1     = 938060583
+Op2     = 17
+Port    = 3
+
+
+
+-------------------------------------------------------
+DUT error at time 265600
+Port 3 invalid output.
+ 	                       Instruction SHL 00110111111010011010101100100111 17,
+ 			       expected        01010110010011100000000000000000 	 1447952384,
+ 			       received        00110111111010011010101100010110 	 938060566.
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 294 = SHR
+Op1     = 3553712327
+Op2     = 1
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 266200
+Port 4 timed out.
+ 	     Instruction SHR -741254969 1,
+ 	     expected 11010011110100010101100011001000 	 -741254968,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 295 = SHL
+Op1     = 1
+Op2     = 3411536075
+Port    = 3
+
+
+
+-------------------------------------------------------
+DUT error at time 267000
+Port 3 invalid output.
+ 	                       Instruction SHL 00000000000000000000000000000001 -883431221,
+ 			       expected        00000000000000000000100000000000 	 2048,
+ 			       received        00000000000000000000000000000000 	 0.
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 296 = SUB
+Op1     = 1
+Op2     = 1
+Port    = 1
+
+Command 297 = SHL
+Op1     = 0
+Op2     = 3
+Port    = 1
+
+Command 298 = SHR
+Op1     = 0
+Op2     = 609501318
+Port    = 1
+
+Command 299 = SHL
+Op1     = 955285691
+Op2     = 0
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 270600
+Port 4 timed out.
+ 	     Instruction SHL 955285691 0,
+ 	     expected 00111000111100001000000010111011 	 955285691,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 300 = SHL
+Op1     = 0
+Op2     = 16
+Port    = 3
+
+
+
+-------------------------------------------------------
+DUT error at time 271400
+Port 3 invalid output.
+ 	                       Instruction SHL 00000000000000000000000000000000 16,
+ 			       expected        00000000000000000000000000000000 	 0,
+ 			       received        00000000000000000000000000000001 	 1.
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 301 = SHR
+Op1     = 2784139320
+Op2     = 29
+Port    = 1
+
+Command 302 = SHR
+Op1     = 719361697
+Op2     = 0
+Port    = 3
+
+
+
+-------------------------------------------------------
+DUT error at time 273400
+Port 3 invalid output.
+ 	                       Instruction SHR 00101010111000001001011010100001 0,
+ 			       expected        00101010111000001001011010100001 	 719361697,
+ 			       received        00000000000000000000000000000000 	 0.
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 303 = SHL
+Op1     = 0
+Op2     = 0
+Port    = 3
+
+Command 304 = SHL
+Op1     = 1
+Op2     = 19
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 275000
+Port 4 timed out.
+ 	     Instruction SHL 1 19,
+ 	     expected 00000000000000000000000000010100 	 20,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 305 = SHR
+Op1     = 0
+Op2     = 18
+Port    = 1
+
+Command 306 = SHL
+Op1     = 1
+Op2     = 1457275217
+Port    = 1
+
+
+
+-------------------------------------------------------
+DUT error at time 277400
+Port 1 invalid output.
+ 	                       Instruction SHL 00000000000000000000000000000001 1457275217,
+ 			       expected        00000000000000100000000000000000 	 131072,
+ 			       received        00000000000000100000000000000010 	 131074.
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 307 = ADD
+Op1     = 0
+Op2     = 2765386635
+Port    = 3
+
+
+
+-------------------------------------------------------
+DUT error at time 278200
+Port 3 invalid output.
+ 	                       Instruction ADD 00000000000000000000000000000000
+ 			                       10100100110101000111001110001011,
+ 			       expected        10100100110101000111001110001011 	 -1529580661,
+ 			       received        00000000000000000000000000000000 	 0.
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 308 = ADD
+Op1     = 1
+Op2     = 351007327
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 278800
+Port 4 timed out.
+ 	     Instruction ADD 1 351007327,
+ 	     expected 00010100111010111111001001100000 	 351007328,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 309 = SHR
+Op1     = 4134026652
+Op2     = 1
+Port    = 2
+
+
+
+-------------------------------------------------------
+DUT error at time 279800
+Port 2 invalid output.
+ 	                       Instruction SHR 11110110011010000011110110011100 1,
+ 			       expected        01111011001101000001111011001110 	 2067013326,
+ 			       received        11110110011010000011110110011100 	 -160940644.
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 310 = SHR
+Op1     = 2138092861
+Op2     = 3445490484
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 280400
+Port 4 timed out.
+ 	     Instruction SHR 2138092861 -849476812,
+ 	     expected 01001100110011101011100001110001 	 1288616049,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 311 = SHL
+Op1     = 0
+Op2     = 32
+Port    = 3
+
+Command 312 = ADD
+Op1     = 838655882
+Op2     = 3667352479
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 281800
+Port 4 timed out.
+ 	     Instruction ADD 838655882 -627614817,
+ 	     expected 00001100100101000011101100101001 	 211041065,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 313 = SHL
+Op1     = 3833676626
+Op2     = 1
+Port    = 2
+
+Command 314 = SHR
+Op1     = 1193212691
+Op2     = 0
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 283400
+Port 4 timed out.
+ 	     Instruction SHR 1193212691 0,
+ 	     expected 01000111000111101111101100010011 	 1193212691,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 315 = SUB
+Op1     = 2361547133
+Op2     = 1847685617
+Port    = 3
+
+
+
+-------------------------------------------------------
+DUT error at time 284200
+Port 3 invalid output.
+ 	                       Instruction SUB 10001100110000100101100101111101
+ 			                       01101110001000010111000111110001,
+ 			       expected        00011110101000001110011110001100 	 513861516,
+ 			       received        00000000000000000100011001100001 	 18017.
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 316 = SHR
+Op1     = 0
+Op2     = 0
+Port    = 3
+
+Command 317 = SHL
+Op1     = 1
+Op2     = 12
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 285800
+Port 4 timed out.
+ 	     Instruction SHL 1 12,
+ 	     expected 00000000000000000000000000001101 	 13,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 318 = SHL
+Op1     = 2784053240
+Op2     = 32
+Port    = 3
+
+Command 319 = ADD
+Op1     = 1
+Op2     = 3818547852
+Port    = 2
+
+Command 320 = SHL
+Op1     = 2075348977
+Op2     = 1
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 288200
+Port 4 timed out.
+ 	     Instruction SHL 2075348977 1,
+ 	     expected 01111011101100110100111111110010 	 2075348978,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 321 = SHL
+Op1     = 3970556904
+Op2     = 1
+Port    = 2
+
+Command 322 = SUB
+Op1     = 2677290311
+Op2     = 1674681143
+Port    = 2
+
+Command 323 = SHR
+Op1     = 3431426063
+Op2     = 764786099
+Port    = 1
+
+Command 324 = SHR
+Op1     = 2155357847
+Op2     = 3474845307
+Port    = 2
+
+Command 325 = SHR
+Op1     = 1603441406
+Op2     = 4
+Port    = 2
+
+Command 326 = SHR
+Op1     = 1227319942
+Op2     = 0
+Port    = 3
+
+Command 327 = SHR
+Op1     = 3811482990
+Op2     = 24
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 295200
+Port 4 timed out.
+ 	     Instruction SHR -483484306 24,
+ 	     expected 11100011001011101001110110000110 	 -483484282,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 328 = ADD
+Op1     = 2903722953
+Op2     = 978080536
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 295800
+Port 4 timed out.
+ 	     Instruction ADD -1391244343 978080536,
+ 	     expected 11100111010111111001111011100001 	 -413163807,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 329 = SHL
+Op1     = 1786206379
+Op2     = 6
+Port    = 1
+
+Command 330 = SHR
+Op1     = 3598838698
+Op2     = 2031538932
+Port    = 2
+
+Command 331 = SUB
+Op1     = 426284703
+Op2     = 4080433871
+Port    = 1
+
+Command 332 = SUB
+Op1     = 3648506899
+Op2     = 1830016423
+Port    = 2
+
+Command 333 = SUB
+Op1     = 0
+Op2     = 4036907716
+Port    = 1
+
+Command 334 = SHR
+Op1     = 1
+Op2     = 1
+Port    = 2
+
+
+
+-------------------------------------------------------
+DUT error at time 302400
+Port 2 invalid output.
+ 	                       Instruction SHR 00000000000000000000000000000001 1,
+ 			       expected        00000000000000000000000000000000 	 0,
+ 			       received        00000000000000000000000000000001 	 1.
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 335 = SUB
+Op1     = 0
+Op2     = 874570759
+Port    = 2
+
+Command 336 = SHL
+Op1     = 0
+Op2     = 1807946084
+Port    = 1
+
+Command 337 = SHR
+Op1     = 0
+Op2     = 3731572080
+Port    = 2
+
+Command 338 = SHR
+Op1     = 2649513530
+Op2     = 0
+Port    = 3
+
+Command 339 = SUB
+Op1     = 2849746168
+Op2     = 3291745640
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 306800
+Port 4 timed out.
+ 	     Instruction SUB -1445221128 -1003221656,
+ 	     expected 01101110000011111011101001100000 	 1846524512,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 340 = SHL
+Op1     = 4058551664
+Op2     = 1
+Port    = 2
+
+Command 341 = SUB
+Op1     = 2977044639
+Op2     = 939088884
+Port    = 3
+
+
+
+-------------------------------------------------------
+DUT error at time 308400
+Port 3 invalid output.
+ 	                       Instruction SUB 10110001011100100001100010011111
+ 			                       00110111111110010101101111110100,
+ 			       expected        01111001011110001011110010101011 	 2037955755,
+ 			       received        00000000000000000000000000000000 	 0.
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 342 = SUB
+Op1     = 1
+Op2     = 4295140
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 309000
+Port 4 timed out.
+ 	     Instruction SUB 1 4295140,
+ 	     expected 00000000010000011000100111100101 	 4295141,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 343 = SHR
+Op1     = 4089317943
+Op2     = 15
+Port    = 2
+
+Command 344 = SUB
+Op1     = 768120314
+Op2     = 664584374
+Port    = 1
+
+Command 345 = SUB
+Op1     = 0
+Op2     = 141046257
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 311600
+Port 4 timed out.
+ 	     Instruction SUB 0 141046257,
+ 	     expected 00001000011010000011000111110001 	 141046257,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 346 = SHR
+Op1     = 0
+Op2     = 1
+Port    = 1
+
+Command 347 = SUB
+Op1     = 0
+Op2     = 3714422161
+Port    = 3
+
+Command 348 = ADD
+Op1     = 1
+Op2     = 2919893567
+Port    = 1
+
+Command 349 = ADD
+Op1     = 0
+Op2     = 682804878
+Port    = 1
+
+Command 350 = SHL
+Op1     = 111288076
+Op2     = 1008558588
+Port    = 1
+
+
+
+-------------------------------------------------------
+DUT error at time 316400
+Port 1 invalid output.
+ 	                       Instruction SHL 00000110101000100001111100001100 1008558588,
+ 			       expected        11000000000000000000000000000000 	 -1073741824,
+ 			       received        11000000000000000001000000000000 	 -1073737728.
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 351 = ADD
+Op1     = 0
+Op2     = 2211483546
+Port    = 2
+
+Command 352 = ADD
+Op1     = 1969892326
+Op2     = 1913719529
+Port    = 3
+
+Command 353 = SHR
+Op1     = 1215263338
+Op2     = 32
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 319000
+Port 4 timed out.
+ 	     Instruction SHR 1215263338 32,
+ 	     expected 01001000011011110111001010001010 	 1215263370,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 354 = SHR
+Op1     = 1
+Op2     = 1
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 319600
+Port 4 timed out.
+ 	     Instruction SHR 1 1,
+ 	     expected 00000000000000000000000000000010 	 2,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 355 = SHL
+Op1     = 4270981732
+Op2     = 20
+Port    = 1
+
+
+
+-------------------------------------------------------
+DUT error at time 320600
+Port 1 invalid output.
+ 	                       Instruction SHL 11111110100100100000001001100100 20,
+ 			       expected        00100110010000000000000000000000 	 641728512,
+ 			       received        00100110010000000000000000010000 	 641728528.
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 356 = SHR
+Op1     = 1675074110
+Op2     = 7
+Port    = 1
+
+Command 357 = ADD
+Op1     = 0
+Op2     = 153159924
+Port    = 2
+
+Command 358 = SHR
+Op1     = 4002402785
+Op2     = 2294784829
+Port    = 2
+
+Command 359 = SHL
+Op1     = 1446731586
+Op2     = 32
+Port    = 2
+
+Command 360 = SHL
+Op1     = 1
+Op2     = 4
+Port    = 2
+
+Command 361 = ADD
+Op1     = 1
+Op2     = 2444540276
+Port    = 1
+
+Command 362 = SUB
+Op1     = 1
+Op2     = 1108718977
+Port    = 3
+
+
+
+-------------------------------------------------------
+DUT error at time 327800
+Port 3 invalid response.
+ 	                          Instruction SUB 1 1108718977,
+ 				  expected 2,
+ 				  received 1.
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 363 = SHL
+Op1     = 1
+Op2     = 3405891323
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 328400
+Port 4 timed out.
+ 	     Instruction SHL 1 -889075973,
+ 	     expected 11001011000000011100011011111100 	 -889075972,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 364 = ADD
+Op1     = 0
+Op2     = 4182699280
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 329000
+Port 4 timed out.
+ 	     Instruction ADD 0 -112268016,
+ 	     expected 11111001010011101110110100010000 	 -112268016,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 365 = ADD
+Op1     = 257080640
+Op2     = 743194585
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 329600
+Port 4 timed out.
+ 	     Instruction ADD 257080640 743194585,
+ 	     expected 00111011100111101111110100011001 	 1000275225,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 366 = ADD
+Op1     = 0
+Op2     = 1455105389
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 330200
+Port 4 timed out.
+ 	     Instruction ADD 0 1455105389,
+ 	     expected 01010110101110110010010101101101 	 1455105389,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 367 = SHR
+Op1     = 0
+Op2     = 3322347018
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 330800
+Port 4 timed out.
+ 	     Instruction SHR 0 -972620278,
+ 	     expected 11000110000001101111111000001010 	 -972620278,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 368 = ADD
+Op1     = 1
+Op2     = 491757541
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 331400
+Port 4 timed out.
+ 	     Instruction ADD 1 491757541,
+ 	     expected 00011101010011111001111111100110 	 491757542,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 369 = SUB
+Op1     = 608016138
+Op2     = 504555712
+Port    = 2
+
+Command 370 = SHR
+Op1     = 0
+Op2     = 7
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 333200
+Port 4 timed out.
+ 	     Instruction SHR 0 7,
+ 	     expected 00000000000000000000000000000111 	 7,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 371 = SHR
+Op1     = 1
+Op2     = 4254632666
+Port    = 2
+
+Command 372 = SHR
+Op1     = 3562227295
+Op2     = 3318814227
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 335000
+Port 4 timed out.
+ 	     Instruction SHR -732740001 -976153069,
+ 	     expected 10011010001001000101110001110010 	 -1708893070,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 373 = SUB
+Op1     = 3121927823
+Op2     = 1257483780
+Port    = 2
+
+Command 374 = SHL
+Op1     = 1
+Op2     = 2305393440
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 336600
+Port 4 timed out.
+ 	     Instruction SHL 1 -1989573856,
+ 	     expected 10001001011010011000001100100001 	 -1989573855,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 375 = SHL
+Op1     = 1
+Op2     = 4139116060
+Port    = 3
+
+
+
+-------------------------------------------------------
+DUT error at time 337200
+Port 3 invalid output.
+ 	                       Instruction SHL 00000000000000000000000000000001 -155851236,
+ 			       expected        00010000000000000000000000000000 	 268435456,
+ 			       received        00000000000000000000000000000010 	 2.
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 376 = SHR
+Op1     = 753465900
+Op2     = 5
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 337800
+Port 4 timed out.
+ 	     Instruction SHR 753465900 5,
+ 	     expected 00101100111010001111101000110001 	 753465905,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 377 = SHL
+Op1     = 883165067
+Op2     = 91310500
+Port    = 2
+
+Command 378 = SHL
+Op1     = 1
+Op2     = 32
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 339600
+Port 4 timed out.
+ 	     Instruction SHL 1 32,
+ 	     expected 00000000000000000000000000100001 	 33,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 379 = SHL
+Op1     = 0
+Op2     = 11
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 340200
+Port 4 timed out.
+ 	     Instruction SHL 0 11,
+ 	     expected 00000000000000000000000000001011 	 11,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 380 = SHR
+Op1     = 1244351145
+Op2     = 32
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 340800
+Port 4 timed out.
+ 	     Instruction SHR 1244351145 32,
+ 	     expected 01001010001010110100101011001001 	 1244351177,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 381 = SHL
+Op1     = 2207730667
+Op2     = 2716184822
+Port    = 3
+
+
+
+-------------------------------------------------------
+DUT error at time 341400
+Port 3 invalid output.
+ 	                       Instruction SHL 10000011100101110100101111101011 -1578782474,
+ 			       expected        11111010110000000000000000000000 	 -88080384,
+ 			       received        00000000000100000111001011101001 	 1077993.
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 382 = SHR
+Op1     = 2536626403
+Op2     = 0
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 342000
+Port 4 timed out.
+ 	     Instruction SHR -1758340893 0,
+ 	     expected 10010111001100011101100011100011 	 -1758340893,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 383 = SUB
+Op1     = 78043804
+Op2     = 4543395
+Port    = 1
+
+Command 384 = SUB
+Op1     = 3714053875
+Op2     = 607827075
+Port    = 1
+
+Command 385 = SHL
+Op1     = 2621053964
+Op2     = 0
+Port    = 2
+
+Command 386 = SHR
+Op1     = 0
+Op2     = 1726498180
+Port    = 3
+
+Command 387 = ADD
+Op1     = 1
+Op2     = 2810684702
+Port    = 2
+
+Command 388 = SHR
+Op1     = 1
+Op2     = 1764057527
+Port    = 2
+
+Command 389 = SHL
+Op1     = 2271509482
+Op2     = 32
+Port    = 1
+
+Command 390 = SHL
+Op1     = 1127316264
+Op2     = 2355147629
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 349600
+Port 4 timed out.
+ 	     Instruction SHL 1127316264 -1939819667,
+ 	     expected 11001111100100100010111010010101 	 -812503403,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 391 = SUB
+Op1     = 0
+Op2     = 231918024
+Port    = 2
+
+Command 392 = SUB
+Op1     = 4107594730
+Op2     = 0
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 351200
+Port 4 timed out.
+ 	     Instruction SUB -187372566 0,
+ 	     expected 11110100110101001110101111101010 	 -187372566,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 393 = ADD
+Op1     = 854467050
+Op2     = 1651931849
+Port    = 2
+
+Command 394 = SHR
+Op1     = 3598835458
+Op2     = 0
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 353000
+Port 4 timed out.
+ 	     Instruction SHR -696131838 0,
+ 	     expected 11010110100000011101111100000010 	 -696131838,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 395 = ADD
+Op1     = 1556125811
+Op2     = 1502337762
+Port    = 1
+
+Command 396 = ADD
+Op1     = 0
+Op2     = 3927915547
+Port    = 4
+
+
+
+-------------------------------------------------------
+DUT error at time 354600
+Port 4 timed out.
+ 	     Instruction ADD 0 -367051749,
+ 	     expected 11101010000111110011110000011011 	 -367051749,
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 397 = ADD
+Op1     = 0
+Op2     = 1109996332
+Port    = 2
+
+Command 398 = SHL
+Op1     = 1
+Op2     = 3175375457
+Port    = 3
+
+
+
+-------------------------------------------------------
+DUT error at time 356600
+Port 3 invalid output.
+ 	                       Instruction SHL 00000000000000000000000000000001 -1119591839,
+ 			       expected        00000000000000000000000000000010 	 2,
+ 			       received        10111101010001000110001001100010 	 -1119591838.
+
+-------------------------------------------------------
+Will continue execution (check effect is ERROR_CONTINUE)
+
+Command 399 = SHR
+Op1     = 3090158074
+Op2     = 26
+Port    = 1
+
+Calling stop_run() from at line 231 in @driver.
+Last specman tick - stop_run() was called
+Normal stop - stop_run() is completed
+Checking the test ...
+Checking is complete - 184 DUT errors, 0 DUT warnings.
+Reusing existing coverage model  ./cov_work/scope/sn_00000000_4ff79a2d.ucm
+Wrote 1 cover_struct to ./cov_work/scope/test_example_report/sn_00000000_4ff79a2d.ucd
+Memory Usage - 35.2M program + 306.8M data = 342.0M total
+CPU Usage - 0.4s system + 1.6s user = 2.0s total (10.3% cpu)
+Simulation stopped via $stop(2) at time 359800 NS + 2
+ncsim> ^C
+ncsim> exit
+ncsim: *E,C58EXE: Coverage database file already exists in the test output directory './cov_work/scope/test_example_report', and will not be overwritten. Specify a different name for the test output directory or use the '-covoverwrite' option to overwrite the existing test output directory, and rerun the simulation.
+TOOL:	irun(64)	14.10-s004: Exiting on Dec 21, 2018 at 16:14:47 GMT  (total: 00:00:38)

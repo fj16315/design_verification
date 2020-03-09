@@ -1,0 +1,38 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/fj16315/linux
+vexample_calc1_tb
+!s110 1541435520
+!i10b 1
+!s100 28LN0>ech179l^G@f69jh0
+IM[A5CJR:o__d]TQK^M;Nd2
+VDg1SIo80bB@j0V0VzS_@n1
+d/home/fj16315/linux/Documents/3rd_Year/Design_Verification/Assignment_1
+w1541435515
+8/home/fj16315/linux/Documents/3rd_Year/Design_Verification/Assignment_1/example_calc1_tb.v
+F/home/fj16315/linux/Documents/3rd_Year/Design_Verification/Assignment_1/example_calc1_tb.v
+Fdrive_reqs.v
+Fcheck_reqs.v
+Ftest_reset.v
+Fdrive_multi_cmd.v
+Fcheck_multi_cmd.v
+Ftest_queue.v
+Fexpected_output.v
+L0 17
+OE;L;10.5c_4;63
+r1
+!s85 0
+31
+!s108 1541435520.000000
+!s107 expected_output.v|test_queue.v|check_multi_cmd.v|drive_multi_cmd.v|test_reset.v|check_reqs.v|drive_reqs.v|/home/fj16315/linux/Documents/3rd_Year/Design_Verification/Assignment_1/example_calc1_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|/home/fj16315/linux/Documents/3rd_Year/Design_Verification/Assignment_1/example_calc1_tb.v|
+!i113 0
+o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+tCvgOpt 0

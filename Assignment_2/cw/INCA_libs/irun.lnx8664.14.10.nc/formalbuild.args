@@ -1,0 +1,10 @@
+//
+// File created by:  irun
+// Do not modify this file
+//
++NoArgsToLog
+-COVERAGE
+all
+-COVTEST
+test_example_report
+-UPDATE

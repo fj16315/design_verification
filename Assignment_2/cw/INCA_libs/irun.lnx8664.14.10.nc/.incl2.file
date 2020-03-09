@@ -1,0 +1,16 @@
+calc1_top.v
+/home/fj16315/linux/Documents/3rd_Year/Design_Verification/Assignment_2/cw/calc1_top.v
+alu_input_stage.v
+/home/fj16315/linux/Documents/3rd_Year/Design_Verification/Assignment_2/cw/alu_input_stage.v
+alu_output_stage.v
+/home/fj16315/linux/Documents/3rd_Year/Design_Verification/Assignment_2/cw/alu_output_stage.v
+exdbin_mac.v
+/home/fj16315/linux/Documents/3rd_Year/Design_Verification/Assignment_2/cw/exdbin_mac.v
+holdreg.v
+/home/fj16315/linux/Documents/3rd_Year/Design_Verification/Assignment_2/cw/holdreg.v
+mux_out.v
+/home/fj16315/linux/Documents/3rd_Year/Design_Verification/Assignment_2/cw/mux_out.v
+priority.v
+/home/fj16315/linux/Documents/3rd_Year/Design_Verification/Assignment_2/cw/priority.v
+shifter.v
+/home/fj16315/linux/Documents/3rd_Year/Design_Verification/Assignment_2/cw/shifter.v

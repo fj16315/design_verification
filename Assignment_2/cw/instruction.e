@@ -1,0 +1,27 @@
+
+   Sample instruction.e file
+   -------------------------
+   This file provides the basic structure for the calc1 design instructions
+   and also an example response checker for ADD instructions.
+
+<'
+
+type opcode_t : [ NOP, ADD, SUB, INV, INV1, SHL, SHR ] (bits:4);
+
+
+struct instruction_s {
+
+   %cmd_in : opcode_t;
+   %din1   : uint (bits:32);
+   %din2   : uint (bits:32);
+   port : uint (bits:2);
+
+   !resp   : uint (bits:2);
+   !dout   : uint (bits:32);
+
+   check_response(ins : instruction_s) is empty;
+
+}; // struct instruction_s
+
+'>
+

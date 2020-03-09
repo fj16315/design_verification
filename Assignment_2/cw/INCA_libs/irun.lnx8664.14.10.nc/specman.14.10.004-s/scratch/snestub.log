@@ -1,0 +1,182 @@
+Welcome to Specman Elite(64) (14.10.004-s Build 91)  -  Linked on Sun Aug 17 20:21:58 2014
+
+Loading slave adapter -
+/usr/local/cadence/2014-15/INCISIV141/specman/linux64/libncvlog_sn_adapter.so
+Doing setup ...
+Generating the test with IntelliGen using seed 1500212232...
+
+   *** Warning: WARN_GEN_SAMPLING_FAILURE_IN_SOFT: The sampling of the input:
+[4294967297 - din1..4294967295], in the soft constraint: keep soft
+din2==select {
+	10 : 0;
+	70 : [1..4294967296 - din1];
+	20 : [4294967297 - din1..4294967295];
+}    at line 24 in @test_example, has failed with the message:
+Cannot create interval [4294967297..4294967295] - must be in [low..high]
+format.
+		at line 27 in @test_example
+	    20 : [4294967297-din1 .. 4294967295];
+
+The constraint will be ignored.
+
+		at line 24 in @test_example
+	keep soft din2 == select {
+
+
+To debug (in GUI mode), raise the warning severity, run with 'config gen
+-collect; br err' and issue 'gtree' when stopped. 
+For more information, search for 'debug_generation_notifications' in the
+Specman IntelliGen User Guide.
+
+To change the severity, type:
+set notify -severity=<new-severity-level> WARN_GEN_SAMPLING_FAILURE_IN_SOFT
+To see possible severity levels use 'set notify -help'
+
+
+   *** Warning: WARN_GEN_SAMPLING_FAILURE_IN_SOFT: The sampling of the input:
+[4294967297 - din1..4294967295], in the soft constraint: keep soft
+din2==select {
+	10 : 0;
+	70 : [1..4294967296 - din1];
+	20 : [4294967297 - din1..4294967295];
+}    at line 24 in @test_example, has failed with the message:
+Cannot create interval [4294967297..4294967295] - must be in [low..high]
+format.
+		at line 27 in @test_example
+	    20 : [4294967297-din1 .. 4294967295];
+
+The constraint will be ignored.
+
+		at line 24 in @test_example
+	keep soft din2 == select {
+
+
+To debug (in GUI mode), raise the warning severity, run with 'config gen
+-collect; br err' and issue 'gtree' when stopped. 
+For more information, search for 'debug_generation_notifications' in the
+Specman IntelliGen User Guide.
+
+To change the severity, type:
+set notify -severity=<new-severity-level> WARN_GEN_SAMPLING_FAILURE_IN_SOFT
+To see possible severity levels use 'set notify -help'
+
+
+   *** Warning: WARN_GEN_SAMPLING_FAILURE_IN_SOFT: The sampling of the input:
+[1..din1], in the soft constraint: keep soft din2==select {
+	10 : 0;
+	70 : [1..din1];
+	20 : [din1 + 1..4294967295];
+}    at line 49 in @test_example, has failed with the message:
+Cannot create interval [1..0] - must be in [low..high] format.
+		at line 51 in @test_example
+	    70 : [1 .. din1];
+
+The constraint will be ignored.
+
+		at line 49 in @test_example
+	keep soft din2 == select {
+
+
+To debug (in GUI mode), raise the warning severity, run with 'config gen
+-collect; br err' and issue 'gtree' when stopped. 
+For more information, search for 'debug_generation_notifications' in the
+Specman IntelliGen User Guide.
+
+To change the severity, type:
+set notify -severity=<new-severity-level> WARN_GEN_SAMPLING_FAILURE_IN_SOFT
+To see possible severity levels use 'set notify -help'
+
+
+   *** Warning: WARN_GEN_SAMPLING_FAILURE_IN_SOFT: The sampling of the input:
+[4294967297 - din1..4294967295], in the soft constraint: keep soft
+din2==select {
+	10 : 0;
+	70 : [1..4294967296 - din1];
+	20 : [4294967297 - din1..4294967295];
+}    at line 24 in @test_example, has failed with the message:
+Cannot create interval [4294967296..4294967295] - must be in [low..high]
+format.
+		at line 27 in @test_example
+	    20 : [4294967297-din1 .. 4294967295];
+
+The constraint will be ignored.
+
+		at line 24 in @test_example
+	keep soft din2 == select {
+
+
+To debug (in GUI mode), raise the warning severity, run with 'config gen
+-collect; br err' and issue 'gtree' when stopped. 
+For more information, search for 'debug_generation_notifications' in the
+Specman IntelliGen User Guide.
+
+To change the severity, type:
+set notify -severity=<new-severity-level> WARN_GEN_SAMPLING_FAILURE_IN_SOFT
+To see possible severity levels use 'set notify -help'
+
+
+   *** Warning: WARN_GEN_SAMPLING_FAILURE_IN_SOFT: The sampling of the input:
+[4294967297 - din1..4294967295], in the soft constraint: keep soft
+din2==select {
+	10 : 0;
+	70 : [1..4294967296 - din1];
+	20 : [4294967297 - din1..4294967295];
+}    at line 24 in @test_example, has failed with the message:
+Cannot create interval [4294967297..4294967295] - must be in [low..high]
+format.
+		at line 27 in @test_example
+	    20 : [4294967297-din1 .. 4294967295];
+
+The constraint will be ignored.
+
+		at line 24 in @test_example
+	keep soft din2 == select {
+
+
+To debug (in GUI mode), raise the warning severity, run with 'config gen
+-collect; br err' and issue 'gtree' when stopped. 
+For more information, search for 'debug_generation_notifications' in the
+Specman IntelliGen User Guide.
+
+To change the severity, type:
+set notify -severity=<new-severity-level> WARN_GEN_SAMPLING_FAILURE_IN_SOFT
+To see possible severity levels use 'set notify -help'
+
+
+   *** Warning: WARN_GEN_SAMPLING_FAILURE_IN_SOFT: The sampling of the input:
+[4294967297 - din1..4294967295], in the soft constraint: keep soft
+din2==select {
+	10 : 0;
+	70 : [1..4294967296 - din1];
+	20 : [4294967297 - din1..4294967295];
+}    at line 24 in @test_example, has failed with the message:
+Cannot create interval [4294967297..4294967295] - must be in [low..high]
+format.
+		at line 27 in @test_example
+	    20 : [4294967297-din1 .. 4294967295];
+
+The constraint will be ignored.
+
+		at line 24 in @test_example
+	keep soft din2 == select {
+
+
+To debug (in GUI mode), raise the warning severity, run with 'config gen
+-collect; br err' and issue 'gtree' when stopped. 
+For more information, search for 'debug_generation_notifications' in the
+Specman IntelliGen User Guide.
+
+To change the severity, type:
+set notify -severity=<new-severity-level> WARN_GEN_SAMPLING_FAILURE_IN_SOFT
+To see possible severity levels use 'set notify -help'
+
+Notification WARN_GEN_SAMPLING_FAILURE_IN_SOFT appears 6 times already -
+further occurrences will not be shown
+
+
+Wrote Verilog stubs to
+/home/fj16315/linux/Documents/3rd_Year/Design_Verification/Assignment_2/cw/INCA_libs/irun.lnx8664.14.10.nc/specman.14.10.004-s/scratch/specman.v
+ 
+Wrote VHDL stubs to
+/home/fj16315/linux/Documents/3rd_Year/Design_Verification/Assignment_2/cw/INCA_libs/irun.lnx8664.14.10.nc/specman.14.10.004-s/scratch/specman.vhd
+

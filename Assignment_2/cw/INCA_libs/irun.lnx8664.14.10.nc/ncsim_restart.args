@@ -1,0 +1,26 @@
+//
+// File created by:  irun
+// Do not modify this file
+//
+-gui
+-COVTEST
+test_example_report
+-MESSAGES
++EMGRLOG
+irun.log
+-XLSTIME
+1545408849
+-XLKEEP
+-XLMODE
+./INCA_libs/irun.lnx8664.14.10.nc
+-RUNMODE
+-CDSLIB
+./INCA_libs/irun.lnx8664.14.10.nc/cds.lib
+-HDLVAR
+./INCA_libs/irun.lnx8664.14.10.nc/hdl.var
+-XLNAME
+irun
+-XLVERSION
+"TOOL:	irun(64)	14.10-s004"
+-XLNAME
+./INCA_libs/irun.lnx8664.14.10.nc/frosty.fen.bris.ac.uk_79035

@@ -1,0 +1,678 @@
+`uselib lib=calc1_black_box
+
+`timescale 1ns/10ps
+
+`define CMD_NONE 0
+`define CMD_ADD 1
+`define CMD_SUB 2
+`define CMD_LSHIFT 5
+`define CMD_RSHIFT 6
+
+`define RESP_NONE 0
+`define RESP_SUCCESS 1
+`define RESP_CMD_ERR 2
+`define RESP_FLOW_ERR 2
+`define RESP_INT_ERR 3
+
+module example_calc1_tb;
+
+   wire [0:31]   out_data1, out_data2, out_data3, out_data4;
+   wire [0:1]    out_resp1, out_resp2, out_resp3, out_resp4;
+   
+   reg 	         c_clk;
+   reg [0:3] 	 req1_cmd_in, req2_cmd_in, req3_cmd_in, req4_cmd_in;
+   reg [0:31]    req1_data_in, req2_data_in, req3_data_in, req4_data_in;
+   reg [1:7] 	 reset;
+
+   reg [0:7] counter1;
+   reg [0:7] counter2;
+   reg flag_queue;
+   reg flag_multi;
+   reg [0:31] fifo [0:7];
+   reg [0:31] fifo1 [0:7];
+
+   calc1 DUV(out_data1, out_data2, out_data3, out_data4, out_resp1, out_resp2, out_resp3, out_resp4, c_clk, req1_cmd_in, req1_data_in, req2_cmd_in, req2_data_in, req3_cmd_in, req3_data_in, req4_cmd_in, req4_data_in, reset);
+   
+   initial 
+     begin
+	c_clk = 0;
+	req1_cmd_in = 0;
+	req1_data_in = 0;
+	req2_cmd_in = 0;
+	req2_data_in = 0;
+	req3_cmd_in = 0;
+	req3_data_in = 0;
+	req4_cmd_in = 0;
+	req4_data_in = 0;
+	flag_queue = 0;
+	flag_multi = 0;
+     end   
+	
+   always #100 c_clk = ~c_clk;
+
+   `include "drive_reqs.v"
+   `include "check_reqs.v"
+   `include "test_reset.v"
+   `include "drive_multi_cmd.v"
+   `include "check_multi_cmd.v"
+   `include "test_queue.v"
+   `include "expected_output.v"
+
+   always @reset begin
+	if (reset[1]) begin
+	   for (counter1 = 0; counter1 < 4; counter1=counter1+1) begin
+	   	@(posedge c_clk);
+	   	check_reset;
+	   end
+	end
+   end
+
+   always @(posedge c_clk) begin
+	if (flag_queue || flag_multi) begin
+	   if (out_resp1) begin
+	      for (counter1 = 7; counter1 > 0; counter1=counter1-1) begin
+		   fifo[counter1] = fifo[counter1-1];
+	      end
+	      fifo[0] = out_data1;
+	   end
+
+	   if (out_resp2) begin
+	      for (counter1 = 7; counter1 > 0; counter1=counter1-1) begin
+		   fifo[counter1] = fifo[counter1-1];
+	      end
+	      fifo[0] = out_data2;
+	   end
+
+	   if (out_resp3) begin
+	      for (counter1 = 7; counter1 > 0; counter1=counter1-1) begin
+		   if (flag_multi) begin
+			fifo1[counter1] = fifo1[counter1-1];
+		   end
+		   if (flag_queue) begin
+			fifo[counter1] = fifo[counter1-1];
+		   end
+	      end
+	      if (flag_multi) begin
+		fifo1[0] = out_data3;
+	      end
+	      if (flag_queue) begin
+		fifo[0] = out_data3;
+	      end
+	   end
+
+	   if (out_resp4) begin
+	      for (counter1 = 7; counter1 > 0; counter1=counter1-1) begin
+		   if (flag_multi) begin
+			fifo1[counter1] = fifo1[counter1-1];
+		   end
+		   if (flag_queue) begin
+			fifo[counter1] = fifo[counter1-1];
+		   end
+	      end
+	      if (flag_multi) begin
+		fifo1[0] = out_data4;
+	      end
+	      if (flag_queue) begin
+		fifo[0] = out_data4;
+	      end
+	   end
+	end
+   end
+   
+   initial
+     begin
+
+        // First drive reset. Driving bit 1 is enough to reset the design.
+
+	drive_reset;
+
+	// Test 1-4: Add general use on lines 1-4
+
+	drive_reqs_1 (`CMD_ADD, 13, 7);
+	check_reqs_1 (1, `CMD_ADD, 13, 7, `RESP_SUCCESS, expected_output(`CMD_ADD, 13, 7));
+
+	drive_reqs_2 (`CMD_ADD, 13, 7);
+	check_reqs_2 (2, `CMD_ADD, 13, 7, `RESP_SUCCESS, expected_output(`CMD_ADD, 13, 7));
+
+	drive_reqs_3 (`CMD_ADD, 13, 7);
+	check_reqs_3 (3, `CMD_ADD, 13, 7, `RESP_SUCCESS, expected_output(`CMD_ADD, 13, 7));
+
+	drive_reqs_4 (`CMD_ADD, 13, 7);
+	check_reqs_4 (4, `CMD_ADD, 13, 7, `RESP_SUCCESS, expected_output(`CMD_ADD, 13, 7));
+
+	// Test 9-12: Sub general use on lines 1-4
+
+	drive_reqs_1 (`CMD_SUB, 13, 7);
+	check_reqs_1 (9, `CMD_SUB, 13, 7, `RESP_SUCCESS, expected_output(`CMD_SUB, 13, 7));
+
+	drive_reqs_2 (`CMD_SUB, 13, 7);
+	check_reqs_2 (10, `CMD_SUB, 13, 7, `RESP_SUCCESS, expected_output(`CMD_SUB, 13, 7));
+
+	drive_reqs_3 (`CMD_SUB, 13, 7);
+	check_reqs_3 (11, `CMD_SUB, 13, 7, `RESP_SUCCESS, expected_output(`CMD_SUB, 13, 7));
+
+	drive_reqs_4 (`CMD_SUB, 13, 7);
+	check_reqs_4 (12, `CMD_SUB, 13, 7, `RESP_SUCCESS, expected_output(`CMD_SUB, 13, 7));
+
+	// Test 17-20: Add operands are 0 on lines 1-4
+
+	drive_reqs_1 (`CMD_ADD, 0, 0);
+	check_reqs_1 (17, `CMD_ADD, 0, 0, `RESP_SUCCESS, expected_output(`CMD_ADD, 0, 0));
+
+	drive_reqs_2 (`CMD_ADD, 0, 0);
+	check_reqs_2 (18, `CMD_ADD, 0, 0, `RESP_SUCCESS, expected_output(`CMD_ADD, 0, 0));
+
+	drive_reqs_3 (`CMD_ADD, 0, 0);
+	check_reqs_3 (19, `CMD_ADD, 0, 0, `RESP_SUCCESS, expected_output(`CMD_ADD, 0, 0));
+
+	drive_reqs_4 (`CMD_ADD, 0, 0);
+	check_reqs_4 (20, `CMD_ADD, 0, 0, `RESP_SUCCESS, expected_output(`CMD_ADD, 0, 0));
+
+	// Test 25-28: Sub operands are 0 on lines 1-4
+
+	drive_reqs_1 (`CMD_SUB, 0, 0);
+	check_reqs_1 (25, `CMD_SUB, 0, 0, `RESP_SUCCESS, expected_output(`CMD_SUB, 0, 0));
+
+	drive_reqs_2 (`CMD_SUB, 0, 0);
+	check_reqs_2 (26, `CMD_SUB, 0, 0, `RESP_SUCCESS, expected_output(`CMD_SUB, 0, 0));
+
+	drive_reqs_3 (`CMD_SUB, 0, 0);
+	check_reqs_3 (27, `CMD_SUB, 0, 0, `RESP_SUCCESS, expected_output(`CMD_SUB, 0, 0));
+
+	drive_reqs_4 (`CMD_SUB, 0, 0);
+	check_reqs_4 (28, `CMD_SUB, 0, 0, `RESP_SUCCESS, expected_output(`CMD_SUB, 0, 0));
+
+	// Test 33-64: Add on all bits in first operand on line 1:
+
+	for (counter1 = 0; counter1 < 32; counter1=counter1+1) begin
+	   drive_reqs_1 (`CMD_ADD, 2**counter1, 1);
+	   check_reqs_1 (33+counter1, `CMD_ADD, 2**counter1, 1, `RESP_SUCCESS, expected_output(`CMD_ADD, 2**counter1, 1));
+	end
+
+	// Test 65-96: Add on all bits in first operand on line 2:
+
+	for (counter1 = 0; counter1 < 32; counter1=counter1+1) begin
+	   drive_reqs_2 (`CMD_ADD, 2**counter1, 1);
+	   check_reqs_2 (65+counter1, `CMD_ADD, 2**counter1, 1, `RESP_SUCCESS, expected_output(`CMD_ADD, 2**counter1, 1));
+	end
+
+	// Test 97-128: Add on all bits in first operand on line 3:
+
+	for (counter1 = 0; counter1 < 32; counter1=counter1+1) begin
+	   drive_reqs_3 (`CMD_ADD, 2**counter1, 1);
+	   check_reqs_3 (97+counter1, `CMD_ADD, 2**counter1, 1, `RESP_SUCCESS, expected_output(`CMD_ADD, 2**counter1, 1));
+	end
+
+	// Test 129-160: Add on all bits in first operand on line 4:
+
+	for (counter1 = 0; counter1 < 32; counter1=counter1+1) begin
+	   drive_reqs_4 (`CMD_ADD, 2**counter1, 1);
+	   check_reqs_4 (129+counter1, `CMD_ADD, 2**counter1, 1, `RESP_SUCCESS, expected_output(`CMD_ADD, 2**counter1, 1));
+	end
+
+	// Test 289-320: Add on all bits in second operand on line 1:
+
+	for (counter1 = 0; counter1 < 32; counter1=counter1+1) begin
+	   drive_reqs_1 (`CMD_ADD, 1, 2**counter1);
+	   check_reqs_1 (289+counter1, `CMD_ADD, 1, 2**counter1, `RESP_SUCCESS, expected_output(`CMD_ADD, 1, 2**counter1));
+	end
+
+	// Test 321-352: Add on all bits in second operand on line 2:
+
+	for (counter1 = 0; counter1 < 32; counter1=counter1+1) begin
+	   drive_reqs_2 (`CMD_ADD, 1, 2**counter1);
+	   check_reqs_2 (321+counter1, `CMD_ADD, 1, 2**counter1, `RESP_SUCCESS, expected_output(`CMD_ADD, 1, 2**counter1));
+	end
+
+	// Test 353-384: Add on all bits in second operand on line 3:
+
+	for (counter1 = 0; counter1 < 32; counter1=counter1+1) begin
+	   drive_reqs_3 (`CMD_ADD, 1, 2**counter1);
+	   check_reqs_3 (353+counter1, `CMD_ADD, 1, 2**counter1, `RESP_SUCCESS, expected_output(`CMD_ADD, 1, 2**counter1));
+	end
+
+	// Test 385-416: Add on all bits in second operand on line 4:
+
+	for (counter1 = 0; counter1 < 32; counter1=counter1+1) begin
+	   drive_reqs_4 (`CMD_ADD, 1, 2**counter1);
+	   check_reqs_4 (385+counter1, `CMD_ADD, 1, 2**counter1, `RESP_SUCCESS, expected_output(`CMD_ADD, 1, 2**counter1));
+	end
+
+	// Test 545-576: Sub on all bits in first operand on line 1:
+	
+	for (counter1 = 0; counter1 < 32; counter1=counter1+1) begin
+	   drive_reqs_1 (`CMD_SUB, 2**counter1, 1);
+	   check_reqs_1 (545+counter1, `CMD_SUB, 2**counter1, 1, `RESP_SUCCESS, expected_output(`CMD_SUB, 2**counter1, 1));
+	end
+
+	// Test 577-608: Sub on all bits in first operand on line 2:
+	
+	for (counter1 = 0; counter1 < 32; counter1=counter1+1) begin
+	   drive_reqs_2 (`CMD_SUB, 2**counter1, 1);
+	   check_reqs_2 (577+counter1, `CMD_SUB, 2**counter1, 1, `RESP_SUCCESS, expected_output(`CMD_SUB, 2**counter1, 1));
+	end
+
+	// Test 609-640: Sub on all bits in first operand on line 3:
+	
+	for (counter1 = 0; counter1 < 32; counter1=counter1+1) begin
+	   drive_reqs_3 (`CMD_SUB, 2**counter1, 1);
+	   check_reqs_3 (609+counter1, `CMD_SUB, 2**counter1, 1, `RESP_SUCCESS, expected_output(`CMD_SUB, 2**counter1, 1));
+	end
+
+	// Test 641-672: Sub on all bits in first operand on line 4:
+	
+	for (counter1 = 0; counter1 < 32; counter1=counter1+1) begin
+	   drive_reqs_4 (`CMD_SUB, 2**counter1, 1);
+	   check_reqs_4 (641+counter1, `CMD_SUB, 2**counter1, 1, `RESP_SUCCESS, expected_output(`CMD_SUB, 2**counter1, 1));
+	end
+
+	// Test 801-832: Sub on all bits in second operand on line 1:
+	
+	for (counter1 = 0; counter1 < 32; counter1=counter1+1) begin
+	   drive_reqs_1 (`CMD_SUB, (2**32)-1, 2**counter1);
+	   check_reqs_1 (801+counter1, `CMD_SUB, (2**32)-1, 2**counter1, `RESP_SUCCESS, expected_output(`CMD_SUB, (2**32)-1, 2**counter1));
+	end
+
+	// Test 833-864: Sub on all bits in second operand on line 2:
+	
+	for (counter1 = 0; counter1 < 32; counter1=counter1+1) begin
+	   drive_reqs_2 (`CMD_SUB, (2**32)-1, 2**counter1);
+	   check_reqs_2 (833+counter1, `CMD_SUB, (2**32)-1, 2**counter1, `RESP_SUCCESS, expected_output(`CMD_SUB, (2**32)-1, 2**counter1));
+	end
+
+	// Test 865-896: Sub on all bits in second operand on line 3:
+	
+	for (counter1 = 0; counter1 < 32; counter1=counter1+1) begin
+	   drive_reqs_3 (`CMD_SUB, (2**32)-1, 2**counter1);
+	   check_reqs_3 (865+counter1, `CMD_SUB, (2**32)-1, 2**counter1, `RESP_SUCCESS, expected_output(`CMD_SUB, (2**32)-1, 2**counter1));
+	end
+
+	// Test 897-928: Sub on all bits in second operand on line 4:
+	
+	for (counter1 = 0; counter1 < 32; counter1=counter1+1) begin
+	   drive_reqs_4 (`CMD_SUB, (2**32)-1, 2**counter1);
+	   check_reqs_4 (897+counter1, `CMD_SUB, (2**32)-1, 2**counter1, `RESP_SUCCESS, expected_output(`CMD_SUB, (2**32)-1, 2**counter1));
+	end
+
+	// Test 1057-1060: Add overflow on lines 1-4:
+
+	drive_reqs_1 (`CMD_ADD, (2**32)-1, 2);
+	check_reqs_1 (1057, `CMD_ADD, (2**32)-1, 2, `RESP_FLOW_ERR, 0);
+
+	drive_reqs_2 (`CMD_ADD, (2**32)-1, 2);
+	check_reqs_2 (1058, `CMD_ADD, (2**32)-1, 2, `RESP_FLOW_ERR, 0);
+
+	drive_reqs_3 (`CMD_ADD, (2**32)-1, 2);
+	check_reqs_3 (1059, `CMD_ADD, (2**32)-1, 2, `RESP_FLOW_ERR, 0);
+
+	drive_reqs_4 (`CMD_ADD, (2**32)-1, 2);
+	check_reqs_4 (1060, `CMD_ADD, (2**32)-1, 2, `RESP_FLOW_ERR, 0);
+
+	// Test 1065-1068: Sub underflow on lines 1-4:
+
+	drive_reqs_1 (`CMD_SUB, 1, 2);
+	check_reqs_1 (1065, `CMD_SUB, 1, 2, `RESP_FLOW_ERR, 0);
+
+	drive_reqs_2 (`CMD_SUB, 1, 2);
+	check_reqs_2 (1066, `CMD_SUB, 1, 2, `RESP_FLOW_ERR, 0);
+
+	drive_reqs_3 (`CMD_SUB, 1, 2);
+	check_reqs_3 (1067, `CMD_SUB, 1, 2, `RESP_FLOW_ERR, 0);
+
+	drive_reqs_4 (`CMD_SUB, 1, 2);
+	check_reqs_4 (1068, `CMD_SUB, 1, 2, `RESP_FLOW_ERR, 0);
+
+	// Test 1073-1076: Add multiple cmd on lines 1-4:
+
+	drive_multi_cmd_1 (`CMD_ADD, 0, 1);
+	check_multi_cmd_1 (1073, 1);
+
+	drive_multi_cmd_2 (`CMD_ADD, 0, 1);
+	check_multi_cmd_1 (1074, 2);
+
+	drive_multi_cmd_3 (`CMD_ADD, 0, 1);
+	check_multi_cmd_2 (1075, 3);
+
+	drive_multi_cmd_4 (`CMD_ADD, 0, 1);
+	check_multi_cmd_2 (1076, 4);
+
+	// Test 1081-1084: Sub multiple cmd on lines 1-4:
+
+	drive_multi_cmd_1 (`CMD_SUB, 3, 1);
+	check_multi_cmd_1 (1081, 1);
+
+	drive_multi_cmd_2 (`CMD_SUB, 3, 1);
+	check_multi_cmd_1 (1082, 2);
+
+	drive_multi_cmd_3 (`CMD_SUB, 3, 1);
+	check_multi_cmd_2 (1083, 3);
+
+	drive_multi_cmd_4 (`CMD_SUB, 3, 1);
+	check_multi_cmd_2 (1084, 4);
+
+	// Test 1089: Parallel multi cmd on lines 1 and 3:
+
+	drive_multi_cmd_1 (`CMD_ADD, 0, 1);
+	check_multi_cmd_1 (1089, 1);
+
+	// Test 1091: Parallel multi cmd on lines 2 and 4:
+
+	drive_multi_cmd_2 (`CMD_ADD, 0, 1);
+	check_multi_cmd_1 (1091, 2);
+
+	// Test 1093: Reset while not computing:
+	
+	#1000
+
+	// Test 1094: Reset while computing
+
+	drive_reqs_1 (`CMD_ADD, 119, 23);
+	#800
+
+	// Test 1095: Priority queue:
+
+	drive_queue(`CMD_ADD, 0, 1);
+	check_queue (1095);
+
+	// Test 1096-1099: Invalid command 3 on lines 1-4:
+
+	drive_reqs_1 (3, 2, 1);
+	check_reqs_1 (1096, 3, 2, 1, `RESP_CMD_ERR, 0);
+
+	drive_reqs_2 (3, 3, 1);
+	check_reqs_2 (1097, 3, 3, 1, `RESP_CMD_ERR, 0);
+
+	drive_reqs_3 (3, 4, 1);
+	check_reqs_3 (1098, 3, 4, 1, `RESP_CMD_ERR, 0);
+
+	drive_reqs_4 (3, 5, 1);
+	check_reqs_4 (1099, 3, 5, 1, `RESP_CMD_ERR, 0);
+
+	// Test 1100-1103: Invalid command 4 on lines 1-4:
+
+	drive_reqs_1 (4, 2, 1);
+	check_reqs_1 (1100, 4, 2, 1, `RESP_CMD_ERR, 0);
+
+	drive_reqs_2 (4, 3, 1);
+	check_reqs_2 (1101, 4, 3, 1, `RESP_CMD_ERR, 0);
+
+	drive_reqs_3 (4, 4, 1);
+	check_reqs_3 (1102, 4, 4, 1, `RESP_CMD_ERR, 0);
+
+	drive_reqs_4 (4, 5, 1);
+	check_reqs_4 (1103, 4, 5, 1, `RESP_CMD_ERR, 0);
+
+	// Test 1104-1107: Invalid command 7 on lines 1-4:
+
+	drive_reqs_1 (7, 2, 1);
+	check_reqs_1 (1104, 7, 2, 1, `RESP_CMD_ERR, 0);
+
+	drive_reqs_2 (7, 3, 1);
+	check_reqs_2 (1105, 7, 3, 1, `RESP_CMD_ERR, 0);
+
+	drive_reqs_3 (7, 4, 1);
+	check_reqs_3 (1106, 7, 4, 1, `RESP_CMD_ERR, 0);
+
+	drive_reqs_4 (7, 5, 1);
+	check_reqs_4 (1107, 7, 5, 1, `RESP_CMD_ERR, 0);
+
+	#2000 $stop;
+
+     end // initial begin
+
+   initial
+	begin
+	   
+	   #800
+
+	   // Test 5-8: Lshift general use on lines 1-4:
+
+	   drive_reqs_4 (`CMD_LSHIFT, 23, 4);
+	   check_reqs_4 (5, `CMD_LSHIFT, 23, 4, `RESP_SUCCESS, expected_output(`CMD_LSHIFT, 23, 4));
+
+	   drive_reqs_3 (`CMD_LSHIFT, 23, 4);
+	   check_reqs_3 (6, `CMD_LSHIFT, 23, 4, `RESP_SUCCESS, expected_output(`CMD_LSHIFT, 23, 4));
+
+	   drive_reqs_2 (`CMD_LSHIFT, 23, 4);
+	   check_reqs_2 (7, `CMD_LSHIFT, 23, 4, `RESP_SUCCESS, expected_output(`CMD_LSHIFT, 23, 4));
+
+	   drive_reqs_1 (`CMD_LSHIFT, 23, 4);
+	   check_reqs_1 (8, `CMD_LSHIFT, 23, 4, `RESP_SUCCESS, expected_output(`CMD_LSHIFT, 23, 4));
+
+	   // Test 13-16: Rshift general use on lines 1-4:
+
+	   drive_reqs_4 (`CMD_RSHIFT, 23, 2);
+	   check_reqs_4 (13, `CMD_RSHIFT, 23, 2, `RESP_SUCCESS, expected_output(`CMD_RSHIFT, 23, 2));
+
+	   drive_reqs_3 (`CMD_RSHIFT, 23, 2);
+	   check_reqs_3 (14, `CMD_RSHIFT, 23, 2, `RESP_SUCCESS, expected_output(`CMD_RSHIFT, 23, 2));
+
+	   drive_reqs_2 (`CMD_RSHIFT, 23, 2);
+	   check_reqs_2 (15, `CMD_RSHIFT, 23, 2, `RESP_SUCCESS, expected_output(`CMD_RSHIFT, 23, 2));
+
+	   drive_reqs_1 (`CMD_RSHIFT, 23, 2);
+	   check_reqs_1 (16, `CMD_RSHIFT, 23, 2, `RESP_SUCCESS, expected_output(`CMD_RSHIFT, 23, 2));
+
+	   // Test 21-24: Lshift operands are 0 on lines 1-4:
+
+	   drive_reqs_4 (`CMD_LSHIFT, 0, 0);
+	   check_reqs_4 (21, `CMD_LSHIFT, 0, 0, `RESP_SUCCESS, expected_output(`CMD_LSHIFT, 0, 0));
+
+	   drive_reqs_3 (`CMD_LSHIFT, 0, 0);
+	   check_reqs_3 (22, `CMD_LSHIFT, 0, 0, `RESP_SUCCESS, expected_output(`CMD_LSHIFT, 0, 0));
+
+	   drive_reqs_2 (`CMD_LSHIFT, 0, 0);
+	   check_reqs_2 (23, `CMD_LSHIFT, 0, 0, `RESP_SUCCESS, expected_output(`CMD_LSHIFT, 0, 0));
+
+	   drive_reqs_1 (`CMD_LSHIFT, 0, 0);
+	   check_reqs_1 (24, `CMD_LSHIFT, 0, 0, `RESP_SUCCESS, expected_output(`CMD_LSHIFT, 0, 0));
+
+	   // Test 29-32: Rshift operands are 0 on lines 1-4:
+
+	   drive_reqs_4 (`CMD_RSHIFT, 0, 0);
+	   check_reqs_4 (29, `CMD_RSHIFT, 0, 0, `RESP_SUCCESS, expected_output(`CMD_RSHIFT, 0, 0));
+
+	   drive_reqs_3 (`CMD_RSHIFT, 0, 0);
+	   check_reqs_3 (30, `CMD_RSHIFT, 0, 0, `RESP_SUCCESS, expected_output(`CMD_RSHIFT, 0, 0));
+
+	   drive_reqs_2 (`CMD_RSHIFT, 0, 0);
+	   check_reqs_2 (31, `CMD_RSHIFT, 0, 0, `RESP_SUCCESS, expected_output(`CMD_RSHIFT, 0, 0));
+
+	   drive_reqs_1 (`CMD_RSHIFT, 0, 0);
+	   check_reqs_1 (32, `CMD_RSHIFT, 0, 0, `RESP_SUCCESS, expected_output(`CMD_RSHIFT, 0, 0));	
+
+	   // Test 161-192: Lshift on all bits in first operand on line 4:
+
+	   for (counter2 = 0; counter2 < 32; counter2=counter2+1) begin
+		drive_reqs_4 (`CMD_LSHIFT, 2**counter2, 1);
+		check_reqs_4 (161+counter2, `CMD_LSHIFT, 2**counter2, 1, `RESP_SUCCESS, expected_output(`CMD_LSHIFT, 2**counter2, 1));
+	   end
+
+	   // Test 193-224: Lshift on all bits in first operand on line 3:
+
+	   for (counter2 = 0; counter2 < 32; counter2=counter2+1) begin
+		drive_reqs_3 (`CMD_LSHIFT, 2**counter2, 1);
+		check_reqs_3 (193+counter2, `CMD_LSHIFT, 2**counter2, 1, `RESP_SUCCESS, expected_output(`CMD_LSHIFT, 2**counter2, 1));
+	   end
+
+	   // Test 225-256: Lshift on all bits in first operand on line 2:
+
+	   for (counter2 = 0; counter2 < 32; counter2=counter2+1) begin
+		drive_reqs_2 (`CMD_LSHIFT, 2**counter2, 1);
+		check_reqs_2 (225+counter2, `CMD_LSHIFT, 2**counter2, 1, `RESP_SUCCESS, expected_output(`CMD_LSHIFT, 2**counter2, 1));
+	   end
+
+	   // Test 257-288: Lshift on all bits in first operand on line 1:
+
+	   for (counter2 = 0; counter2 < 32; counter2=counter2+1) begin
+		drive_reqs_1 (`CMD_LSHIFT, 2**counter2, 1);
+		check_reqs_1 (257+counter2, `CMD_LSHIFT, 2**counter2, 1, `RESP_SUCCESS, expected_output(`CMD_LSHIFT, 2**counter2, 1));
+	   end
+
+	   // Test 417-448: Lshift on all bits in second operand on line 4:
+
+	   for (counter2 = 0; counter2 < 32; counter2=counter2+1) begin
+		drive_reqs_4 (`CMD_LSHIFT, 1, counter2+1);
+		check_reqs_4 (417+counter2, `CMD_LSHIFT, 1, counter2+1, `RESP_SUCCESS, expected_output(`CMD_LSHIFT, 1, counter2+1));
+	   end
+
+	   // Test 449-480: Lshift on all bits in second operand on line 3:
+
+	   for (counter2 = 0; counter2 < 32; counter2=counter2+1) begin
+		drive_reqs_3 (`CMD_LSHIFT, 1, counter2+1);
+		check_reqs_3 (449+counter2, `CMD_LSHIFT, 1, counter2+1, `RESP_SUCCESS, expected_output(`CMD_LSHIFT, 1, counter2+1));
+	   end
+
+	   // Test 481-512: Lshift on all bits in second operand on line 2:
+
+	   for (counter2 = 0; counter2 < 32; counter2=counter2+1) begin
+		drive_reqs_2 (`CMD_LSHIFT, 1, counter2+1);
+		check_reqs_2 (481+counter2, `CMD_LSHIFT, 1, counter2+1, `RESP_SUCCESS, expected_output(`CMD_LSHIFT, 1, counter2+1));
+	   end
+
+	   // Test 513-544: Lshift on all bits in second operand on line 1:
+
+	   for (counter2 = 0; counter2 < 32; counter2=counter2+1) begin
+		drive_reqs_1 (`CMD_LSHIFT, 1, counter2+1);
+		check_reqs_1 (513+counter2, `CMD_LSHIFT, 1, counter2+1, `RESP_SUCCESS, expected_output(`CMD_LSHIFT, 1, counter2+1));
+	   end
+
+	   // Test 673-704: Rshift on all bits in first operand on line 4:
+
+	   for (counter2 = 0; counter2 < 32; counter2=counter2+1) begin
+		drive_reqs_4 (`CMD_RSHIFT, 2**counter2, 1);
+		check_reqs_4 (673+counter2, `CMD_RSHIFT, 2**counter2, 1, `RESP_SUCCESS, expected_output(`CMD_RSHIFT, 2**counter2, 1));
+	   end
+
+	   // Test 705-736: Rshift on all bits in first operand on line 3:
+
+	   for (counter2 = 0; counter2 < 32; counter2=counter2+1) begin
+		drive_reqs_3 (`CMD_RSHIFT, 2**counter2, 1);
+		check_reqs_3 (705+counter2, `CMD_RSHIFT, 2**counter2, 1, `RESP_SUCCESS, expected_output(`CMD_RSHIFT, 2**counter2, 1));
+	   end
+
+	   // Test 737-768: Rshift on all bits in first operand on line 2:
+
+	   for (counter2 = 0; counter2 < 32; counter2=counter2+1) begin
+		drive_reqs_2 (`CMD_RSHIFT, 2**counter2, 1);
+		check_reqs_2 (737+counter2, `CMD_RSHIFT, 2**counter2, 1, `RESP_SUCCESS, expected_output(`CMD_RSHIFT, 2**counter2, 1));
+	   end
+
+	   // Test 769-800: Rshift on all bits in first operand on line 1:
+
+	   for (counter2 = 0; counter2 < 32; counter2=counter2+1) begin
+		drive_reqs_1 (`CMD_RSHIFT, 2**counter2, 1);
+		check_reqs_1 (769+counter2, `CMD_RSHIFT, 2**counter2, 1, `RESP_SUCCESS, expected_output(`CMD_RSHIFT, 2**counter2, 1));
+	   end
+
+	   // Test 929-960: Rshift on all bits in second operand on line 4:
+
+	   for (counter2 = 0; counter2 < 32; counter2=counter2+1) begin
+		drive_reqs_4 (`CMD_RSHIFT, (2**32)-1, counter2+1);
+		check_reqs_4 (929+counter2, `CMD_RSHIFT, (2**32)-1, counter2+1, `RESP_SUCCESS, expected_output(`CMD_RSHIFT, (2**32)-1, counter2+1));
+	   end
+
+	   // Test 961-992: Rshift on all bits in second operand on line 3:
+
+	   for (counter2 = 0; counter2 < 32; counter2=counter2+1) begin
+		drive_reqs_3 (`CMD_RSHIFT, (2**32)-1, counter2+1);
+		check_reqs_3 (961+counter2, `CMD_RSHIFT, (2**32)-1, counter2+1, `RESP_SUCCESS, expected_output(`CMD_RSHIFT, (2**32)-1, counter2+1));
+	   end
+
+	   // Test 993-1024: Rshift on all bits in second operand on line 2:
+
+	   for (counter2 = 0; counter2 < 32; counter2=counter2+1) begin
+		drive_reqs_2 (`CMD_RSHIFT, (2**32)-1, counter2+1);
+		check_reqs_2 (993+counter2, `CMD_RSHIFT, (2**32)-1, counter2+1, `RESP_SUCCESS, expected_output(`CMD_RSHIFT, (2**32)-1, counter2+1));
+	   end
+
+	   // Test 1025-1056: Rshift on all bits in second operand on line 1:
+
+	   for (counter2 = 0; counter2 < 32; counter2=counter2+1) begin
+		drive_reqs_1 (`CMD_RSHIFT, (2**32)-1, counter2+1);
+		check_reqs_1 (1025+counter2, `CMD_RSHIFT, (2**32)-1, counter2+1, `RESP_SUCCESS, expected_output(`CMD_RSHIFT, (2**32)-1, counter2+1));
+	   end
+
+	   // Test 1061-1064: Lshift dropping bits and adding 0's on lines 1-4:
+
+	   drive_reqs_4 (`CMD_LSHIFT, (2**32)-1, 1);
+	   check_reqs_4 (1061, `CMD_LSHIFT, (2**32)-1, 1, `RESP_SUCCESS, expected_output(`CMD_LSHIFT, (2**32)-1, 1));
+
+	   drive_reqs_3 (`CMD_LSHIFT, (2**32)-1, 1);
+	   check_reqs_3 (1062, `CMD_LSHIFT, (2**32)-1, 1, `RESP_SUCCESS, expected_output(`CMD_LSHIFT, (2**32)-1, 1));
+
+	   drive_reqs_2 (`CMD_LSHIFT, (2**32)-1, 1);
+	   check_reqs_2 (1063, `CMD_LSHIFT, (2**32)-1, 1, `RESP_SUCCESS, expected_output(`CMD_LSHIFT, (2**32)-1, 1));
+
+	   drive_reqs_1 (`CMD_LSHIFT, (2**32)-1, 1);
+	   check_reqs_1 (1064, `CMD_LSHIFT, (2**32)-1, 1, `RESP_SUCCESS, expected_output(`CMD_LSHIFT, (2**32)-1, 1));
+
+	   // Test 1069-1072: Rshift dropping bits and adding 0's on lines 1-4:
+
+	   drive_reqs_4 (`CMD_RSHIFT, (2**32)-1, 1);
+	   check_reqs_4 (1069, `CMD_RSHIFT, (2**32)-1, 1, `RESP_SUCCESS, expected_output(`CMD_RSHIFT, (2**32)-1, 1));
+
+	   drive_reqs_3 (`CMD_RSHIFT, (2**32)-1, 1);
+	   check_reqs_3 (1070, `CMD_RSHIFT, (2**32)-1, 1, `RESP_SUCCESS, expected_output(`CMD_RSHIFT, (2**32)-1, 1));
+
+	   drive_reqs_2 (`CMD_RSHIFT, (2**32)-1, 1);
+	   check_reqs_2 (1071, `CMD_RSHIFT, (2**32)-1, 1, `RESP_SUCCESS, expected_output(`CMD_RSHIFT, (2**32)-1, 1));
+
+	   drive_reqs_1 (`CMD_RSHIFT, (2**32)-1, 1);
+	   check_reqs_1 (1072, `CMD_RSHIFT, (2**32)-1, 1, `RESP_SUCCESS, expected_output(`CMD_RSHIFT, (2**32)-1, 1));
+
+	   // Test 1077-1080: Lshift multiple cmd on lines 1-4:
+
+	   drive_multi_cmd_4 (`CMD_LSHIFT, 1, 1);
+	   check_multi_cmd_2 (1077, 4);
+
+	   drive_multi_cmd_3 (`CMD_LSHIFT, 1, 1);
+	   check_multi_cmd_2 (1078, 3);
+
+	   drive_multi_cmd_2 (`CMD_LSHIFT, 1, 1);
+	   check_multi_cmd_1 (1079, 2);
+
+	   drive_multi_cmd_1 (`CMD_LSHIFT, 1, 1);
+	   check_multi_cmd_1 (1080, 1);
+
+	   // Test 1085-1088: Rshift multiple cmd on lines 1-4:
+
+	   drive_multi_cmd_4 (`CMD_RSHIFT, 4, 1);
+	   check_multi_cmd_2 (1085, 4);
+
+	   drive_multi_cmd_3 (`CMD_RSHIFT, 4, 1);
+	   check_multi_cmd_2 (1086, 3);
+
+	   drive_multi_cmd_2 (`CMD_RSHIFT, 4, 1);
+	   check_multi_cmd_1 (1087, 2);
+
+	   drive_multi_cmd_1 (`CMD_RSHIFT, 4, 1);
+	   check_multi_cmd_1 (1088, 1);
+
+	   // Test 1090: Parallel multi cmd on lines 1 and 3:
+	
+	   drive_multi_cmd_3 (`CMD_LSHIFT, 1, 1);
+	   check_multi_cmd_2 (1090, 3);
+
+	   // Test 1092: Parallel multi cmd on lines 2 and 4:
+	
+	   drive_multi_cmd_4 (`CMD_LSHIFT, 1, 1);
+	   check_multi_cmd_2 (1092, 4);
+
+	   // Test 1093: Reset while not computing:
+
+	   #200
+	   $display("Test 1093: \n");
+	   drive_reset;
+
+	   // Test 1094: Reset while computing:
+	   
+	   #400
+	   $display("Test 1094: \n");
+	   drive_reset;
+
+	end
+endmodule // example_calc1_tb
+
+
+   

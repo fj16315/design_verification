@@ -1,0 +1,6 @@
+<'
+
+import calc1_sn_env;
+
+extend instruction_s {
+   keep cmd_in in [ADD,SUB,SHL,SHR];

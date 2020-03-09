@@ -1,0 +1,8 @@
+//
+// File created by:  irun
+// Do not modify this file
+//
+-log
+./INCA_libs/irun.lnx8664.14.10.nc/specman.14.10.004-s/scratch/sneload.log
+-c
+"load test_example.e;; save ./INCA_libs/irun.lnx8664.14.10.nc/specman.14.10.004-s/scratch/specmansav"

@@ -1,0 +1,16 @@
+//
+// File created by:  irun
+// Do not modify this file
+//
+test_example.e
+calc1_sn.v
+-gui
+-access
+rw
+-coverage
+all
+-covtest
+test_example_report
+-snprerun
+"config cover -write_model=ucm"
+-nosncomp
